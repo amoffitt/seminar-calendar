@@ -3,7 +3,7 @@ name: Build seminar calendar
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 10 * * *"
+    - cron: "17 10 * * *"
 
 permissions:
   contents: write
