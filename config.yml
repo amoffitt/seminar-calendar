@@ -56,3 +56,12 @@ sources:
   bmi:
     enabled: true
     exclude_title_patterns: []
+
+
+  gmb:
+    enabled: true
+    url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQJD4NRDHNVA4WNm_h_srB-WSOMg5C3X3GnU9CqCcmm9aAqMKAe7yIO4Zt-V4g5FjNK1gdFuUf4VBb0/pub?gid=0&single=true&output=csv"
+
+  cancer_genomics:
+    enabled: true
+    url: "https://docs.google.com/document/d/e/2PACX-1vRTAlKP3nox8yRh3u-qzro4Qc0oEcjRrjnFR3oWTuHeFHaS4_TSbhmhoE5vSXWCghakPKr5Fl4XzgB7/pub"
