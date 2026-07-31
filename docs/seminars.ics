@@ -1,186 +1,34 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Winship Seminar Calendar//github.com//
+PRODID:-//Emory Seminar Aggregator//github.com/amoffitt//
 CALSCALE:GREGORIAN
-X-WR-CALNAME:Winship Seminars
-X-WR-TIMEZONE:America/New_York
+X-WR-CALNAME:Emory Seminars
 BEGIN:VEVENT
-SUMMARY:Summer Break - Cell and Molecular Biology (CMB) Program Meeting
-DTSTART:20260702T200000Z
-DTEND:20260702T210000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6618@seminar-calendar
-DESCRIPTION:Event type: Program Meeting\n\nJoin by Zoom: https://zoom.us/j
- /97017425710 Join by Phone: 470.250.9358 Meeting ID: 970 1742 5710\n\nJoin
-  via Zoom: https://zoom.us/j/97017425710\n\nWinship event page: https://ap
- ps.winshipcancer.emory.edu/admin/Event/6618/summer-break---cell-and-molecu
- lar-biology-cmb-program-meeting/
-LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-URL:https://apps.winshipcancer.emory.edu/admin/Event/6618/summer-break---c
- ell-and-molecular-biology-cmb-program-meeting/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Breast Cancer Translational Research Seminar Series - Jacqueline V
- o\, PhD\, RN\, MPH - "The role of cardiovascular disease and health dispar
- ities in breast cancer survivorship"
-DTSTART:20260708T160000Z
-DTEND:20260708T170000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6735@seminar-calendar
-DESCRIPTION:Presenter: Jacqueline B. Vo\, PhD\, RN\, MPH Assistant Profess
- or\, Academic Advancement School of Nursing\n\nEvent type: Lectures and Tr
- aining\n\nThe Monthly Breast Cancer Translational Research Seminar Series 
- features scientific updates on breast cancer research presented by leading
-  breast cancer experts. Join us in person in the Winship Kauffman Auditori
- um (C5012) with lunch provided.\n\nJoin via Zoom: https://zoom.us/j/948706
- 73804\n\nWinship event page: https://apps.winshipcancer.emory.edu/admin/Ev
- ent/6735/breast-cancer-translational-research-seminar-series---jacqueline-
- vo-phd-rn-mph---the-role-of-cardiovascular-disease-and-health-disparities-
- in-breast-cancer-survivorship/
-LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
- ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-URL:https://apps.winshipcancer.emory.edu/admin/Event/6735/breast-cancer-tr
- anslational-research-seminar-series---jacqueline-vo-phd-rn-mph---the-role-
- of-cardiovascular-disease-and-health-disparities-in-breast-cancer-survivor
- ship/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Surgical Grand Rounds - Samantha Greenseid\, DO and Olivia DAngelo
- \, MD - "Comprehensive Review of Young Women with Breast Cancer: Work-Up\,
-  Management and Unique Challenges"
-DTSTART:20260709T110000Z
-DTEND:20260709T120000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6706@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nWinship event page: https
- ://apps.winshipcancer.emory.edu/admin/Event/6706/surgical-grand-rounds---s
- amantha-greenseid-do-and-olivia-dangelo-md---comprehensive-review-of-young
- -women-with-breast-cancer-work-up-management-and-unique-challenges/
-LOCATION:Emory University Hospital Auditorium 1364 Clifton Road NE Room E2
- 05\, 2nd Floor\, E-Wing Atlanta \, Georgia 30322
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-URL:https://apps.winshipcancer.emory.edu/admin/Event/6706/surgical-grand-r
- ounds---samantha-greenseid-do-and-olivia-dangelo-md---comprehensive-review
- -of-young-women-with-breast-cancer-work-up-management-and-unique-challenge
- s/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Virtual - Cancer Immunology (CI) Program Meeting - Edikan A. Ogunn
- aike\, PhD - "Local Administration of Immunotherapeutic in Brain Tumor"
-DTSTART:20260709T160000Z
-DTEND:20260709T170000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6640@seminar-calendar
-DESCRIPTION:Presenter: Edikan Ogunnaike\, PhD Assistant Professor\, Biomed
- ical Engineering School of Medicine\n\nEvent type: Program Meeting\n\nJoin
-  via Zoom: https://zoom.us/j/98990759560\n\nWinship event page: https://ap
- ps.winshipcancer.emory.edu/admin/Event/6640/virtual---cancer-immunology-ci
- -program-meeting---edikan-a-ogunnaike-phd---local-administration-of-immuno
- therapeutic-in-brain-tumor/
-LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-URL:https://apps.winshipcancer.emory.edu/admin/Event/6640/virtual---cancer
- -immunology-ci-program-meeting---edikan-a-ogunnaike-phd---local-administra
- tion-of-immunotherapeutic-in-brain-tumor/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Summer Break - Cancer Prevention and Control (CPC) Program Meeting
-DTSTART:20260716T200000Z
-DTEND:20260716T210000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6628@seminar-calendar
-DESCRIPTION:Event type: Program Meeting\n\nJoin via Zoom: https://zoom.us/
- j/95136013347\n\nWinship event page: https://apps.winshipcancer.emory.edu/
- admin/Event/6628/summer-break---cancer-prevention-and-control-cpc-program-
- meeting/
-LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-URL:https://apps.winshipcancer.emory.edu/admin/Event/6628/summer-break---c
- ancer-prevention-and-control-cpc-program-meeting/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Summer Break - Discovery and Developmental Therapeutics (DDT) Prog
- ram Meeting
-DTSTART:20260717T130000Z
-DTEND:20260717T140000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6652@seminar-calendar
-DESCRIPTION:Event type: Program Meeting\n\nJoin via Zoom: https://zoom.us/
- j/92540438724\n\nWinship event page: https://apps.winshipcancer.emory.edu/
- admin/Event/6652/summer-break---discovery-and-developmental-therapeutics-d
- dt-program-meeting/
-LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-URL:https://apps.winshipcancer.emory.edu/admin/Event/6652/summer-break---d
- iscovery-and-developmental-therapeutics-ddt-program-meeting/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:2026 Winship Summer Scholars Research Program Symposium
-DTSTART:20260718T000000Z
-DTEND:20260718T160000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6759@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nWinship event page: https
- ://apps.winshipcancer.emory.edu/admin/Event/6759/2026-winship-summer-schol
- ars-research-program-symposium/
-LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
- ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-URL:https://apps.winshipcancer.emory.edu/admin/Event/6759/2026-winship-sum
- mer-scholars-research-program-symposium/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Debates and Didactics in Hematology and Oncology
-DTSTART:20260723T113000Z
-DTEND:20260726T150000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6729@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nThe 2026 Debates and Dida
- ctics in Hematology and Oncology conference will be held July 23-July 26 a
- t Sea Island\, Georgia.\n\nWinship event page: https://apps.winshipcancer.
- emory.edu/admin/Event/6729/debates-and-didactics-in-hematology-and-oncolog
- y/
-LOCATION:The Cloister at Sea Island 100 Cloister Drive Sea Island \, Georg
- ia 31561
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-URL:https://apps.winshipcancer.emory.edu/admin/Event/6729/debates-and-dida
- ctics-in-hematology-and-oncology/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Emory Cosmos Datathon 2026
-DTSTART:20260804T130000Z
-DTEND:20260805T210000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6728@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nJoin the Emory Health Ser
- vices Research Center for the Emory Cosmos Datathon 2026 on Tuesday\, Augu
- st 4 and Wednesday\, August 5. The event brings together clinicians\, rese
- archers\, data scientists\, analysts and trainees to explore innovative re
- search using Epic Cosmos\, one of the largest de-identified electronic hea
- lth record (EHR) databases in the world\, with over 300 million patient re
- cords. Participants will work collaboratively to explore real-world health
-  data\, address pressing clinical and health services research question\, 
- and develop impactful projects. Teams will receive guidance from clinical 
- subject-matter experts and Epic staff while investigating topics such as q
- uality and patient safety\, clinical operations\, cost-effectiveness and c
- linical outcomes. Participating teams will have the opportunity to compete
-  for an Emory Health Services Research Center-funded award\, which will su
- pport the advancement of their projects toward publication\, conference pr
- esentation or a larger grant submission. Register today Note: Non-Cosmos u
- sers are welcome to attend the educational sessions the morning of August 
- 4\, and the team presentations and award announcement the afternoon of Aug
- ust 5.\n\nWinship event page: https://apps.winshipcancer.emory.edu/admin/E
- vent/6728/emory-cosmos-datathon-2026/
+SUMMARY:[Lectures and Training] Emory Cosmos Datathon 2026
+DTSTART;TZID=America/New_York:20260804T090000
+DTEND;TZID=America/New_York:20260805T170000
+DTSTAMP:20260731T205418Z
+UID:winship-1e23efa9e5083058aa440ab6@emory-seminars
+DESCRIPTION:Program: Lectures and Training\n\nSpeaker: Emory Cosmos Datath
+ on 2026\n\nEvent type: Lectures and Training\n\nJoin the Emory Health Serv
+ ices Research Center for the Emory Cosmos Datathon 2026 on Tuesday\, Augus
+ t 4 and Wednesday\, August 5. The event brings together clinicians\, resea
+ rchers\, data scientists\, analysts and trainees to explore innovative res
+ earch using Epic Cosmos\, one of the largest de-identified electronic heal
+ th record (EHR) databases in the world\, with over 300 million patient rec
+ ords. Participants will work collaboratively to explore real-world health 
+ data\, address pressing clinical and health services research question\, a
+ nd develop impactful projects. Teams will receive guidance from clinical s
+ ubject-matter experts and Epic staff while investigating topics such as qu
+ ality and patient safety\, clinical operations\, cost-effectiveness and cl
+ inical outcomes. Participating teams will have the opportunity to compete 
+ for an Emory Health Services Research Center-funded award\, which will sup
+ port the advancement of their projects toward publication\, conference pre
+ sentation or a larger grant submission. Register today Note: Non-Cosmos us
+ ers are welcome to attend the educational sessions the morning of August 4
+ \, and the team presentations and award announcement the afternoon of Augu
+ st 5.\n\nSource: https://apps.winshipcancer.emory.edu/admin/Event/6728/emo
+ ry-cosmos-datathon-2026/
 LOCATION:CNR 1000\, Claudia Nance Rollins Building Rollins School of Publi
  c Health 1518 Clifton Road NE Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -189,16 +37,18 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6728/emory-cosmos-dat
  athon-2026/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Scarborough Grand Rounds - Simron Singh\, MD\, MPH - "Reframing th
- e Therapeutic Landscape in Neuroendocrine Neoplasms"
-DTSTART:20260805T160000Z
-DTEND:20260805T170000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6666@seminar-calendar
-DESCRIPTION:Event type: Grand Rounds\n\nJoin via Zoom: https://zoom.us/s/9
- 8869772644\n\nWinship event page: https://apps.winshipcancer.emory.edu/adm
- in/Event/6666/scarborough-grand-rounds---simron-singh-md-mph---reframing-t
- he-therapeutic-landscape-in-neuroendocrine-neoplasms/
+SUMMARY:[Scarborough Grand Rounds] Simron Singh\, MD\, MPH — Reframing t
+ he Therapeutic Landscape in Neuroendocrine Neoplasms
+DTSTART;TZID=America/New_York:20260805T120000
+DTEND;TZID=America/New_York:20260805T130000
+DTSTAMP:20260731T205418Z
+UID:winship-f09026fcf72581eb94cce416@emory-seminars
+DESCRIPTION:Program: Scarborough Grand Rounds\n\nSpeaker: Simron Singh\, M
+ D\, MPH\n\nEvent type: Grand Rounds\n\nTalk title: Reframing the Therapeut
+ ic Landscape in Neuroendocrine Neoplasms\n\nJoin via Zoom:\nhttps://zoom.u
+ s/s/98869772644\n\nSource: https://apps.winshipcancer.emory.edu/admin/Even
+ t/6666/scarborough-grand-rounds---simron-singh-md-mph---reframing-the-ther
+ apeutic-landscape-in-neuroendocrine-neoplasms/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -208,19 +58,21 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6666/scarborough-gran
  uroendocrine-neoplasms/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Breast Oncology Guest Lecturer - Madison Canning\, MD - "From Stre
- ss Biology to Precision Oncology: Translating β-Adrenergic Blockade into 
- Breast Cancer Therapy"
-DTSTART:20260807T120000Z
-DTEND:20260807T130000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6763@seminar-calendar
-DESCRIPTION:Presenter: Madison Canning\, MD Medical House Staff\, GME Scho
- ol of Medicine\n\nEvent type: Lectures and Training\n\nJoin via Zoom: http
- s://zoom.us/j/97306426913\n\nWinship event page: https://apps.winshipcance
- r.emory.edu/admin/Event/6763/breast-oncology-guest-lecturer---madison-cann
- ing-md---from-stress-biology-to-precision-oncology-translating--adrenergic
- -blockade-into-breast-cancer-therapy/
+SUMMARY:[Breast Oncology Guest Lecturer] Madison Canning\, MD Medical Hous
+ e Staff\, GME School of Medicine — From Stress Biology to Precision Onco
+ logy: Translating β-Adrenergic Blockade into Breast Cancer Therapy
+DTSTART;TZID=America/New_York:20260807T080000
+DTEND;TZID=America/New_York:20260807T090000
+DTSTAMP:20260731T205418Z
+UID:winship-d79588918377b09b1578555d@emory-seminars
+DESCRIPTION:Program: Breast Oncology Guest Lecturer\n\nSpeaker: Madison Ca
+ nning\, MD Medical House Staff\, GME School of Medicine\n\nEvent type: Lec
+ tures and Training\n\nTalk title: From Stress Biology to Precision Oncolog
+ y: Translating β-Adrenergic Blockade into Breast Cancer Therapy\n\nJoin v
+ ia Zoom:\nhttps://zoom.us/j/97306426913\n\nSource: https://apps.winshipcan
+ cer.emory.edu/admin/Event/6763/breast-oncology-guest-lecturer---madison-ca
+ nning-md---from-stress-biology-to-precision-oncology-translating--adrenerg
+ ic-blockade-into-breast-cancer-therapy/
 LOCATION:B4400\, 4th Floor The Emory Clinic Building B 1365 Clifton Road N
  E Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -230,20 +82,23 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6763/breast-oncology-
  ology-translating--adrenergic-blockade-into-breast-cancer-therapy/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:In Person - Cancer Immunology (CI) Program Meeting - Yanfang ‘Pe
- ipei’ Zhu\, Ph.D. - "Neutrophils Regulate the Oral Squamous Cell Carcino
- ma (OSCC) TME via Time and Space"
-DTSTART:20260807T160000Z
-DTEND:20260807T170000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6641@seminar-calendar
-DESCRIPTION:Presenter: Yanfang ‘Peipei’ Zhu\, Ph.D. Assistant Professo
- r\, Immunology Center of Georgia Medical College of Georgia at Augusta Uni
- versity\n\nEvent type: Program Meeting\n\nJoin via Zoom: https://zoom.us/j
- /98990759560\n\nWinship event page: https://apps.winshipcancer.emory.edu/a
- dmin/Event/6641/in-person---cancer-immunology-ci-program-meeting---yanfang
- -peipei-zhu-phd---neutrophils-regulate-the-oral-squamous-cell-carcinoma-os
- cc-tme-via-time-and-space/
+SUMMARY:[Cancer Immunology (CI) Program Meeting] Yanfang ‘Peipei’ Zhu\
+ , Ph.D. Assistant Professor\, Immunology Center of Georgia Medical College
+  of Georgia at Augusta University — Neutrophils Regulate the Oral Squamo
+ us Cell Carcinoma (OSCC) TME via Time and Space
+DTSTART;TZID=America/New_York:20260807T120000
+DTEND;TZID=America/New_York:20260807T130000
+DTSTAMP:20260731T205418Z
+UID:winship-b3cd7ec4b867f0540dd324ce@emory-seminars
+DESCRIPTION:Program: Cancer Immunology (CI) Program Meeting\n\nSpeaker: Ya
+ nfang ‘Peipei’ Zhu\, Ph.D. Assistant Professor\, Immunology Center of 
+ Georgia Medical College of Georgia at Augusta University\n\nEvent type: Pr
+ ogram Meeting\n\nTalk title: Neutrophils Regulate the Oral Squamous Cell C
+ arcinoma (OSCC) TME via Time and Space\n\nJoin via Zoom:\nhttps://zoom.us/
+ j/98990759560\n\nSource: https://apps.winshipcancer.emory.edu/admin/Event/
+ 6641/in-person---cancer-immunology-ci-program-meeting---yanfang-peipei-zhu
+ -phd---neutrophils-regulate-the-oral-squamous-cell-carcinoma-oscc-tme-via-
+ time-and-space/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -253,16 +108,19 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6641/in-person---canc
  gulate-the-oral-squamous-cell-carcinoma-oscc-tme-via-time-and-space/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Breast Oncology Guest Lecturer - Tyler Kristoff\, MD - "Optimizing
-  Therapy for HR+/HER2- Metastatic Breast Cancer: From Biomarkers to Clinic
- al Decision-Making"
-DTSTART:20260810T120000Z
-DTEND:20260810T130000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6761@seminar-calendar
-DESCRIPTION:Presenter: Tyler Kristoff\, MD Fellow\, Hematology and Oncolog
- y Emory University School of Medicine\n\nEvent type: Lectures and Training
- \n\nJoin via Zoom: https://zoom.us/j/94396365036\n\nWinship event page: ht
+SUMMARY:[Breast Oncology Guest Lecturer] Tyler Kristoff\, MD Fellow\, Hema
+ tology and Oncology Emory University School of Medicine — Optimizing The
+ rapy for HR+/HER2- Metastatic Breast Cancer: From Biomarkers to Clinical D
+ ecision-Making
+DTSTART;TZID=America/New_York:20260810T080000
+DTEND;TZID=America/New_York:20260810T090000
+DTSTAMP:20260731T205418Z
+UID:winship-3e1f469f5c97c3257b4de8f3@emory-seminars
+DESCRIPTION:Program: Breast Oncology Guest Lecturer\n\nSpeaker: Tyler Kris
+ toff\, MD Fellow\, Hematology and Oncology Emory University School of Medi
+ cine\n\nEvent type: Lectures and Training\n\nTalk title: Optimizing Therap
+ y for HR+/HER2- Metastatic Breast Cancer: From Biomarkers to Clinical Deci
+ sion-Making\n\nJoin via Zoom:\nhttps://zoom.us/j/94396365036\n\nSource: ht
  tps://apps.winshipcancer.emory.edu/admin/Event/6761/breast-oncology-guest-
  lecturer---tyler-kristoff-md---optimizing-therapy-for-hrher2--metastatic-b
  reast-cancer-from-biomarkers-to-clinical-decision-making/
@@ -275,21 +133,24 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6761/breast-oncology-
  atic-breast-cancer-from-biomarkers-to-clinical-decision-making/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Breast Cancer Translational Research Seminar Series - Jennifer Spa
- ngle\, PhD - "Characterizing and Mapping HER2 Plasticity in Breast Cancer"
-DTSTART:20260812T160000Z
-DTEND:20260812T170000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6762@seminar-calendar
-DESCRIPTION:Presenter: Jennifer Spangle\, PhD Associate Professor\, Radiat
- ion Oncology School of Medicine\n\nEvent type: Lectures and Training\n\nTh
- e Monthly Breast Cancer Translational Research Seminar Series features sci
- entific updates on breast cancer research presented by leading breast canc
- er experts. Join us in person in the Winship Kauffman Auditorium (C5012) w
- ith lunch provided.\n\nJoin via Zoom: https://zoom.us/j/94870673804\n\nWin
- ship event page: https://apps.winshipcancer.emory.edu/admin/Event/6762/bre
- ast-cancer-translational-research-seminar-series---jennifer-spangle-phd---
- characterizing-and-mapping-her2-plasticity-in-breast-cancer/
+SUMMARY:[Breast Cancer Translational Research Seminar Series] Jennifer Spa
+ ngle\, PhD Associate Professor\, Radiation Oncology School of Medicine —
+  Characterizing and Mapping HER2 Plasticity in Breast Cancer
+DTSTART;TZID=America/New_York:20260812T120000
+DTEND;TZID=America/New_York:20260812T130000
+DTSTAMP:20260731T205418Z
+UID:winship-a4d7dc0a2a1ed00ef4e0b657@emory-seminars
+DESCRIPTION:Program: Breast Cancer Translational Research Seminar Series\n
+ \nSpeaker: Jennifer Spangle\, PhD Associate Professor\, Radiation Oncology
+  School of Medicine\n\nEvent type: Lectures and Training\n\nTalk title: Ch
+ aracterizing and Mapping HER2 Plasticity in Breast Cancer\n\nThe Monthly B
+ reast Cancer Translational Research Seminar Series features scientific upd
+ ates on breast cancer research presented by leading breast cancer experts.
+  Join us in person in the Winship Kauffman Auditorium (C5012) with lunch p
+ rovided.\n\nJoin via Zoom:\nhttps://zoom.us/j/94870673804\n\nSource: https
+ ://apps.winshipcancer.emory.edu/admin/Event/6762/breast-cancer-translation
+ al-research-seminar-series---jennifer-spangle-phd---characterizing-and-map
+ ping-her2-plasticity-in-breast-cancer/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -299,38 +160,41 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6762/breast-cancer-tr
  g-and-mapping-her2-plasticity-in-breast-cancer/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:In Person - 2026 Winship Cell and Molecular Biology (CMB) Research
-  Program Retreat - "Emerging Frontiers in Cancer Biology: New Mechanisms\,
-  Innovative Technologies\, and Translational Team Science"
-DTSTART:20260814T123000Z
-DTEND:20260814T183000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6619@seminar-calendar
-DESCRIPTION:Presenter: Joseph Castello\, PhD Professor\, Neurological Surg
- ery University of California San Francisco\n\nEvent type: Retreat\n\nJoin 
- us for the 2026 Winship Cancer Institute Cell and Molecular Biology (CMB) 
- Research Program Retreat\, Emerging Frontiers in Cancer Biology: New Mecha
- nisms\, Innovative Technologies\, and Translational Team Science. We invit
- e you to take part in a day of collaboration\, discovery\, and forward‑t
- hinking discussion as we explore cutting‑edge biological mechanisms\, hi
- ghlight innovative technologies shaping the future of cancer research\, an
- d strengthen the team‑science approaches that drive meaningful translati
- onal impact. Program Highlights Keynote Presentation: "Immortality and Evo
- lution: Partners in the Cancer Crime" Joe Costello\, PhD Professor and Kar
- en Osney Brownstein Endowed Chair in Molecular Neuro-Oncology Department o
- f Neurological Surgery University of California San Francisco Scientific D
- irector\, UCSF Brain Tumor Center Program Director\, UCSF Brain Tumor SPOR
- E The event will also feature faculty presentations\, COE updates\, lunch 
- breakout sessions\, and a panel discussion. Breakfast and lunch will be pr
- ovided. Schedule Date: Friday\, August 14\, 2026 8:30 a.m. Breakfast & Net
- working 9:00 a.m. Welcome and Program Updates 9:15 a.m. – 11:30 a.m. | S
- cientific Talks 11:30 a.m. – 12:30 p.m. | Keynote Presentation 12:30 p.m
- . – 1:20 p.m. | Lunch and Breakout Discussion Sessions 1:20 p.m. – 2:3
- 0 p.m. | Scientific Talks and Closing Remarks\n\nWinship event page: https
- ://apps.winshipcancer.emory.edu/admin/Event/6619/in-person---2026-winship-
- cell-and-molecular-biology-cmb-research-program-retreat---emerging-frontie
- rs-in-cancer-biology-new-mechanisms-innovative-technologies-and-translatio
- nal-team-science/
+SUMMARY:[Retreat] Joseph Castello\, PhD Professor\, Neurological Surgery U
+ niversity of California San Francisco — Emerging Frontiers in Cancer Bio
+ logy: New Mechanisms\, Innovative Technologies\, and Translational Team Sc
+ ience
+DTSTART;TZID=America/New_York:20260814T083000
+DTEND;TZID=America/New_York:20260814T143000
+DTSTAMP:20260731T205418Z
+UID:winship-dcbe677a6148df2c2672d246@emory-seminars
+DESCRIPTION:Program: Retreat\n\nSpeaker: Joseph Castello\, PhD Professor\,
+  Neurological Surgery University of California San Francisco\n\nEvent type
+ : Retreat\n\nTalk title: Emerging Frontiers in Cancer Biology: New Mechani
+ sms\, Innovative Technologies\, and Translational Team Science\n\nJoin us 
+ for the 2026 Winship Cancer Institute Cell and Molecular Biology (CMB) Res
+ earch Program Retreat\, Emerging Frontiers in Cancer Biology: New Mechanis
+ ms\, Innovative Technologies\, and Translational Team Science. We invite y
+ ou to take part in a day of collaboration\, discovery\, and forward‑thin
+ king discussion as we explore cutting‑edge biological mechanisms\, highl
+ ight innovative technologies shaping the future of cancer research\, and s
+ trengthen the team‑science approaches that drive meaningful translationa
+ l impact. Program Highlights Keynote Presentation: "Immortality and Evolut
+ ion: Partners in the Cancer Crime" Joe Costello\, PhD Professor and Karen 
+ Osney Brownstein Endowed Chair in Molecular Neuro-Oncology Department of N
+ eurological Surgery University of California San Francisco Scientific Dire
+ ctor\, UCSF Brain Tumor Center Program Director\, UCSF Brain Tumor SPORE T
+ he event will also feature faculty presentations\, COE updates\, lunch bre
+ akout sessions\, and a panel discussion. Breakfast and lunch will be provi
+ ded. Schedule Date: Friday\, August 14\, 2026 8:30 a.m. Breakfast & Networ
+ king 9:00 a.m. Welcome and Program Updates 9:15 a.m. – 11:30 a.m. | Scie
+ ntific Talks 11:30 a.m. – 12:30 p.m. | Keynote Presentation 12:30 p.m. 
+ – 1:20 p.m. | Lunch and Breakout Discussion Sessions 1:20 p.m. – 2:30 
+ p.m. | Scientific Talks and Closing Remarks\n\nSource: https://apps.winshi
+ pcancer.emory.edu/admin/Event/6619/in-person---2026-winship-cell-and-molec
+ ular-biology-cmb-research-program-retreat---emerging-frontiers-in-cancer-b
+ iology-new-mechanisms-innovative-technologies-and-translational-team-scien
+ ce/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -341,16 +205,18 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6619/in-person---2026
  ranslational-team-science/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Grand Rounds - Sriram Venneti\, MD\, PhD - "Decoding the Metabolic
-  Epigenome of Pediatric Gliomas"
-DTSTART:20260819T160000Z
-DTEND:20260819T170000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6750@seminar-calendar
-DESCRIPTION:Event type: Grand Rounds\n\nJoin via Zoom: https://zoom.us/s/9
- 8869772644\n\nWinship event page: https://apps.winshipcancer.emory.edu/adm
- in/Event/6750/grand-rounds---sriram-venneti-md-phd---decoding-the-metaboli
- c-epigenome-of-pediatric-gliomas/
+SUMMARY:[Grand Rounds] Sriram Venneti\, MD\, PhD — Decoding the Metaboli
+ c Epigenome of Pediatric Gliomas
+DTSTART;TZID=America/New_York:20260819T120000
+DTEND;TZID=America/New_York:20260819T130000
+DTSTAMP:20260731T205418Z
+UID:winship-33ae773ab3d1c2c7546e342a@emory-seminars
+DESCRIPTION:Program: Grand Rounds\n\nSpeaker: Sriram Venneti\, MD\, PhD\n\
+ nEvent type: Grand Rounds\n\nTalk title: Decoding the Metabolic Epigenome 
+ of Pediatric Gliomas\n\nJoin via Zoom:\nhttps://zoom.us/s/98869772644\n\nS
+ ource: https://apps.winshipcancer.emory.edu/admin/Event/6750/grand-rounds-
+ --sriram-venneti-md-phd---decoding-the-metabolic-epigenome-of-pediatric-gl
+ iomas/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -360,18 +226,19 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6750/grand-rounds---s
  as/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Virtual - Cancer Prevention and Control (CPC) Program Meeting - Da
- e-Hee Han\, PhD
-DTSTART:20260820T200000Z
-DTEND:20260820T210000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6629@seminar-calendar
-DESCRIPTION:Presenter: Dae-Hee Han\, PhD Assistant Professor\, Behavioral\
- , Social and Health Education Sciences Rollins School of Public Health\n\n
- Event type: Program Meeting\n\nJoin via Zoom: https://zoom.us/j/9513601334
- 7\n\nWinship event page: https://apps.winshipcancer.emory.edu/admin/Event/
- 6629/virtual---cancer-prevention-and-control-cpc-program-meeting---dae-hee
- -han-phd/
+SUMMARY:[Cancer Prevention and Control (CPC) Program Meeting] Dae-Hee Han\
+ , PhD Assistant Professor\, Behavioral\, Social and Health Education Scien
+ ces Rollins School of Public Health
+DTSTART;TZID=America/New_York:20260820T160000
+DTEND;TZID=America/New_York:20260820T170000
+DTSTAMP:20260731T205418Z
+UID:winship-dc4640b97f46ce6cd126d843@emory-seminars
+DESCRIPTION:Program: Cancer Prevention and Control (CPC) Program Meeting\n
+ \nSpeaker: Dae-Hee Han\, PhD Assistant Professor\, Behavioral\, Social and
+  Health Education Sciences Rollins School of Public Health\n\nEvent type: 
+ Program Meeting\n\nJoin via Zoom:\nhttps://zoom.us/j/95136013347\n\nSource
+ : https://apps.winshipcancer.emory.edu/admin/Event/6629/virtual---cancer-p
+ revention-and-control-cpc-program-meeting---dae-hee-han-phd/
 LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -379,17 +246,19 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6629/virtual---cancer
  -prevention-and-control-cpc-program-meeting---dae-hee-han-phd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Virtual - Discovery and Developmental Therapeutics (DDT) Program M
- eeting - Daniel M. Halperin\, MD
-DTSTART:20260821T130000Z
-DTEND:20260821T140000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6653@seminar-calendar
-DESCRIPTION:Presenter: Daniel Halperin\, MD Associate Professor\, Hematolo
- gy & Medical Oncology School of Medicine\n\nEvent type: Program Meeting\n\
- nJoin via Zoom: https://zoom.us/j/92540438724\n\nWinship event page: https
- ://apps.winshipcancer.emory.edu/admin/Event/6653/virtual---discovery-and-d
- evelopmental-therapeutics-ddt-program-meeting---daniel-m-halperin-md/
+SUMMARY:[Discovery and Developmental Therapeutics (DDT) Program Meeting] D
+ aniel Halperin\, MD Associate Professor\, Hematology & Medical Oncology Sc
+ hool of Medicine
+DTSTART;TZID=America/New_York:20260821T090000
+DTEND;TZID=America/New_York:20260821T100000
+DTSTAMP:20260731T205418Z
+UID:winship-9bedb27d0d2c8386d1e1155f@emory-seminars
+DESCRIPTION:Program: Discovery and Developmental Therapeutics (DDT) Progra
+ m Meeting\n\nSpeaker: Daniel Halperin\, MD Associate Professor\, Hematolog
+ y & Medical Oncology School of Medicine\n\nEvent type: Program Meeting\n\n
+ Join via Zoom:\nhttps://zoom.us/j/92540438724\n\nSource: https://apps.wins
+ hipcancer.emory.edu/admin/Event/6653/virtual---discovery-and-developmental
+ -therapeutics-ddt-program-meeting---daniel-m-halperin-md/
 LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -398,48 +267,50 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6653/virtual---discov
  -md/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:17th Annual Winship Oncology Nursing Symposium
-DTSTART:20260821T230000Z
-DTEND:20260822T203000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6697@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nOverview Join us for the 
- 17th Annual Winship Oncology Nursing Symposium at the Crowne Plaza Atlanta
-  Perimeter at Ravinia\, Friday\, August 21 - Saturday\, August 22\, 2026. 
- Conference Highlights Theme: Caring Beyond the Cure: Advancing Oncology Nu
- rsing Across the Cancer Continuum Attendees will benefit from an intimate 
- learning environment and the opportunity to meet and learn from local\, na
- tional and internationally recognized oncology leaders. Presentations and 
- breakout sessions will explore current research and trends in oncology nur
- sing practice. Participants will gain insight and strategies to translate 
- evidence-based learning into clinical practice. Friday Night Fun: Begin th
- e 17th Annual Winship Oncology Nursing Symposium with a lively kickoff eve
- nt featuring disco bingo and a friendly 70s costume contest. Step out in y
- our go-go boots and connect with colleagues during an evening of laughter\
- , networking\, food\, and exciting giveaways. This signature event sets th
- e tone for a dynamic symposium experience\, building energy and connection
-  that will carry through a weekend of learning\, collaboration\, and profe
- ssional growth. Keynote Speaker Renee Thompson\, DNP\, RN\, FAONL\, FAAN\,
-  CSP® Chief Executive Officer & Founder\, Healthy Workforce Institute Dr.
-  Renee Thompson is the CEO & Founder of the Healthy Workforce Institute \,
-  working with healthcare leaders to cultivate a professional workforce by 
- addressing bullying and incivility. Renee is a bestselling author\, hosts 
- a popular podcast\, and is one of only 30 nurses worldwide to hold the pre
- stigious Certified Speaking Professional designation. In 2018\, she was re
- cognized as one of LinkedIn’s Top 10 Voices in Healthcare for her contri
- butions to the global online healthcare community. In 2022 and 2023\, she 
- was identified as one of LinkedIn's top 5 Nurse Influencers. In 2022\, Ren
- ee was inducted as a Fellow of the American Academy of Nursing for her wor
- k to eradicate disruptive behaviors in healthcare and In March 2026\, Rene
- e was inducted as a Fellow of the American Organization for Nursing Leader
- ship for her sustained contributions to the specialty of nursing leadershi
- p\, commitment to service and influence in shaping health care by addressi
- ng disruptive behaviors. Hotel A block of rooms has been reserved for conf
- erence attendees at the Crowne Plaza Atlanta Perimeter at Ravinia at the d
- iscounted rate of $139 per night. Rooms are available on a first come\, fi
- rst served basis\, with a cut-off date of July 31. Call to book your room:
-  (770) 395-7700\n\nWinship event page: https://apps.winshipcancer.emory.ed
- u/admin/Event/6697/17th-annual-winship-oncology-nursing-symposium/
+SUMMARY:[Lectures and Training] 17th Annual Winship Oncology Nursing Sympo
+ sium
+DTSTART;TZID=America/New_York:20260821T190000
+DTEND;TZID=America/New_York:20260822T163000
+DTSTAMP:20260731T205418Z
+UID:winship-9019959ad6513ca378edd9d4@emory-seminars
+DESCRIPTION:Program: Lectures and Training\n\nSpeaker: 17th Annual Winship
+  Oncology Nursing Symposium\n\nEvent type: Lectures and Training\n\nOvervi
+ ew Join us for the 17th Annual Winship Oncology Nursing Symposium at the C
+ rowne Plaza Atlanta Perimeter at Ravinia\, Friday\, August 21 - Saturday\,
+  August 22\, 2026. Conference Highlights Theme: Caring Beyond the Cure: Ad
+ vancing Oncology Nursing Across the Cancer Continuum Attendees will benefi
+ t from an intimate learning environment and the opportunity to meet and le
+ arn from local\, national and internationally recognized oncology leaders.
+  Presentations and breakout sessions will explore current research and tre
+ nds in oncology nursing practice. Participants will gain insight and strat
+ egies to translate evidence-based learning into clinical practice. Friday 
+ Night Fun: Begin the 17th Annual Winship Oncology Nursing Symposium with a
+  lively kickoff event featuring disco bingo and a friendly 70s costume con
+ test. Step out in your go-go boots and connect with colleagues during an e
+ vening of laughter\, networking\, food\, and exciting giveaways. This sign
+ ature event sets the tone for a dynamic symposium experience\, building en
+ ergy and connection that will carry through a weekend of learning\, collab
+ oration\, and professional growth. Keynote Speaker Renee Thompson\, DNP\, 
+ RN\, FAONL\, FAAN\, CSP® Chief Executive Officer & Founder\, Healthy Work
+ force Institute Dr. Renee Thompson is the CEO & Founder of the Healthy Wor
+ kforce Institute \, working with healthcare leaders to cultivate a profess
+ ional workforce by addressing bullying and incivility. Renee is a bestsell
+ ing author\, hosts a popular podcast\, and is one of only 30 nurses worldw
+ ide to hold the prestigious Certified Speaking Professional designation. I
+ n 2018\, she was recognized as one of LinkedIn’s Top 10 Voices in Health
+ care for her contributions to the global online healthcare community. In 2
+ 022 and 2023\, she was identified as one of LinkedIn's top 5 Nurse Influen
+ cers. In 2022\, Renee was inducted as a Fellow of the American Academy of 
+ Nursing for her work to eradicate disruptive behaviors in healthcare and I
+ n March 2026\, Renee was inducted as a Fellow of the American Organization
+  for Nursing Leadership for her sustained contributions to the specialty o
+ f nursing leadership\, commitment to service and influence in shaping heal
+ th care by addressing disruptive behaviors. Hotel A block of rooms has bee
+ n reserved for conference attendees at the Crowne Plaza Atlanta Perimeter 
+ at Ravinia at the discounted rate of $139 per night. Rooms are available o
+ n a first come\, first served basis\, with a cut-off date of July 31. Call
+  to book your room: (770) 395-7700\n\nSource: https://apps.winshipcancer.e
+ mory.edu/admin/Event/6697/17th-annual-winship-oncology-nursing-symposium/
 LOCATION:Crowne Plaza: Atlanta Perimeter at Ravinia 4355 Ashford Dunwoody 
  Road Atlanta \, Georgia 30346
 STATUS:CONFIRMED
@@ -448,32 +319,35 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6697/17th-annual-wins
  hip-oncology-nursing-symposium/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:In Person - Discovery and Developmental Therapeutics (DDT) and Can
- cer Immunology (CI) Joint Program Retreat - "Breaking Immune Barriers: Tra
- nslating Discovery into Tomorrow’s Therapies"
-DTSTART:20260825T120000Z
-DTEND:20260825T200000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6698@seminar-calendar
-DESCRIPTION:Event type: Retreat\n\nJoin us for the Discovery and Developme
- ntal Therapeutics (DDT) and Cancer Immunology (CI) Joint Retreat\, “Brea
- king Immune Barriers: Translating Discovery into Tomorrow’s Therapies.
- ” We invite you to take part in a day of collaboration\, insight and for
- ward‑thinking discussion as we explore innovative research and chart the
-  path from immune‑focused discovery to transformative therapies of the f
- uture. Program Highlights Keynote Presentation: "Second Wave Modern Immuno
- therapy Drug Development in Solid Tumors" Ryan Sullivan\, MD Director\, Cu
- taneous Medical Oncology Program\; Associate Professor Mass General Brigha
- m Cancer Institute\, Harvard Medical School The event will also feature fa
- culty presentations\, cell therapy updates and flash talks from graduate s
- tudent researchers. Breakfast and lunch will be provided. Schedule Date: T
- uesday\, August 25\, 2026 8:00 a.m. Breakfast & Networking 8:30 a.m. Welco
- me and Program Updates 9:00 a.m. – 10:00 a.m. | Keynote Presentation 10:
- 00 a.m. – 4:00 p.m. | Scientific Talks and Working Lunch with Graduate S
- tudent Flash Talk Presentations\n\nWinship event page: https://apps.winshi
- pcancer.emory.edu/admin/Event/6698/in-person---discovery-and-developmental
- -therapeutics-ddt-and-cancer-immunology-ci-joint-program-retreat---breakin
- g-immune-barriers-translating-discovery-into-tomorrows-therapies/
+SUMMARY:[Retreat] Discovery and Developmental Therapeutics (DDT) and Cance
+ r Immunology (CI) Joint Program — Breaking Immune Barriers: Translating 
+ Discovery into Tomorrow’s Therapies
+DTSTART;TZID=America/New_York:20260825T080000
+DTEND;TZID=America/New_York:20260825T160000
+DTSTAMP:20260731T205418Z
+UID:winship-4dd1118a2f42f16f14dca73b@emory-seminars
+DESCRIPTION:Program: Retreat\n\nSpeaker: Discovery and Developmental Thera
+ peutics (DDT) and Cancer Immunology (CI) Joint Program\n\nEvent type: Retr
+ eat\n\nTalk title: Breaking Immune Barriers: Translating Discovery into To
+ morrow’s Therapies\n\nJoin us for the Discovery and Developmental Therap
+ eutics (DDT) and Cancer Immunology (CI) Joint Retreat\, “Breaking Immune
+  Barriers: Translating Discovery into Tomorrow’s Therapies.” We invite
+  you to take part in a day of collaboration\, insight and forward‑thinki
+ ng discussion as we explore innovative research and chart the path from im
+ mune‑focused discovery to transformative therapies of the future. Progra
+ m Highlights Keynote Presentation: "Second Wave Modern Immunotherapy Drug 
+ Development in Solid Tumors" Ryan Sullivan\, MD Director\, Cutaneous Medic
+ al Oncology Program\; Associate Professor Mass General Brigham Cancer Inst
+ itute\, Harvard Medical School The event will also feature faculty present
+ ations\, cell therapy updates and flash talks from graduate student resear
+ chers. Breakfast and lunch will be provided. Schedule Date: Tuesday\, Augu
+ st 25\, 2026 8:00 a.m. Breakfast & Networking 8:30 a.m. Welcome and Progra
+ m Updates 9:00 a.m. – 10:00 a.m. | Keynote Presentation 10:00 a.m. – 4
+ :00 p.m. | Scientific Talks and Working Lunch with Graduate Student Flash 
+ Talk Presentations\n\nSource: https://apps.winshipcancer.emory.edu/admin/E
+ vent/6698/in-person---discovery-and-developmental-therapeutics-ddt-and-can
+ cer-immunology-ci-joint-program-retreat---breaking-immune-barriers-transla
+ ting-discovery-into-tomorrows-therapies/
 LOCATION:Margret H. Rollins Room (R-P01) Rollins School of Public Health 1
  518 Clifton Road NE Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -484,31 +358,32 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6698/in-person---disc
  ows-therapies/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2026 Cancer Biology T32 Training Program Retreat
-DTSTART:20260827T131500Z
-DTEND:20260827T180000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6752@seminar-calendar
-DESCRIPTION:Event type: Retreat\n\nPlease join us for the 3rd annual Cance
- r Biology T32 Training Program Retreat! The NIH T32 training grant support
- s both pre-doctoral and post-doctoral trainees within Winship\, promoting 
- innovative and exciting research within multiple laboratories. This event 
- will feature keynote speaker Melinda Bachini\, chief patient officer of th
- e Cholangiocarcinoma Foundation\, in addition to talks from trainees suppo
- rted by this grant. We are excited to showcase all our trainees' exciting 
- work and hope to see you there! RSVP HERE by August 24 Schedule 9:15 a.m. 
- Check-in\, coffee and refreshments 9:30 a.m. Welcome Message and Introduct
- ion of Keynote Speaker David Yu\, MD\, PhD\, director\, Post-doctoral Trai
- ning Program Sumin Kang\, PhD\, and Gregory Lesinski\, PhD\, MPH\, directo
- rs\, Pre-doctoral Training Program 9:45 a.m. Keynote Address – "Outlier:
-  The Patient Behind the Data" Melinda Bachini\, chief patient officer\, Ch
- olangiocarcinoma Foundation 10:45 a.m. Break 11:00 a.m. Post-doctoral Trai
- nee Talks Adedeji Adebayo\, DVM\, PhD\, MS\, Lisa Nieland\, PhD\, MS\, Chr
- istina Ramelow\, PhD\, MS\, and Nolan Tucker\, PhD 12:00 p.m. Lunch (provi
- ded) 1:00 p.m. Pre-doctoral Trainee Talks Anna Baj\, Alexis Dixon\, Ruby F
- reeman and Chloe Hope 2:00 p.m. Closing Remarks Alexis Dixon\n\nWinship ev
- ent page: https://apps.winshipcancer.emory.edu/admin/Event/6752/2026-cance
- r-biology-t32-training-program-retreat/
+SUMMARY:[Retreat] 2026 Cancer Biology T32 Training Program
+DTSTART;TZID=America/New_York:20260827T091500
+DTEND;TZID=America/New_York:20260827T140000
+DTSTAMP:20260731T205418Z
+UID:winship-2a0e433b04ca433eb77ff735@emory-seminars
+DESCRIPTION:Program: Retreat\n\nSpeaker: 2026 Cancer Biology T32 Training 
+ Program\n\nEvent type: Retreat\n\nPlease join us for the 3rd annual Cancer
+  Biology T32 Training Program Retreat! The NIH T32 training grant supports
+  both pre-doctoral and post-doctoral trainees within Winship\, promoting i
+ nnovative and exciting research within multiple laboratories. This event w
+ ill feature keynote speaker Melinda Bachini\, chief patient officer of the
+  Cholangiocarcinoma Foundation\, in addition to talks from trainees suppor
+ ted by this grant. We are excited to showcase all our trainees' exciting w
+ ork and hope to see you there! RSVP HERE by August 24 Schedule 9:15 a.m. C
+ heck-in\, coffee and refreshments 9:30 a.m. Welcome Message and Introducti
+ on of Keynote Speaker David Yu\, MD\, PhD\, director\, Post-doctoral Train
+ ing Program Sumin Kang\, PhD\, and Gregory Lesinski\, PhD\, MPH\, director
+ s\, Pre-doctoral Training Program 9:45 a.m. Keynote Address – "Outlier: 
+ The Patient Behind the Data" Melinda Bachini\, chief patient officer\, Cho
+ langiocarcinoma Foundation 10:45 a.m. Break 11:00 a.m. Post-doctoral Train
+ ee Talks Adedeji Adebayo\, DVM\, PhD\, MS\, Lisa Nieland\, PhD\, MS\, Chri
+ stina Ramelow\, PhD\, MS\, and Nolan Tucker\, PhD 12:00 p.m. Lunch (provid
+ ed) 1:00 p.m. Pre-doctoral Trainee Talks Anna Baj\, Alexis Dixon\, Ruby Fr
+ eeman and Chloe Hope 2:00 p.m. Closing Remarks Alexis Dixon\n\nSource: htt
+ ps://apps.winshipcancer.emory.edu/admin/Event/6752/2026-cancer-biology-t32
+ -training-program-retreat/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -517,18 +392,19 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6752/2026-cancer-biol
  ogy-t32-training-program-retreat/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Virtual - Cell and Molecular Biology (CMB) Program Meeting - Haide
- r A. Mejbel\, MD
-DTSTART:20260903T200000Z
-DTEND:20260903T210000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6620@seminar-calendar
-DESCRIPTION:Presenter: Haider Mejbel\, MD Assistant Professor\, Pathology 
- School of Medicine\n\nEvent type: Program Meeting\n\nJoin by Zoom: https:/
- /zoom.us/j/97017425710 Join by Phone: 470.250.9358 Meeting ID: 970 1742 57
- 10\n\nJoin via Zoom: https://zoom.us/j/97017425710\n\nWinship event page: 
- https://apps.winshipcancer.emory.edu/admin/Event/6620/virtual---cell-and-m
- olecular-biology-cmb-program-meeting---haider-a-mejbel-md/
+SUMMARY:[Cell and Molecular Biology (CMB) Program Meeting] Haider Mejbel\,
+  MD Assistant Professor\, Pathology School of Medicine
+DTSTART;TZID=America/New_York:20260903T160000
+DTEND;TZID=America/New_York:20260903T170000
+DTSTAMP:20260731T205418Z
+UID:winship-78a04016251fc5c1403d1e24@emory-seminars
+DESCRIPTION:Program: Cell and Molecular Biology (CMB) Program Meeting\n\nS
+ peaker: Haider Mejbel\, MD Assistant Professor\, Pathology School of Medic
+ ine\n\nEvent type: Program Meeting\n\nJoin by Zoom: https://zoom.us/j/9701
+ 7425710 Join by Phone: 470.250.9358 Meeting ID: 970 1742 5710\n\nJoin via 
+ Zoom:\nhttps://zoom.us/j/97017425710\n\nSource: https://apps.winshipcancer
+ .emory.edu/admin/Event/6620/virtual---cell-and-molecular-biology-cmb-progr
+ am-meeting---haider-a-mejbel-md/
 LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -536,17 +412,18 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6620/virtual---cell-a
  nd-molecular-biology-cmb-program-meeting---haider-a-mejbel-md/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Elkin Lecture - Gurken Mollaoglu\, PhD - "TBD"
-DTSTART:20260911T161500Z
-DTEND:20260911T171500Z
-DTSTAMP:20260731T203835Z
-UID:winship-6736@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nElkin Lectures are open t
- o all and held on Friday afternoons at 12:15 p.m. from September through M
- ay. Join us in person in the John H. Kauffman Auditorium with lunch provid
- ed.\n\nJoin via Zoom: https://zoom.us/s/94421326534\n\nWinship event page:
-  https://apps.winshipcancer.emory.edu/admin/Event/6736/elkin-lecture---gur
- ken-mollaoglu-phd---tbd/
+SUMMARY:[Elkin Lecture] Gurken Mollaoglu\, PhD — TBD
+DTSTART;TZID=America/New_York:20260911T121500
+DTEND;TZID=America/New_York:20260911T131500
+DTSTAMP:20260731T205418Z
+UID:winship-48b06669c4d35e8ea9164411@emory-seminars
+DESCRIPTION:Program: Elkin Lecture\n\nSpeaker: Gurken Mollaoglu\, PhD\n\nE
+ vent type: Lectures and Training\n\nTalk title: TBD\n\nElkin Lectures are 
+ open to all and held on Friday afternoons at 12:15 p.m. from September thr
+ ough May. Join us in person in the John H. Kauffman Auditorium with lunch 
+ provided.\n\nJoin via Zoom:\nhttps://zoom.us/s/94421326534\n\nSource: http
+ s://apps.winshipcancer.emory.edu/admin/Event/6736/elkin-lecture---gurken-m
+ ollaoglu-phd---tbd/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -555,17 +432,35 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6736/elkin-lecture---
  gurken-mollaoglu-phd---tbd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Virtual - Cancer Prevention and Control (CPC) Program Meeting - Da
- nielle Wallace\, MPH\, PhD
-DTSTART:20260917T200000Z
-DTEND:20260917T210000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6630@seminar-calendar
-DESCRIPTION:Presenter: Danielle Wallace\, MPH\, PhD Assistant Professor\, 
- Environmental Health School of Public Health\n\nEvent type: Program Meetin
- g\n\nJoin via Zoom: https://zoom.us/j/95136013347\n\nWinship event page: h
- ttps://apps.winshipcancer.emory.edu/admin/Event/6630/virtual---cancer-prev
- ention-and-control-cpc-program-meeting---danielle-wallace-mph-phd/
+SUMMARY:[Grand Rounds] Katrin Henke\, PhD
+DTSTART;TZID=America/New_York:20260914T080000
+DTEND;TZID=America/New_York:20260914T090000
+DTSTAMP:20260731T205418Z
+UID:human_genetics-05c113c7986406593477ed89@emory-seminars
+DESCRIPTION:Program: Grand Rounds\n\nSpeaker: Katrin Henke\, PhD\n\nAffili
+ ation: Emory University\n\nHost: Hong Li\, MD\, PhD\n\nJoin via Zoom:\nhtt
+ ps://zoom.us/j/98422445740 \n\nSource: https://med.emory.edu/departments/h
+ uman-genetics/upcoming_grandrounds_seminars.html
+LOCATION:Whitehead Biomedical Research Building\, Suite 300
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://med.emory.edu/departments/human-genetics/upcoming_grandrounds_
+ seminars.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Cancer Prevention and Control (CPC) Program Meeting] Danielle Wal
+ lace\, MPH\, PhD Assistant Professor\, Environmental Health School of Publ
+ ic Health
+DTSTART;TZID=America/New_York:20260917T160000
+DTEND;TZID=America/New_York:20260917T170000
+DTSTAMP:20260731T205418Z
+UID:winship-6ab3fe828e6e7f829ba4a676@emory-seminars
+DESCRIPTION:Program: Cancer Prevention and Control (CPC) Program Meeting\n
+ \nSpeaker: Danielle Wallace\, MPH\, PhD Assistant Professor\, Environmenta
+ l Health School of Public Health\n\nEvent type: Program Meeting\n\nJoin vi
+ a Zoom:\nhttps://zoom.us/j/95136013347\n\nSource: https://apps.winshipcanc
+ er.emory.edu/admin/Event/6630/virtual---cancer-prevention-and-control-cpc-
+ program-meeting---danielle-wallace-mph-phd/
 LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -573,20 +468,20 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6630/virtual---cancer
  -prevention-and-control-cpc-program-meeting---danielle-wallace-mph-phd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Winship Town Hall
-DTSTART:20260917T210000Z
-DTEND:20260917T220000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6712@seminar-calendar
-DESCRIPTION:Event type: Special Event\n\nJoin the Winship leadership team 
- for a Town Hall\, on Thursday\, September 17\, 2026 from 5-6 p.m. in the C
- onference Room at the Winship Proton Therapy Center. 615 Peachtree St NE A
- tlanta\, GA 30308 Entrance around the corner on Ponce de Leon Avenue NE Pa
- rking is complimentary for this event. Refreshments will be provided. The 
- agenda is still to be determined. The in-person event will be live-streame
- d and recorded. Please join us in person or via Zoom.\n\nWinship event pag
- e: https://apps.winshipcancer.emory.edu/admin/Event/6712/winship-town-hall
- /
+SUMMARY:[Special Event] Winship Town Hall
+DTSTART;TZID=America/New_York:20260917T170000
+DTEND;TZID=America/New_York:20260917T180000
+DTSTAMP:20260731T205418Z
+UID:winship-9648c8f0b49378a096472a36@emory-seminars
+DESCRIPTION:Program: Special Event\n\nSpeaker: Winship Town Hall\n\nEvent 
+ type: Special Event\n\nJoin the Winship leadership team for a Town Hall\, 
+ on Thursday\, September 17\, 2026 from 5-6 p.m. in the Conference Room at 
+ the Winship Proton Therapy Center. 615 Peachtree St NE Atlanta\, GA 30308 
+ Entrance around the corner on Ponce de Leon Avenue NE Parking is complimen
+ tary for this event. Refreshments will be provided. The agenda is still to
+  be determined. The in-person event will be live-streamed and recorded. Pl
+ ease join us in person or via Zoom.\n\nSource: https://apps.winshipcancer.
+ emory.edu/admin/Event/6712/winship-town-hall/
 LOCATION:Emory Proton Therapy Center 615 Peachtree Street NE Atlanta \, Ge
  orgia 30308
 STATUS:CONFIRMED
@@ -595,35 +490,36 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6712/winship-town-hal
  l/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:5th Annual Hematology and Oncology Updates for the Advanced Practi
- ce Provider
-DTSTART:20260918T120000Z
-DTEND:20260919T160000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6715@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nHosted by Winship Cancer 
- Institute of Emory University\, the 5th Annual Hematology and Oncology Upd
- ates for the Advanced Practice Provider is a two-day continuing education 
- program designed to provide APPs with the latest\, evidence-based strategi
- es to optimize care and outcomes for patients with cancer. Advancing Knowl
- edge. Recognizing Excellence. Building Connections. Our conference is desi
- gned to promote learning\, expand the knowledge of NPs and PAs\, and suppo
- rt professional growth through engaging educational sessions and updates i
- n clinical practice. We proudly recognize the accomplishments and contribu
- tions of our APPs through special awards presentations celebrating excelle
- nce within our profession. Beyond the educational experience\, we foster m
- eaningful connections and relationships through networking opportunities\,
-  including our highly anticipated bowling alley event — a favorite among
-  attendees from last year’s conference. Attendees will also enjoy fun an
- d practical conference giveaways as an added thank-you for being part of o
- ur conference experience. Dates: Friday\, September 18 (all day) and Satur
- day\, September 19\, 2026 (half day) Credits: This conference is approved 
- for 13 hours of AAPA Category 1 CME credits from the AAPA Review Panel. Au
- dience: This conference is designed for advanced practice providers\, incl
- uding nurse practitioners\, physician assistants\, pharmacists\, nurses an
- d APP students.\n\nWinship event page: https://apps.winshipcancer.emory.ed
- u/admin/Event/6715/5th-annual-hematology-and-oncology-updates-for-the-adva
- nced-practice-provider/
+SUMMARY:[Lectures and Training] 5th Annual Hematology and Oncology Updates
+  for the Advanced Practice Provider
+DTSTART;TZID=America/New_York:20260918T080000
+DTEND;TZID=America/New_York:20260919T120000
+DTSTAMP:20260731T205418Z
+UID:winship-b0d9dfaa3b2aa944832fb4c2@emory-seminars
+DESCRIPTION:Program: Lectures and Training\n\nSpeaker: 5th Annual Hematolo
+ gy and Oncology Updates for the Advanced Practice Provider\n\nEvent type: 
+ Lectures and Training\n\nHosted by Winship Cancer Institute of Emory Unive
+ rsity\, the 5th Annual Hematology and Oncology Updates for the Advanced Pr
+ actice Provider is a two-day continuing education program designed to prov
+ ide APPs with the latest\, evidence-based strategies to optimize care and 
+ outcomes for patients with cancer. Advancing Knowledge. Recognizing Excell
+ ence. Building Connections. Our conference is designed to promote learning
+ \, expand the knowledge of NPs and PAs\, and support professional growth t
+ hrough engaging educational sessions and updates in clinical practice. We 
+ proudly recognize the accomplishments and contributions of our APPs throug
+ h special awards presentations celebrating excellence within our professio
+ n. Beyond the educational experience\, we foster meaningful connections an
+ d relationships through networking opportunities\, including our highly an
+ ticipated bowling alley event — a favorite among attendees from last yea
+ r’s conference. Attendees will also enjoy fun and practical conference g
+ iveaways as an added thank-you for being part of our conference experience
+ . Dates: Friday\, September 18 (all day) and Saturday\, September 19\, 202
+ 6 (half day) Credits: This conference is approved for 13 hours of AAPA Cat
+ egory 1 CME credits from the AAPA Review Panel. Audience: This conference 
+ is designed for advanced practice providers\, including nurse practitioner
+ s\, physician assistants\, pharmacists\, nurses and APP students.\n\nSourc
+ e: https://apps.winshipcancer.emory.edu/admin/Event/6715/5th-annual-hemato
+ logy-and-oncology-updates-for-the-advanced-practice-provider/
 LOCATION:Emory Conference Center Hotel 1615 Clifton Road NE Atlanta \, Geo
  rgia 30329
 STATUS:CONFIRMED
@@ -632,17 +528,18 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6715/5th-annual-hemat
  ology-and-oncology-updates-for-the-advanced-practice-provider/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Virtual - Discovery and Developmental Therapeutics (DDT) Program M
- eeting - Mijin Kim\, PhD
-DTSTART:20260918T130000Z
-DTEND:20260918T140000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6654@seminar-calendar
-DESCRIPTION:Presenter: Mijin Kim\, PhD Assistant Professor Georgia Institu
- te of Technology\n\nEvent type: Program Meeting\n\nJoin via Zoom: https://
- zoom.us/j/92540438724\n\nWinship event page: https://apps.winshipcancer.em
- ory.edu/admin/Event/6654/virtual---discovery-and-developmental-therapeutic
- s-ddt-program-meeting---mijin-kim-phd/
+SUMMARY:[Discovery and Developmental Therapeutics (DDT) Program Meeting] M
+ ijin Kim\, PhD Assistant Professor Georgia Institute of Technology
+DTSTART;TZID=America/New_York:20260918T090000
+DTEND;TZID=America/New_York:20260918T100000
+DTSTAMP:20260731T205418Z
+UID:winship-dcc208f53d6e9ab72b00c032@emory-seminars
+DESCRIPTION:Program: Discovery and Developmental Therapeutics (DDT) Progra
+ m Meeting\n\nSpeaker: Mijin Kim\, PhD Assistant Professor Georgia Institut
+ e of Technology\n\nEvent type: Program Meeting\n\nJoin via Zoom:\nhttps://
+ zoom.us/j/92540438724\n\nSource: https://apps.winshipcancer.emory.edu/admi
+ n/Event/6654/virtual---discovery-and-developmental-therapeutics-ddt-progra
+ m-meeting---mijin-kim-phd/
 LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -650,17 +547,18 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6654/virtual---discov
  ery-and-developmental-therapeutics-ddt-program-meeting---mijin-kim-phd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Elkin Lecture - Arun Wiita\, MD\, PhD - "TBD"
-DTSTART:20260918T161500Z
-DTEND:20260918T171500Z
-DTSTAMP:20260731T203835Z
-UID:winship-6737@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nElkin Lectures are open t
- o all and held on Friday afternoons at 12:15 p.m. from September through M
- ay. Join us in person in the John H. Kauffman Auditorium with lunch provid
- ed.\n\nJoin via Zoom: https://zoom.us/s/94421326534\n\nWinship event page:
-  https://apps.winshipcancer.emory.edu/admin/Event/6737/elkin-lecture---aru
- n-wiita-md-phd---tbd/
+SUMMARY:[Elkin Lecture] Arun Wiita\, MD\, PhD — TBD
+DTSTART;TZID=America/New_York:20260918T121500
+DTEND;TZID=America/New_York:20260918T131500
+DTSTAMP:20260731T205418Z
+UID:winship-eb15cf474baec4f5a552817f@emory-seminars
+DESCRIPTION:Program: Elkin Lecture\n\nSpeaker: Arun Wiita\, MD\, PhD\n\nEv
+ ent type: Lectures and Training\n\nTalk title: TBD\n\nElkin Lectures are o
+ pen to all and held on Friday afternoons at 12:15 p.m. from September thro
+ ugh May. Join us in person in the John H. Kauffman Auditorium with lunch p
+ rovided.\n\nJoin via Zoom:\nhttps://zoom.us/s/94421326534\n\nSource: https
+ ://apps.winshipcancer.emory.edu/admin/Event/6737/elkin-lecture---arun-wiit
+ a-md-phd---tbd/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -669,16 +567,17 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6737/elkin-lecture---
  arun-wiita-md-phd---tbd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Atlanta Breast Cancer Conference
-DTSTART:20260919T120000Z
-DTEND:20260919T180000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6732@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nThe Atlanta Breast Cancer
-  Symposium\, taking place at JW Marriott Buckhead on September 19\, 2026\,
-  will feature a comprehensive review of the latest treatments for patients
-  with breast cancer.\n\nWinship event page: https://apps.winshipcancer.emo
- ry.edu/admin/Event/6732/atlanta-breast-cancer-conference/
+SUMMARY:[Lectures and Training] Atlanta Breast Cancer Conference
+DTSTART;TZID=America/New_York:20260919T080000
+DTEND;TZID=America/New_York:20260919T140000
+DTSTAMP:20260731T205418Z
+UID:winship-a71c449831915b882fedc9f0@emory-seminars
+DESCRIPTION:Program: Lectures and Training\n\nSpeaker: Atlanta Breast Canc
+ er Conference\n\nEvent type: Lectures and Training\n\nThe Atlanta Breast C
+ ancer Symposium\, taking place at JW Marriott Buckhead on September 19\, 2
+ 026\, will feature a comprehensive review of the latest treatments for pat
+ ients with breast cancer.\n\nSource: https://apps.winshipcancer.emory.edu/
+ admin/Event/6732/atlanta-breast-cancer-conference/
 LOCATION:JW Marriott Atlanta Buckhead 3300 Lenox Rd NE Atlanta \, Georgia 
  30326
 STATUS:CONFIRMED
@@ -687,17 +586,34 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6732/atlanta-breast-c
  ancer-conference/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Elkin Lecture - Mrinal S. Patnaik\, MBBS - "TBD"
-DTSTART:20260925T161500Z
-DTEND:20260925T171500Z
-DTSTAMP:20260731T203835Z
-UID:winship-6738@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nElkin Lectures are open t
- o all and held on Friday afternoons at 12:15 p.m. from September through M
- ay. Join us in person in the John H. Kauffman Auditorium with lunch provid
- ed.\n\nJoin via Zoom: https://zoom.us/s/94421326534\n\nWinship event page:
-  https://apps.winshipcancer.emory.edu/admin/Event/6738/elkin-lecture---mri
- nal-s-patnaik-mbbs---tbd/
+SUMMARY:[Seminars] Philip Lupo\, PhD
+DTSTART;TZID=America/New_York:20260921T120000
+DTEND;TZID=America/New_York:20260921T130000
+DTSTAMP:20260731T205418Z
+UID:human_genetics-bbf437e485efd4ebaab1dcdd@emory-seminars
+DESCRIPTION:Program: Seminars\n\nSpeaker: Philip Lupo\, PhD\n\nAffiliation
+ : Emory University\n\nHost: Peng Jin\, PhD\n\nJoin via Zoom:\nhttps://zoom
+ .us/j/98422445740 \n\nSource: https://med.emory.edu/departments/human-gene
+ tics/upcoming_grandrounds_seminars.html
+LOCATION:Whitehead Biomedical Research Building\, Suite 300
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://med.emory.edu/departments/human-genetics/upcoming_grandrounds_
+ seminars.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Elkin Lecture] Mrinal S. Patnaik\, MBBS — TBD
+DTSTART;TZID=America/New_York:20260925T121500
+DTEND;TZID=America/New_York:20260925T131500
+DTSTAMP:20260731T205418Z
+UID:winship-6160a79135439999a9eaf8c9@emory-seminars
+DESCRIPTION:Program: Elkin Lecture\n\nSpeaker: Mrinal S. Patnaik\, MBBS\n\
+ nEvent type: Lectures and Training\n\nTalk title: TBD\n\nElkin Lectures ar
+ e open to all and held on Friday afternoons at 12:15 p.m. from September t
+ hrough May. Join us in person in the John H. Kauffman Auditorium with lunc
+ h provided.\n\nJoin via Zoom:\nhttps://zoom.us/s/94421326534\n\nSource: ht
+ tps://apps.winshipcancer.emory.edu/admin/Event/6738/elkin-lecture---mrinal
+ -s-patnaik-mbbs---tbd/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -706,18 +622,35 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6738/elkin-lecture---
  mrinal-s-patnaik-mbbs---tbd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Virtual - Cell and Molecular Biology (CMB) Program Meeting - Zhen 
- Chen\, PhD
-DTSTART:20261001T200000Z
-DTEND:20261001T210000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6621@seminar-calendar
-DESCRIPTION:Presenter: Zhen Chen\, PhD Assistant Professor\, Hematology & 
- Medical Oncology School of Medicine\n\nEvent type: Program Meeting\n\nJoin
-  by Zoom: https://zoom.us/j/97017425710 Join by Phone: 470.250.9358 Meetin
- g ID: 970 1742 5710\n\nJoin via Zoom: https://zoom.us/j/97017425710\n\nWin
- ship event page: https://apps.winshipcancer.emory.edu/admin/Event/6621/vir
- tual---cell-and-molecular-biology-cmb-program-meeting---zhen-chen-phd/
+SUMMARY:[Grand Rounds] David Ledbetter\, PhD\, FACMG
+DTSTART;TZID=America/New_York:20260928T080000
+DTEND;TZID=America/New_York:20260928T090000
+DTSTAMP:20260731T205418Z
+UID:human_genetics-d61fa495c1142d0a74e0e4da@emory-seminars
+DESCRIPTION:Program: Grand Rounds\n\nSpeaker: David Ledbetter\, PhD\, FACM
+ G\n\nAffiliation: Florida State University\n\nHost: William Wilcox\, MD\, 
+ PhD\n\nJoin via Zoom:\nhttps://zoom.us/j/98422445740 \n\nSource: https://m
+ ed.emory.edu/departments/human-genetics/upcoming_grandrounds_seminars.html
+LOCATION:Whitehead Biomedical Research Building\, Suite 300
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://med.emory.edu/departments/human-genetics/upcoming_grandrounds_
+ seminars.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Cell and Molecular Biology (CMB) Program Meeting] Zhen Chen\, PhD
+  Assistant Professor\, Hematology & Medical Oncology School of Medicine
+DTSTART;TZID=America/New_York:20261001T160000
+DTEND;TZID=America/New_York:20261001T170000
+DTSTAMP:20260731T205418Z
+UID:winship-35a257cdbdc62f84721bf3d4@emory-seminars
+DESCRIPTION:Program: Cell and Molecular Biology (CMB) Program Meeting\n\nS
+ peaker: Zhen Chen\, PhD Assistant Professor\, Hematology & Medical Oncolog
+ y School of Medicine\n\nEvent type: Program Meeting\n\nJoin by Zoom: https
+ ://zoom.us/j/97017425710 Join by Phone: 470.250.9358 Meeting ID: 970 1742 
+ 5710\n\nJoin via Zoom:\nhttps://zoom.us/j/97017425710\n\nSource: https://a
+ pps.winshipcancer.emory.edu/admin/Event/6621/virtual---cell-and-molecular-
+ biology-cmb-program-meeting---zhen-chen-phd/
 LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -725,17 +658,17 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6621/virtual---cell-a
  nd-molecular-biology-cmb-program-meeting---zhen-chen-phd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Elkin Lecture - "TBD"
-DTSTART:20261002T161500Z
-DTEND:20261002T171500Z
-DTSTAMP:20260731T203835Z
-UID:winship-6739@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nElkin Lectures are open t
- o all and held on Friday afternoons at 12:15 p.m. from September through M
- ay. Join us in person in the John H. Kauffman Auditorium with lunch provid
- ed.\n\nJoin via Zoom: https://zoom.us/s/94421326534\n\nWinship event page:
-  https://apps.winshipcancer.emory.edu/admin/Event/6739/elkin-lecture---tbd
- /
+SUMMARY:[Elkin Lecture] — TBD
+DTSTART;TZID=America/New_York:20261002T121500
+DTEND;TZID=America/New_York:20261002T131500
+DTSTAMP:20260731T205418Z
+UID:winship-61eb4464d94d83f097395a9e@emory-seminars
+DESCRIPTION:Program: Elkin Lecture\n\nEvent type: Lectures and Training\n\
+ nTalk title: TBD\n\nElkin Lectures are open to all and held on Friday afte
+ rnoons at 12:15 p.m. from September through May. Join us in person in the 
+ John H. Kauffman Auditorium with lunch provided.\n\nJoin via Zoom:\nhttps:
+ //zoom.us/s/94421326534\n\nSource: https://apps.winshipcancer.emory.edu/ad
+ min/Event/6739/elkin-lecture---tbd/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -744,17 +677,18 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6739/elkin-lecture---
  tbd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Elkin Lecture - Peter Wang\, PhD - "TBD"
-DTSTART:20261002T161500Z
-DTEND:20261002T171500Z
-DTSTAMP:20260731T203835Z
-UID:winship-6740@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nElkin Lectures are open t
+SUMMARY:[Elkin Lecture] Peter Wang\, PhD — TBD
+DTSTART;TZID=America/New_York:20261002T121500
+DTEND;TZID=America/New_York:20261002T131500
+DTSTAMP:20260731T205418Z
+UID:winship-8f62f12dd40fd13e5b824979@emory-seminars
+DESCRIPTION:Program: Elkin Lecture\n\nSpeaker: Peter Wang\, PhD\n\nEvent t
+ ype: Lectures and Training\n\nTalk title: TBD\n\nElkin Lectures are open t
  o all and held on Friday afternoons at 12:15 p.m. from September through M
  ay. Join us in person in the John H. Kauffman Auditorium with lunch provid
- ed.\n\nJoin via Zoom: https://zoom.us/s/94421326534\n\nWinship event page:
-  https://apps.winshipcancer.emory.edu/admin/Event/6740/elkin-lecture---pet
- er-wang-phd---tbd/
+ ed.\n\nJoin via Zoom:\nhttps://zoom.us/s/94421326534\n\nSource: https://ap
+ ps.winshipcancer.emory.edu/admin/Event/6740/elkin-lecture---peter-wang-phd
+ ---tbd/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -763,14 +697,30 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6740/elkin-lecture---
  peter-wang-phd---tbd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Grand Rounds - "TBD"
-DTSTART:20261007T160000Z
-DTEND:20261007T170000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6751@seminar-calendar
-DESCRIPTION:Event type: Grand Rounds\n\nJoin via Zoom: https://zoom.us/s/9
- 8869772644\n\nWinship event page: https://apps.winshipcancer.emory.edu/adm
- in/Event/6751/grand-rounds---tbd/
+SUMMARY:[Seminars] Deborah J. Luessen\, PhD
+DTSTART;TZID=America/New_York:20261005T120000
+DTEND;TZID=America/New_York:20261005T130000
+DTSTAMP:20260731T205418Z
+UID:human_genetics-af3f8d0c9a5921a114cecb19@emory-seminars
+DESCRIPTION:Program: Seminars\n\nSpeaker: Deborah J. Luessen\, PhD\n\nAffi
+ liation: Emory University\n\nHost: Fikri Birey\, PhD\n\nJoin via Zoom:\nht
+ tps://zoom.us/j/98422445740 \n\nSource: https://med.emory.edu/departments/
+ human-genetics/upcoming_grandrounds_seminars.html
+LOCATION:Whitehead Biomedical Research Building\, Suite 300
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://med.emory.edu/departments/human-genetics/upcoming_grandrounds_
+ seminars.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Grand Rounds] — TBD
+DTSTART;TZID=America/New_York:20261007T120000
+DTEND;TZID=America/New_York:20261007T130000
+DTSTAMP:20260731T205418Z
+UID:winship-92e0c2983b8e6d09d35672dc@emory-seminars
+DESCRIPTION:Program: Grand Rounds\n\nEvent type: Grand Rounds\n\nTalk titl
+ e: TBD\n\nJoin via Zoom:\nhttps://zoom.us/s/98869772644\n\nSource: https:/
+ /apps.winshipcancer.emory.edu/admin/Event/6751/grand-rounds---tbd/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -779,14 +729,15 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6751/grand-rounds---t
  bd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:In Person - Cancer Immunology (CI) Program Meeting
-DTSTART:20261008T160000Z
-DTEND:20261008T170000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6643@seminar-calendar
-DESCRIPTION:Event type: Program Meeting\n\nJoin via Zoom: https://zoom.us/
- j/98990759560\n\nWinship event page: https://apps.winshipcancer.emory.edu/
- admin/Event/6643/in-person---cancer-immunology-ci-program-meeting/
+SUMMARY:[Cancer Immunology (CI) Program Meeting]
+DTSTART;TZID=America/New_York:20261008T120000
+DTEND;TZID=America/New_York:20261008T130000
+DTSTAMP:20260731T205418Z
+UID:winship-257d8a1871ad13fb0879058c@emory-seminars
+DESCRIPTION:Program: Cancer Immunology (CI) Program Meeting\n\nEvent type:
+  Program Meeting\n\nJoin via Zoom:\nhttps://zoom.us/j/98990759560\n\nSourc
+ e: https://apps.winshipcancer.emory.edu/admin/Event/6643/in-person---cance
+ r-immunology-ci-program-meeting/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -795,18 +746,35 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6643/in-person---canc
  er-immunology-ci-program-meeting/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Virtual - Cancer Prevention and Control (CPC) Program Meeting - Jo
- se Monteiro\, MD
-DTSTART:20261015T200000Z
-DTEND:20261015T210000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6631@seminar-calendar
-DESCRIPTION:Presenter: Jose Augusto Monteiro de Oliveira Nova\, MD Assista
- nt Professor\, Hematology & Medical Oncology School of Medicine\n\nEvent t
- ype: Program Meeting\n\nJoin via Zoom: https://zoom.us/j/95136013347\n\nWi
- nship event page: https://apps.winshipcancer.emory.edu/admin/Event/6631/vi
- rtual---cancer-prevention-and-control-cpc-program-meeting---jose-monteiro-
- md/
+SUMMARY:[Grand Rounds] Leo Anthony Celi\, MD
+DTSTART;TZID=America/New_York:20261012T080000
+DTEND;TZID=America/New_York:20261012T090000
+DTSTAMP:20260731T205418Z
+UID:human_genetics-ca305c31ee766ff3597d6dfe@emory-seminars
+DESCRIPTION:Program: Grand Rounds\n\nSpeaker: Leo Anthony Celi\, MD\n\nAff
+ iliation: MIT\n\nHost: William Wilcox\, MD\, PhD\n\nJoin via Zoom:\nhttps:
+ //zoom.us/j/98422445740 \n\nSource: https://med.emory.edu/departments/huma
+ n-genetics/upcoming_grandrounds_seminars.html
+LOCATION:Whitehead Biomedical Research Building\, Suite 300
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://med.emory.edu/departments/human-genetics/upcoming_grandrounds_
+ seminars.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Cancer Prevention and Control (CPC) Program Meeting] Jose Augusto
+  Monteiro de Oliveira Nova\, MD Assistant Professor\, Hematology & Medical
+  Oncology School of Medicine
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T170000
+DTSTAMP:20260731T205418Z
+UID:winship-e985b72464f970470a12fa8a@emory-seminars
+DESCRIPTION:Program: Cancer Prevention and Control (CPC) Program Meeting\n
+ \nSpeaker: Jose Augusto Monteiro de Oliveira Nova\, MD Assistant Professor
+ \, Hematology & Medical Oncology School of Medicine\n\nEvent type: Program
+  Meeting\n\nJoin via Zoom:\nhttps://zoom.us/j/95136013347\n\nSource: https
+ ://apps.winshipcancer.emory.edu/admin/Event/6631/virtual---cancer-preventi
+ on-and-control-cpc-program-meeting---jose-monteiro-md/
 LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -814,17 +782,18 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6631/virtual---cancer
  -prevention-and-control-cpc-program-meeting---jose-monteiro-md/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Virtual - Discovery and Developmental Therapeutics (DDT) Program M
- eeting - Byram Ozer\, MD\, PhD
-DTSTART:20261016T130000Z
-DTEND:20261016T140000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6655@seminar-calendar
-DESCRIPTION:Presenter: Byram Ozer\, MD\, PhD Associate Professor\, Neurolo
- gy School of Medicine\n\nEvent type: Program Meeting\n\nJoin via Zoom: htt
- ps://zoom.us/j/92540438724\n\nWinship event page: https://apps.winshipcanc
- er.emory.edu/admin/Event/6655/virtual---discovery-and-developmental-therap
- eutics-ddt-program-meeting---byram-ozer-md-phd/
+SUMMARY:[Discovery and Developmental Therapeutics (DDT) Program Meeting] B
+ yram Ozer\, MD\, PhD Associate Professor\, Neurology School of Medicine
+DTSTART;TZID=America/New_York:20261016T090000
+DTEND;TZID=America/New_York:20261016T100000
+DTSTAMP:20260731T205418Z
+UID:winship-f0cf04cc47c9cd75f577d1c4@emory-seminars
+DESCRIPTION:Program: Discovery and Developmental Therapeutics (DDT) Progra
+ m Meeting\n\nSpeaker: Byram Ozer\, MD\, PhD Associate Professor\, Neurolog
+ y School of Medicine\n\nEvent type: Program Meeting\n\nJoin via Zoom:\nhtt
+ ps://zoom.us/j/92540438724\n\nSource: https://apps.winshipcancer.emory.edu
+ /admin/Event/6655/virtual---discovery-and-developmental-therapeutics-ddt-p
+ rogram-meeting---byram-ozer-md-phd/
 LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -833,17 +802,18 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6655/virtual---discov
  /
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Elkin Lecture - Timothy Bullock\, PhD - "TBD"
-DTSTART:20261016T161500Z
-DTEND:20261016T171500Z
-DTSTAMP:20260731T203835Z
-UID:winship-6741@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nElkin Lectures are open t
- o all and held on Friday afternoons at 12:15 p.m. from September through M
- ay. Join us in person in the John H. Kauffman Auditorium with lunch provid
- ed.\n\nJoin via Zoom: https://zoom.us/s/94421326534\n\nWinship event page:
-  https://apps.winshipcancer.emory.edu/admin/Event/6741/elkin-lecture---tim
- othy-bullock-phd---tbd/
+SUMMARY:[Elkin Lecture] Timothy Bullock\, PhD — TBD
+DTSTART;TZID=America/New_York:20261016T121500
+DTEND;TZID=America/New_York:20261016T131500
+DTSTAMP:20260731T205418Z
+UID:winship-471abb1d5a8c635cfe9f3800@emory-seminars
+DESCRIPTION:Program: Elkin Lecture\n\nSpeaker: Timothy Bullock\, PhD\n\nEv
+ ent type: Lectures and Training\n\nTalk title: TBD\n\nElkin Lectures are o
+ pen to all and held on Friday afternoons at 12:15 p.m. from September thro
+ ugh May. Join us in person in the John H. Kauffman Auditorium with lunch p
+ rovided.\n\nJoin via Zoom:\nhttps://zoom.us/s/94421326534\n\nSource: https
+ ://apps.winshipcancer.emory.edu/admin/Event/6741/elkin-lecture---timothy-b
+ ullock-phd---tbd/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -852,15 +822,32 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6741/elkin-lecture---
  timothy-bullock-phd---tbd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Grand Rounds - Akanksha Mehta\, MD and Jacqueline Lee\, MD - "TBD"
-DTSTART:20261021T160000Z
-DTEND:20261021T170000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6753@seminar-calendar
-DESCRIPTION:Event type: Grand Rounds\n\nJoin via Zoom: https://zoom.us/s/9
- 8869772644\n\nWinship event page: https://apps.winshipcancer.emory.edu/adm
- in/Event/6753/grand-rounds---akanksha-mehta-md-and-jacqueline-lee-md---tbd
- /
+SUMMARY:[Seminars] Qiang Chang\, PhD
+DTSTART;TZID=America/New_York:20261019T120000
+DTEND;TZID=America/New_York:20261019T130000
+DTSTAMP:20260731T205418Z
+UID:human_genetics-db36a09c6164f4e7a96ecdc4@emory-seminars
+DESCRIPTION:Program: Seminars\n\nSpeaker: Qiang Chang\, PhD\n\nAffiliation
+ : University of Wisconsin-Madison\n\nHost: Jian Zhou\, PhD\n\nJoin via Zoo
+ m:\nhttps://zoom.us/j/98422445740 \n\nSource: https://med.emory.edu/depart
+ ments/human-genetics/upcoming_grandrounds_seminars.html
+LOCATION:Whitehead Biomedical Research Building\, Suite 300
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://med.emory.edu/departments/human-genetics/upcoming_grandrounds_
+ seminars.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Grand Rounds] Akanksha Mehta\, MD and Jacqueline Lee\, MD — TBD
+DTSTART;TZID=America/New_York:20261021T120000
+DTEND;TZID=America/New_York:20261021T130000
+DTSTAMP:20260731T205418Z
+UID:winship-8512cf370d6f18b2b3584657@emory-seminars
+DESCRIPTION:Program: Grand Rounds\n\nSpeaker: Akanksha Mehta\, MD and Jacq
+ ueline Lee\, MD\n\nEvent type: Grand Rounds\n\nTalk title: TBD\n\nJoin via
+  Zoom:\nhttps://zoom.us/s/98869772644\n\nSource: https://apps.winshipcance
+ r.emory.edu/admin/Event/6753/grand-rounds---akanksha-mehta-md-and-jacqueli
+ ne-lee-md---tbd/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -869,17 +856,18 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6753/grand-rounds---a
  kanksha-mehta-md-and-jacqueline-lee-md---tbd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Elkin Lecture - Lifeng Yu\, PhD - "TBD"
-DTSTART:20261023T161500Z
-DTEND:20261023T171500Z
-DTSTAMP:20260731T203835Z
-UID:winship-6742@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nElkin Lectures are open t
- o all and held on Friday afternoons at 12:15 p.m. from September through M
- ay. Join us in person in the John H. Kauffman Auditorium with lunch provid
- ed.\n\nJoin via Zoom: https://zoom.us/s/94421326534\n\nWinship event page:
-  https://apps.winshipcancer.emory.edu/admin/Event/6742/elkin-lecture---lif
- eng-yu-phd---tbd/
+SUMMARY:[Elkin Lecture] Lifeng Yu\, PhD — TBD
+DTSTART;TZID=America/New_York:20261023T121500
+DTEND;TZID=America/New_York:20261023T131500
+DTSTAMP:20260731T205418Z
+UID:winship-36fcd1c499ee96b43aae32c6@emory-seminars
+DESCRIPTION:Program: Elkin Lecture\n\nSpeaker: Lifeng Yu\, PhD\n\nEvent ty
+ pe: Lectures and Training\n\nTalk title: TBD\n\nElkin Lectures are open to
+  all and held on Friday afternoons at 12:15 p.m. from September through Ma
+ y. Join us in person in the John H. Kauffman Auditorium with lunch provide
+ d.\n\nJoin via Zoom:\nhttps://zoom.us/s/94421326534\n\nSource: https://app
+ s.winshipcancer.emory.edu/admin/Event/6742/elkin-lecture---lifeng-yu-phd--
+ -tbd/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -888,17 +876,33 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6742/elkin-lecture---
  lifeng-yu-phd---tbd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Elkin Lecture - "TBD"
-DTSTART:20261030T161500Z
-DTEND:20261030T171500Z
-DTSTAMP:20260731T203835Z
-UID:winship-6743@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nElkin Lectures are open t
- o all and held on Friday afternoons at 12:15 p.m. from September through M
- ay. Join us in person in the John H. Kauffman Auditorium with lunch provid
- ed.\n\nJoin via Zoom: https://zoom.us/s/94421326534\n\nWinship event page:
-  https://apps.winshipcancer.emory.edu/admin/Event/6743/elkin-lecture---tbd
- /
+SUMMARY:[Grand Rounds] Stanley Crooke\, MD\, PhD
+DTSTART;TZID=America/New_York:20261026T080000
+DTEND;TZID=America/New_York:20261026T090000
+DTSTAMP:20260731T205418Z
+UID:human_genetics-c2c8fe1a7fcccbe804e527db@emory-seminars
+DESCRIPTION:Program: Grand Rounds\n\nSpeaker: Stanley Crooke\, MD\, PhD\n\
+ nAffiliation: n-Lorem\n\nHost: Mari Mori\, MD\n\nJoin via Zoom:\nhttps://z
+ oom.us/j/98422445740 \n\nSource: https://med.emory.edu/departments/human-g
+ enetics/upcoming_grandrounds_seminars.html
+LOCATION:Whitehead Biomedical Research Building\, Suite 300
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://med.emory.edu/departments/human-genetics/upcoming_grandrounds_
+ seminars.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Elkin Lecture] — TBD
+DTSTART;TZID=America/New_York:20261030T121500
+DTEND;TZID=America/New_York:20261030T131500
+DTSTAMP:20260731T205418Z
+UID:winship-a73406f9fb09d34a96a0c0f8@emory-seminars
+DESCRIPTION:Program: Elkin Lecture\n\nEvent type: Lectures and Training\n\
+ nTalk title: TBD\n\nElkin Lectures are open to all and held on Friday afte
+ rnoons at 12:15 p.m. from September through May. Join us in person in the 
+ John H. Kauffman Auditorium with lunch provided.\n\nJoin via Zoom:\nhttps:
+ //zoom.us/s/94421326534\n\nSource: https://apps.winshipcancer.emory.edu/ad
+ min/Event/6743/elkin-lecture---tbd/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -907,14 +911,15 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6743/elkin-lecture---
  tbd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Winship Scientific Symposium 2026
-DTSTART:20261102T133000Z
-DTEND:20261102T221500Z
-DTSTAMP:20260731T203835Z
-UID:winship-6713@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nWinship event page: https
- ://apps.winshipcancer.emory.edu/admin/Event/6713/winship-scientific-sympos
- ium-2026/
+SUMMARY:[Lectures and Training] Winship Scientific Symposium 2026
+DTSTART;TZID=America/New_York:20261102T083000
+DTEND;TZID=America/New_York:20261102T171500
+DTSTAMP:20260731T205418Z
+UID:winship-ae8b730ee84ecaa5396feef9@emory-seminars
+DESCRIPTION:Program: Lectures and Training\n\nSpeaker: Winship Scientific 
+ Symposium 2026\n\nEvent type: Lectures and Training\n\nSource: https://app
+ s.winshipcancer.emory.edu/admin/Event/6713/winship-scientific-symposium-20
+ 26/
 LOCATION:Emory Conference Center Hotel 1615 Clifton Road NE Atlanta \, Geo
  rgia 30329
 STATUS:CONFIRMED
@@ -923,14 +928,31 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6713/winship-scientif
  ic-symposium-2026/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Grand Rounds - Elizabeth Berry\, MD - "TBD"
-DTSTART:20261104T170000Z
-DTEND:20261104T180000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6754@seminar-calendar
-DESCRIPTION:Event type: Grand Rounds\n\nJoin via Zoom: https://zoom.us/s/9
- 8869772644\n\nWinship event page: https://apps.winshipcancer.emory.edu/adm
- in/Event/6754/grand-rounds---elizabeth-berry-md---tbd/
+SUMMARY:[Seminars] Elizabeth M Kennedy\, PhD
+DTSTART;TZID=America/New_York:20261102T120000
+DTEND;TZID=America/New_York:20261102T130000
+DTSTAMP:20260731T205418Z
+UID:human_genetics-473859399830d877a638f82b@emory-seminars
+DESCRIPTION:Program: Seminars\n\nSpeaker: Elizabeth M Kennedy\, PhD\n\nAff
+ iliation: Emory University\n\nHost: Karen Conneely\, PhD\n\nJoin via Zoom:
+ \nhttps://zoom.us/j/98422445740 \n\nSource: https://med.emory.edu/departme
+ nts/human-genetics/upcoming_grandrounds_seminars.html
+LOCATION:Whitehead Biomedical Research Building\, Suite 300
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://med.emory.edu/departments/human-genetics/upcoming_grandrounds_
+ seminars.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Grand Rounds] Elizabeth Berry\, MD — TBD
+DTSTART;TZID=America/New_York:20261104T120000
+DTEND;TZID=America/New_York:20261104T130000
+DTSTAMP:20260731T205418Z
+UID:winship-962a7526f8a404da4dd07eec@emory-seminars
+DESCRIPTION:Program: Grand Rounds\n\nSpeaker: Elizabeth Berry\, MD\n\nEven
+ t type: Grand Rounds\n\nTalk title: TBD\n\nJoin via Zoom:\nhttps://zoom.us
+ /s/98869772644\n\nSource: https://apps.winshipcancer.emory.edu/admin/Event
+ /6754/grand-rounds---elizabeth-berry-md---tbd/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -939,17 +961,17 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6754/grand-rounds---e
  lizabeth-berry-md---tbd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Virtual - Cell and Molecular Biology (CMB) Program Meeting - Meng 
- Zhang\, MD
-DTSTART:20261105T210000Z
-DTEND:20261105T220000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6622@seminar-calendar
-DESCRIPTION:Event type: Program Meeting\n\nJoin by Zoom: https://zoom.us/j
- /97017425710 Join by Phone: 470.250.9358 Meeting ID: 970 1742 5710\n\nJoin
-  via Zoom: https://zoom.us/j/97017425710\n\nWinship event page: https://ap
- ps.winshipcancer.emory.edu/admin/Event/6622/virtual---cell-and-molecular-b
- iology-cmb-program-meeting---meng-zhang-md/
+SUMMARY:[Cell and Molecular Biology (CMB) Program Meeting] Meng Zhang\, MD
+DTSTART;TZID=America/New_York:20261105T160000
+DTEND;TZID=America/New_York:20261105T170000
+DTSTAMP:20260731T205418Z
+UID:winship-41d9dfb12734affb5d50a996@emory-seminars
+DESCRIPTION:Program: Cell and Molecular Biology (CMB) Program Meeting\n\nS
+ peaker: Meng Zhang\, MD\n\nEvent type: Program Meeting\n\nJoin by Zoom: ht
+ tps://zoom.us/j/97017425710 Join by Phone: 470.250.9358 Meeting ID: 970 17
+ 42 5710\n\nJoin via Zoom:\nhttps://zoom.us/j/97017425710\n\nSource: https:
+ //apps.winshipcancer.emory.edu/admin/Event/6622/virtual---cell-and-molecul
+ ar-biology-cmb-program-meeting---meng-zhang-md/
 LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -957,17 +979,18 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6622/virtual---cell-a
  nd-molecular-biology-cmb-program-meeting---meng-zhang-md/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Elkin Lecture - Joon Seok Park\, PhD - "TBD"
-DTSTART:20261106T171500Z
-DTEND:20261106T181500Z
-DTSTAMP:20260731T203835Z
-UID:winship-6744@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nElkin Lectures are open t
- o all and held on Friday afternoons at 12:15 p.m. from September through M
- ay. Join us in person in the John H. Kauffman Auditorium with lunch provid
- ed.\n\nJoin via Zoom: https://zoom.us/s/94421326534\n\nWinship event page:
-  https://apps.winshipcancer.emory.edu/admin/Event/6744/elkin-lecture---joo
- n-seok-park-phd---tbd/
+SUMMARY:[Elkin Lecture] Joon Seok Park\, PhD — TBD
+DTSTART;TZID=America/New_York:20261106T121500
+DTEND;TZID=America/New_York:20261106T131500
+DTSTAMP:20260731T205418Z
+UID:winship-887fed986c8c93b3a054f0eb@emory-seminars
+DESCRIPTION:Program: Elkin Lecture\n\nSpeaker: Joon Seok Park\, PhD\n\nEve
+ nt type: Lectures and Training\n\nTalk title: TBD\n\nElkin Lectures are op
+ en to all and held on Friday afternoons at 12:15 p.m. from September throu
+ gh May. Join us in person in the John H. Kauffman Auditorium with lunch pr
+ ovided.\n\nJoin via Zoom:\nhttps://zoom.us/s/94421326534\n\nSource: https:
+ //apps.winshipcancer.emory.edu/admin/Event/6744/elkin-lecture---joon-seok-
+ park-phd---tbd/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -976,17 +999,17 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6744/elkin-lecture---
  joon-seok-park-phd---tbd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Atlanta Lung Cancer Symposium
-DTSTART:20261107T130000Z
-DTEND:20261107T140000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6731@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nThe Atlanta Lung Cancer S
- ymposium is a pioneering educational program addressing current\, practica
- l strategies and state-of-the-art approaches for managing lung cancer\, an
- d offering updates on the latest clinical data.\n\nWinship event page: htt
- ps://apps.winshipcancer.emory.edu/admin/Event/6731/atlanta-lung-cancer-sym
- posium/
+SUMMARY:[Lectures and Training] Atlanta Lung Cancer Symposium
+DTSTART;TZID=America/New_York:20261107T080000
+DTEND;TZID=America/New_York:20261107T090000
+DTSTAMP:20260731T205418Z
+UID:winship-0a954e75115ac35059eda132@emory-seminars
+DESCRIPTION:Program: Lectures and Training\n\nSpeaker: Atlanta Lung Cancer
+  Symposium\n\nEvent type: Lectures and Training\n\nThe Atlanta Lung Cancer
+  Symposium is a pioneering educational program addressing current\, practi
+ cal strategies and state-of-the-art approaches for managing lung cancer\, 
+ and offering updates on the latest clinical data.\n\nSource: https://apps.
+ winshipcancer.emory.edu/admin/Event/6731/atlanta-lung-cancer-symposium/
 LOCATION:JW Marriott Atlanta Buckhead 3300 Lenox Rd NE Atlanta \, Georgia 
  30326
 STATUS:CONFIRMED
@@ -995,14 +1018,31 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6731/atlanta-lung-can
  cer-symposium/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:In Person - Cancer Immunology (CI) Program Meeting
-DTSTART:20261112T170000Z
-DTEND:20261112T180000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6644@seminar-calendar
-DESCRIPTION:Event type: Program Meeting\n\nJoin via Zoom: https://zoom.us/
- j/98990759560\n\nWinship event page: https://apps.winshipcancer.emory.edu/
- admin/Event/6644/in-person---cancer-immunology-ci-program-meeting/
+SUMMARY:[Grand Rounds] Francios Rollin\, MD
+DTSTART;TZID=America/New_York:20261109T080000
+DTEND;TZID=America/New_York:20261109T090000
+DTSTAMP:20260731T205418Z
+UID:human_genetics-78c0d1cc63cbc692477d2b6e@emory-seminars
+DESCRIPTION:Program: Grand Rounds\n\nSpeaker: Francios Rollin\, MD\n\nAffi
+ liation: Emory University/Grady\n\nHost: Mari Mori\, MD\n\nJoin via Zoom:\
+ nhttps://zoom.us/j/98422445740 \n\nSource: https://med.emory.edu/departmen
+ ts/human-genetics/upcoming_grandrounds_seminars.html
+LOCATION:Whitehead Biomedical Research Building\, Suite 300
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://med.emory.edu/departments/human-genetics/upcoming_grandrounds_
+ seminars.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Cancer Immunology (CI) Program Meeting]
+DTSTART;TZID=America/New_York:20261112T120000
+DTEND;TZID=America/New_York:20261112T130000
+DTSTAMP:20260731T205418Z
+UID:winship-d144a2ff3c81536053063e71@emory-seminars
+DESCRIPTION:Program: Cancer Immunology (CI) Program Meeting\n\nEvent type:
+  Program Meeting\n\nJoin via Zoom:\nhttps://zoom.us/j/98990759560\n\nSourc
+ e: https://apps.winshipcancer.emory.edu/admin/Event/6644/in-person---cance
+ r-immunology-ci-program-meeting/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -1011,17 +1051,18 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6644/in-person---canc
  er-immunology-ci-program-meeting/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Elkin Lecture - Drew Williamson\, MD - "TBD"
-DTSTART:20261113T171500Z
-DTEND:20261113T181500Z
-DTSTAMP:20260731T203835Z
-UID:winship-6745@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nElkin Lectures are open t
- o all and held on Friday afternoons at 12:15 p.m. from September through M
- ay. Join us in person in the John H. Kauffman Auditorium with lunch provid
- ed.\n\nJoin via Zoom: https://zoom.us/s/94421326534\n\nWinship event page:
-  https://apps.winshipcancer.emory.edu/admin/Event/6745/elkin-lecture---dre
- w-williamson-md---tbd/
+SUMMARY:[Elkin Lecture] Drew Williamson\, MD — TBD
+DTSTART;TZID=America/New_York:20261113T121500
+DTEND;TZID=America/New_York:20261113T131500
+DTSTAMP:20260731T205418Z
+UID:winship-976bb70ffb2019016479555e@emory-seminars
+DESCRIPTION:Program: Elkin Lecture\n\nSpeaker: Drew Williamson\, MD\n\nEve
+ nt type: Lectures and Training\n\nTalk title: TBD\n\nElkin Lectures are op
+ en to all and held on Friday afternoons at 12:15 p.m. from September throu
+ gh May. Join us in person in the John H. Kauffman Auditorium with lunch pr
+ ovided.\n\nJoin via Zoom:\nhttps://zoom.us/s/94421326534\n\nSource: https:
+ //apps.winshipcancer.emory.edu/admin/Event/6745/elkin-lecture---drew-willi
+ amson-md---tbd/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -1030,14 +1071,31 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6745/elkin-lecture---
  drew-williamson-md---tbd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Grand Rounds - David Prologo\, MD - "TBD"
-DTSTART:20261118T170000Z
-DTEND:20261118T180000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6755@seminar-calendar
-DESCRIPTION:Event type: Grand Rounds\n\nJoin via Zoom: https://zoom.us/s/9
- 8869772644\n\nWinship event page: https://apps.winshipcancer.emory.edu/adm
- in/Event/6755/grand-rounds---david-prologo-md---tbd/
+SUMMARY:[Seminars] Yinsheng Wang\, PhD
+DTSTART;TZID=America/New_York:20261116T120000
+DTEND;TZID=America/New_York:20261116T130000
+DTSTAMP:20260731T205418Z
+UID:human_genetics-119aca66965bfed87f6f2dd9@emory-seminars
+DESCRIPTION:Program: Seminars\n\nSpeaker: Yinsheng Wang\, PhD\n\nAffiliati
+ on: University of California Riverside\n\nHost: Hailing Shi\, PhD\n\nJoin 
+ via Zoom:\nhttps://zoom.us/j/98422445740 \n\nSource: https://med.emory.edu
+ /departments/human-genetics/upcoming_grandrounds_seminars.html
+LOCATION:Whitehead Biomedical Research Building\, Suite 300
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://med.emory.edu/departments/human-genetics/upcoming_grandrounds_
+ seminars.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Grand Rounds] David Prologo\, MD — TBD
+DTSTART;TZID=America/New_York:20261118T120000
+DTEND;TZID=America/New_York:20261118T130000
+DTSTAMP:20260731T205418Z
+UID:winship-4214dfbc5fa4555c18287df0@emory-seminars
+DESCRIPTION:Program: Grand Rounds\n\nSpeaker: David Prologo\, MD\n\nEvent 
+ type: Grand Rounds\n\nTalk title: TBD\n\nJoin via Zoom:\nhttps://zoom.us/s
+ /98869772644\n\nSource: https://apps.winshipcancer.emory.edu/admin/Event/6
+ 755/grand-rounds---david-prologo-md---tbd/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -1046,17 +1104,19 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6755/grand-rounds---d
  avid-prologo-md---tbd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Virtual - Cancer Prevention and Control (CPC) Program Meeting - Na
- di Nina Kaonga\, MD\, MHS\, MS
-DTSTART:20261119T210000Z
-DTEND:20261119T220000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6632@seminar-calendar
-DESCRIPTION:Presenter: Nadi Kaonga\, MD\, MHS\, MS Assistant Professor\, G
- ynecology & Obstetrics School of Medicine\n\nEvent type: Program Meeting\n
- \nJoin via Zoom: https://zoom.us/j/95136013347\n\nWinship event page: http
- s://apps.winshipcancer.emory.edu/admin/Event/6632/virtual---cancer-prevent
- ion-and-control-cpc-program-meeting---nadi-nina-kaonga-md-mhs-ms/
+SUMMARY:[Cancer Prevention and Control (CPC) Program Meeting] Nadi Kaonga\
+ , MD\, MHS\, MS Assistant Professor\, Gynecology & Obstetrics School of Me
+ dicine
+DTSTART;TZID=America/New_York:20261119T160000
+DTEND;TZID=America/New_York:20261119T170000
+DTSTAMP:20260731T205418Z
+UID:winship-c499d7089a174cdee8a5ba1c@emory-seminars
+DESCRIPTION:Program: Cancer Prevention and Control (CPC) Program Meeting\n
+ \nSpeaker: Nadi Kaonga\, MD\, MHS\, MS Assistant Professor\, Gynecology & 
+ Obstetrics School of Medicine\n\nEvent type: Program Meeting\n\nJoin via Z
+ oom:\nhttps://zoom.us/j/95136013347\n\nSource: https://apps.winshipcancer.
+ emory.edu/admin/Event/6632/virtual---cancer-prevention-and-control-cpc-pro
+ gram-meeting---nadi-nina-kaonga-md-mhs-ms/
 LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -1064,18 +1124,21 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6632/virtual---cancer
  -prevention-and-control-cpc-program-meeting---nadi-nina-kaonga-md-mhs-ms/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Virtual - Discovery and Developmental Therapeutics (DDT) Program M
- eeting - Weiping Tang\, PhD - "Enabling Platforms for the Targeted Degrada
- tion of Intra- and Extracellular Proteins"
-DTSTART:20261120T140000Z
-DTEND:20261120T150000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6656@seminar-calendar
-DESCRIPTION:Event type: Program Meeting\n\nJoin via Zoom: https://zoom.us/
- j/92540438724\n\nWinship event page: https://apps.winshipcancer.emory.edu/
- admin/Event/6656/virtual---discovery-and-developmental-therapeutics-ddt-pr
- ogram-meeting---weiping-tang-phd---enabling-platforms-for-the-targeted-deg
- radation-of-intra--and-extracellular-proteins/
+SUMMARY:[Discovery and Developmental Therapeutics (DDT) Program Meeting] W
+ eiping Tang\, PhD — Enabling Platforms for the Targeted Degradation of I
+ ntra- and Extracellular Proteins
+DTSTART;TZID=America/New_York:20261120T090000
+DTEND;TZID=America/New_York:20261120T100000
+DTSTAMP:20260731T205418Z
+UID:winship-a681eb8b1dd531755538a24d@emory-seminars
+DESCRIPTION:Program: Discovery and Developmental Therapeutics (DDT) Progra
+ m Meeting\n\nSpeaker: Weiping Tang\, PhD\n\nEvent type: Program Meeting\n\
+ nTalk title: Enabling Platforms for the Targeted Degradation of Intra- and
+  Extracellular Proteins\n\nJoin via Zoom:\nhttps://zoom.us/j/92540438724\n
+ \nSource: https://apps.winshipcancer.emory.edu/admin/Event/6656/virtual---
+ discovery-and-developmental-therapeutics-ddt-program-meeting---weiping-tan
+ g-phd---enabling-platforms-for-the-targeted-degradation-of-intra--and-extr
+ acellular-proteins/
 LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -1085,17 +1148,18 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6656/virtual---discov
  lar-proteins/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Elkin Lecture - Weiping Tang\, PhD - "TBD"
-DTSTART:20261120T171500Z
-DTEND:20261120T181500Z
-DTSTAMP:20260731T203835Z
-UID:winship-6746@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nElkin Lectures are open t
- o all and held on Friday afternoons at 12:15 p.m. from September through M
- ay. Join us in person in the John H. Kauffman Auditorium with lunch provid
- ed.\n\nJoin via Zoom: https://zoom.us/s/94421326534\n\nWinship event page:
-  https://apps.winshipcancer.emory.edu/admin/Event/6746/elkin-lecture---wei
- ping-tang-phd---tbd/
+SUMMARY:[Elkin Lecture] Weiping Tang\, PhD — TBD
+DTSTART;TZID=America/New_York:20261120T121500
+DTEND;TZID=America/New_York:20261120T131500
+DTSTAMP:20260731T205418Z
+UID:winship-eeec0b950ca83038f682e4be@emory-seminars
+DESCRIPTION:Program: Elkin Lecture\n\nSpeaker: Weiping Tang\, PhD\n\nEvent
+  type: Lectures and Training\n\nTalk title: TBD\n\nElkin Lectures are open
+  to all and held on Friday afternoons at 12:15 p.m. from September through
+  May. Join us in person in the John H. Kauffman Auditorium with lunch prov
+ ided.\n\nJoin via Zoom:\nhttps://zoom.us/s/94421326534\n\nSource: https://
+ apps.winshipcancer.emory.edu/admin/Event/6746/elkin-lecture---weiping-tang
+ -phd---tbd/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -1104,17 +1168,50 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6746/elkin-lecture---
  weiping-tang-phd---tbd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Elkin Lecture - Billy Marsiglia\, PhD - "TBD"
-DTSTART:20261204T171500Z
-DTEND:20261204T181500Z
-DTSTAMP:20260731T203835Z
-UID:winship-6747@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nElkin Lectures are open t
- o all and held on Friday afternoons at 12:15 p.m. from September through M
- ay. Join us in person in the John H. Kauffman Auditorium with lunch provid
- ed.\n\nJoin via Zoom: https://zoom.us/s/94421326534\n\nWinship event page:
-  https://apps.winshipcancer.emory.edu/admin/Event/6747/elkin-lecture---bil
- ly-marsiglia-phd---tbd/
+SUMMARY:[Grand Rounds] Jessica Gold\, MD
+DTSTART;TZID=America/New_York:20261123T080000
+DTEND;TZID=America/New_York:20261123T090000
+DTSTAMP:20260731T205418Z
+UID:human_genetics-d3dcc9bc7d10c5e5846670ef@emory-seminars
+DESCRIPTION:Program: Grand Rounds\n\nSpeaker: Jessica Gold\, MD\n\nAffilia
+ tion: University of Tennessee\n\nHost: TBD\n\nJoin via Zoom:\nhttps://zoom
+ .us/j/98422445740 \n\nSource: https://med.emory.edu/departments/human-gene
+ tics/upcoming_grandrounds_seminars.html
+LOCATION:Whitehead Biomedical Research Building\, Suite 300
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://med.emory.edu/departments/human-genetics/upcoming_grandrounds_
+ seminars.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Steven T. Warren Distinguished Lecture] Harr Orr\, PhD
+DTSTART;TZID=America/New_York:20261203T120000
+DTEND;TZID=America/New_York:20261203T130000
+DTSTAMP:20260731T205418Z
+UID:human_genetics-f20fa8fe25ff1ec4e1f8bee0@emory-seminars
+DESCRIPTION:Program: Steven T. Warren Distinguished Lecture\n\nSpeaker: Ha
+ rr Orr\, PhD\n\nAffiliation: University of Minnesota\n\nHost: Peng Jin\, P
+ hD\n\nJoin via Zoom:\nhttps://zoom.us/j/98422445740 \n\nSource: https://me
+ d.emory.edu/departments/human-genetics/upcoming_grandrounds_seminars.html
+LOCATION:Whitehead Biomedical Research Building\, Suite 300
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://med.emory.edu/departments/human-genetics/upcoming_grandrounds_
+ seminars.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Elkin Lecture] Billy Marsiglia\, PhD — TBD
+DTSTART;TZID=America/New_York:20261204T121500
+DTEND;TZID=America/New_York:20261204T131500
+DTSTAMP:20260731T205418Z
+UID:winship-18565168c6d61f53bd82e023@emory-seminars
+DESCRIPTION:Program: Elkin Lecture\n\nSpeaker: Billy Marsiglia\, PhD\n\nEv
+ ent type: Lectures and Training\n\nTalk title: TBD\n\nElkin Lectures are o
+ pen to all and held on Friday afternoons at 12:15 p.m. from September thro
+ ugh May. Join us in person in the John H. Kauffman Auditorium with lunch p
+ rovided.\n\nJoin via Zoom:\nhttps://zoom.us/s/94421326534\n\nSource: https
+ ://apps.winshipcancer.emory.edu/admin/Event/6747/elkin-lecture---billy-mar
+ siglia-phd---tbd/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -1123,14 +1220,31 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6747/elkin-lecture---
  billy-marsiglia-phd---tbd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Grand Rounds - Xin Hu\, Phd\, MSPH - "TBD"
-DTSTART:20261209T170000Z
-DTEND:20261209T180000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6756@seminar-calendar
-DESCRIPTION:Event type: Grand Rounds\n\nJoin via Zoom: https://zoom.us/s/9
- 8869772644\n\nWinship event page: https://apps.winshipcancer.emory.edu/adm
- in/Event/6756/grand-rounds---xin-hu-phd-msph---tbd/
+SUMMARY:[Grand Rounds] Alexandra "Sasha" Key\, PhD
+DTSTART;TZID=America/New_York:20261207T080000
+DTEND;TZID=America/New_York:20261207T090000
+DTSTAMP:20260731T205418Z
+UID:human_genetics-c72add664896763b9cd42c0b@emory-seminars
+DESCRIPTION:Program: Grand Rounds\n\nSpeaker: Alexandra "Sasha" Key\, PhD\
+ n\nAffiliation: Emory University\n\nHost: Mari Mori\, MD\n\nJoin via Zoom:
+ \nhttps://zoom.us/j/98422445740 \n\nSource: https://med.emory.edu/departme
+ nts/human-genetics/upcoming_grandrounds_seminars.html
+LOCATION:Whitehead Biomedical Research Building\, Suite 300
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://med.emory.edu/departments/human-genetics/upcoming_grandrounds_
+ seminars.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Grand Rounds] Xin Hu\, Phd\, MSPH — TBD
+DTSTART;TZID=America/New_York:20261209T120000
+DTEND;TZID=America/New_York:20261209T130000
+DTSTAMP:20260731T205418Z
+UID:winship-db683290aad1a5bbba825630@emory-seminars
+DESCRIPTION:Program: Grand Rounds\n\nSpeaker: Xin Hu\, Phd\, MSPH\n\nEvent
+  type: Grand Rounds\n\nTalk title: TBD\n\nJoin via Zoom:\nhttps://zoom.us/
+ s/98869772644\n\nSource: https://apps.winshipcancer.emory.edu/admin/Event/
+ 6756/grand-rounds---xin-hu-phd-msph---tbd/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -1139,17 +1253,17 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6756/grand-rounds---x
  in-hu-phd-msph---tbd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Virtual - Cancer Immunology (CI) Program Meeting - Edjah K. Nduom\
- , MD\, FAANS
-DTSTART:20261210T170000Z
-DTEND:20261210T180000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6645@seminar-calendar
-DESCRIPTION:Presenter: Edjah Nduom\, MD\, FAANS Professor\, Neurosurgery S
- chool of Medicine\n\nEvent type: Program Meeting\n\nJoin via Zoom: https:/
- /zoom.us/j/98990759560\n\nWinship event page: https://apps.winshipcancer.e
- mory.edu/admin/Event/6645/virtual---cancer-immunology-ci-program-meeting--
- -edjah-k-nduom-md-faans/
+SUMMARY:[Cancer Immunology (CI) Program Meeting] Edjah Nduom\, MD\, FAANS 
+ Professor\, Neurosurgery School of Medicine
+DTSTART;TZID=America/New_York:20261210T120000
+DTEND;TZID=America/New_York:20261210T130000
+DTSTAMP:20260731T205418Z
+UID:winship-6d3e258962eefcd5e4c5ce5d@emory-seminars
+DESCRIPTION:Program: Cancer Immunology (CI) Program Meeting\n\nSpeaker: Ed
+ jah Nduom\, MD\, FAANS Professor\, Neurosurgery School of Medicine\n\nEven
+ t type: Program Meeting\n\nJoin via Zoom:\nhttps://zoom.us/j/98990759560\n
+ \nSource: https://apps.winshipcancer.emory.edu/admin/Event/6645/virtual---
+ cancer-immunology-ci-program-meeting---edjah-k-nduom-md-faans/
 LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -1157,17 +1271,18 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6645/virtual---cancer
  -immunology-ci-program-meeting---edjah-k-nduom-md-faans/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Elkin Lecture - Thomas Mace\, PhD - "TBD"
-DTSTART:20261211T171500Z
-DTEND:20261211T181500Z
-DTSTAMP:20260731T203835Z
-UID:winship-6748@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nElkin Lectures are open t
- o all and held on Friday afternoons at 12:15 p.m. from September through M
- ay. Join us in person in the John H. Kauffman Auditorium with lunch provid
- ed.\n\nJoin via Zoom: https://zoom.us/s/94421326534\n\nWinship event page:
-  https://apps.winshipcancer.emory.edu/admin/Event/6748/elkin-lecture---tho
- mas-mace-phd---tbd/
+SUMMARY:[Elkin Lecture] Thomas Mace\, PhD — TBD
+DTSTART;TZID=America/New_York:20261211T121500
+DTEND;TZID=America/New_York:20261211T131500
+DTSTAMP:20260731T205418Z
+UID:winship-78cdad9bfa88ec9ef7c8619f@emory-seminars
+DESCRIPTION:Program: Elkin Lecture\n\nSpeaker: Thomas Mace\, PhD\n\nEvent 
+ type: Lectures and Training\n\nTalk title: TBD\n\nElkin Lectures are open 
+ to all and held on Friday afternoons at 12:15 p.m. from September through 
+ May. Join us in person in the John H. Kauffman Auditorium with lunch provi
+ ded.\n\nJoin via Zoom:\nhttps://zoom.us/s/94421326534\n\nSource: https://a
+ pps.winshipcancer.emory.edu/admin/Event/6748/elkin-lecture---thomas-mace-p
+ hd---tbd/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -1176,17 +1291,19 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6748/elkin-lecture---
  thomas-mace-phd---tbd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:15th Annual BMT & Cell Therapy Winter Workshop
-DTSTART:20261211T183000Z
-DTEND:20261211T193000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6702@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nSave the date! The 15th A
- nnual BMT & Cell Therapy Winter Workshop will be held in-person and virtua
- lly on Friday\, December 11\, 2026\, prior to the 68th Annual Meeting of t
- he American Society of Hematology.\n\nWinship event page: https://apps.win
- shipcancer.emory.edu/admin/Event/6702/15th-annual-bmt--cell-therapy-winter
- -workshop/
+SUMMARY:[Lectures and Training] 15th Annual BMT & Cell Therapy Winter Work
+ shop
+DTSTART;TZID=America/New_York:20261211T133000
+DTEND;TZID=America/New_York:20261211T143000
+DTSTAMP:20260731T205418Z
+UID:winship-ba287b14fe2c04bd6e6e97dd@emory-seminars
+DESCRIPTION:Program: Lectures and Training\n\nSpeaker: 15th Annual BMT & C
+ ell Therapy Winter Workshop\n\nEvent type: Lectures and Training\n\nSave t
+ he date! The 15th Annual BMT & Cell Therapy Winter Workshop will be held i
+ n-person and virtually on Friday\, December 11\, 2026\, prior to the 68th 
+ Annual Meeting of the American Society of Hematology.\n\nSource: https://a
+ pps.winshipcancer.emory.edu/admin/Event/6702/15th-annual-bmt--cell-therapy
+ -winter-workshop/
 LOCATION:Audubon Aquarium 1 Canal St. New Orleans \, Louisiana 70130
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -1194,14 +1311,31 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6702/15th-annual-bmt-
  -cell-therapy-winter-workshop/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Grand Rounds - Seth Concors\, MD\, FACS\, FSSO - "TBD"
-DTSTART:20261216T170000Z
-DTEND:20261216T180000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6757@seminar-calendar
-DESCRIPTION:Event type: Grand Rounds\n\nJoin via Zoom: https://zoom.us/s/9
- 8869772644\n\nWinship event page: https://apps.winshipcancer.emory.edu/adm
- in/Event/6757/grand-rounds---seth-concors-md-facs-fsso---tbd/
+SUMMARY:[Seminars] Jenny Hsieh\, PhD
+DTSTART;TZID=America/New_York:20261214T120000
+DTEND;TZID=America/New_York:20261214T130000
+DTSTAMP:20260731T205418Z
+UID:human_genetics-4a29e8bd0a0b8eb6b764854b@emory-seminars
+DESCRIPTION:Program: Seminars\n\nSpeaker: Jenny Hsieh\, PhD\n\nAffiliation
+ : UT San Antonio\n\nHost: Jennifer Wong\, PhD\n\nJoin via Zoom:\nhttps://z
+ oom.us/j/98422445740 \n\nSource: https://med.emory.edu/departments/human-g
+ enetics/upcoming_grandrounds_seminars.html
+LOCATION:Whitehead Biomedical Research Building\, Suite 300
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://med.emory.edu/departments/human-genetics/upcoming_grandrounds_
+ seminars.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Grand Rounds] Seth Concors\, MD\, FACS\, FSSO — TBD
+DTSTART;TZID=America/New_York:20261216T120000
+DTEND;TZID=America/New_York:20261216T130000
+DTSTAMP:20260731T205418Z
+UID:winship-a09ff4f33f145ae733356e91@emory-seminars
+DESCRIPTION:Program: Grand Rounds\n\nSpeaker: Seth Concors\, MD\, FACS\, F
+ SSO\n\nEvent type: Grand Rounds\n\nTalk title: TBD\n\nJoin via Zoom:\nhttp
+ s://zoom.us/s/98869772644\n\nSource: https://apps.winshipcancer.emory.edu/
+ admin/Event/6757/grand-rounds---seth-concors-md-facs-fsso---tbd/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -1210,50 +1344,17 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6757/grand-rounds---s
  eth-concors-md-facs-fsso---tbd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Winter Break - Cancer Prevention and Control (CPC) Program Meeting
-DTSTART:20261217T210000Z
-DTEND:20261217T220000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6633@seminar-calendar
-DESCRIPTION:Event type: Program Meeting\n\nJoin via Zoom: https://zoom.us/
- j/95136013347\n\nWinship event page: https://apps.winshipcancer.emory.edu/
- admin/Event/6633/winter-break---cancer-prevention-and-control-cpc-program-
- meeting/
-LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-URL:https://apps.winshipcancer.emory.edu/admin/Event/6633/winter-break---c
- ancer-prevention-and-control-cpc-program-meeting/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Winter Break - Discovery and Developmental Therapeutics (DDT) Prog
- ram Meeting
-DTSTART:20261218T140000Z
-DTEND:20261218T150000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6657@seminar-calendar
-DESCRIPTION:Event type: Program Meeting\n\nJoin via Zoom: https://zoom.us/
- j/92540438724\n\nWinship event page: https://apps.winshipcancer.emory.edu/
- admin/Event/6657/winter-break---discovery-and-developmental-therapeutics-d
- dt-program-meeting/
-LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-URL:https://apps.winshipcancer.emory.edu/admin/Event/6657/winter-break---d
- iscovery-and-developmental-therapeutics-ddt-program-meeting/
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Elkin Lecture - "TBD"
-DTSTART:20261218T171500Z
-DTEND:20261218T181500Z
-DTSTAMP:20260731T203835Z
-UID:winship-6749@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nElkin Lectures are open t
- o all and held on Friday afternoons at 12:15 p.m. from September through M
- ay. Join us in person in the John H. Kauffman Auditorium with lunch provid
- ed.\n\nJoin via Zoom: https://zoom.us/s/94421326534\n\nWinship event page:
-  https://apps.winshipcancer.emory.edu/admin/Event/6749/elkin-lecture---tbd
- /
+SUMMARY:[Elkin Lecture] — TBD
+DTSTART;TZID=America/New_York:20261218T121500
+DTEND;TZID=America/New_York:20261218T131500
+DTSTAMP:20260731T205418Z
+UID:winship-652c0cbafdb74c638923f571@emory-seminars
+DESCRIPTION:Program: Elkin Lecture\n\nEvent type: Lectures and Training\n\
+ nTalk title: TBD\n\nElkin Lectures are open to all and held on Friday afte
+ rnoons at 12:15 p.m. from September through May. Join us in person in the 
+ John H. Kauffman Auditorium with lunch provided.\n\nJoin via Zoom:\nhttps:
+ //zoom.us/s/94421326534\n\nSource: https://apps.winshipcancer.emory.edu/ad
+ min/Event/6749/elkin-lecture---tbd/
 LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
  ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
 STATUS:CONFIRMED
@@ -1262,41 +1363,59 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6749/elkin-lecture---
  tbd/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Cure to Cancer Survivorship: A New Era of Biomarkers\, Interventio
- ns\, and Care Models
-DTSTART:20270206T170000Z
-DTEND:20270206T180000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6760@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nOverview Cure to Cancer S
- urvivorship: A New Era of Biomarkers\, Interventions\, and Care Models is 
- a one-day educational conference jointly sponsored by Winship Cancer Insti
- tute of Emory University and Physicians’ Education Resource (PER®). Can
- cer survivorship is one of the most rapidly evolving areas in oncology. As
-  treatment efficacy improves across many tumor types\, the long-term physi
- cal\, psychological\, and social impact of cancer management has emerged a
- s an important topic as part of overall cancer care. This inaugural progra
- m for oncologists and other health care professionals managing cancer feat
- ures expert speakers addressing cancer survivorship topics from screening 
- through diagnosis\, treatment\, and long-term follow-up. Key program featu
- res will include expert presentations and holistic discussions on how to i
- ntegrate survivorship into clinical decision-making from the time of diagn
- osis\, dose delivery\, and adherence optimization through lifestyle and su
- pportive interventions. Management of chronic debilitating toxicities\, su
- ch as fatigue and nausea\, and discussion of long-term efficacy and safety
-  data for key therapies and extended treatment regimens will also be revie
- wed. Specific topics will include: Treatment selection\, balancing long-te
- rm efficacy with long-term safety and patient-reported outcomes Supportive
-  physical care during and after treatment Long-term adherence in the setti
- ng of extended medical therapies: behavioral strategies\, lifestyle advice
- \, technology-enabled tools\, and shared decision-making frameworks Target
-  Audience This educational activity is directed toward academic and commun
- ity-based oncologists\, hematologists\, transplant physicians\, nurse prac
- titioners (NPs)\, physician assistants (PAs)\, nurses\, and other health c
- are professionals involved in the management of patients with cancer. Prog
- ram Chair Neil M. Iyengar\, MD Register Today\n\nWinship event page: https
- ://apps.winshipcancer.emory.edu/admin/Event/6760/cure-to-cancer-survivorsh
- ip-a-new-era-of-biomarkers-interventions-and-care-models/
+SUMMARY:[Grand Rounds] Rebecca Ganetszky\, MD
+DTSTART;TZID=America/New_York:20261221T080000
+DTEND;TZID=America/New_York:20261221T090000
+DTSTAMP:20260731T205418Z
+UID:human_genetics-76173cf65842f8aa94433e37@emory-seminars
+DESCRIPTION:Program: Grand Rounds\n\nSpeaker: Rebecca Ganetszky\, MD\n\nAf
+ filiation: UPenn/CHOP\n\nHost: Rana Al-Jaberi\, MD\n\nJoin via Zoom:\nhttp
+ s://zoom.us/j/98422445740 \n\nSource: https://med.emory.edu/departments/hu
+ man-genetics/upcoming_grandrounds_seminars.html
+LOCATION:Whitehead Biomedical Research Building\, Suite 300
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://med.emory.edu/departments/human-genetics/upcoming_grandrounds_
+ seminars.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Lectures and Training] Cure to Cancer Survivorship: A New Era of 
+ Biomarkers\, Interventions\, and Care Models
+DTSTART;TZID=America/New_York:20270206T120000
+DTEND;TZID=America/New_York:20270206T130000
+DTSTAMP:20260731T205418Z
+UID:winship-e1b7a0bd26d889e8a34c0713@emory-seminars
+DESCRIPTION:Program: Lectures and Training\n\nSpeaker: Cure to Cancer Surv
+ ivorship: A New Era of Biomarkers\, Interventions\, and Care Models\n\nEve
+ nt type: Lectures and Training\n\nOverview Cure to Cancer Survivorship: A 
+ New Era of Biomarkers\, Interventions\, and Care Models is a one-day educa
+ tional conference jointly sponsored by Winship Cancer Institute of Emory U
+ niversity and Physicians’ Education Resource (PER®). Cancer survivorshi
+ p is one of the most rapidly evolving areas in oncology. As treatment effi
+ cacy improves across many tumor types\, the long-term physical\, psycholog
+ ical\, and social impact of cancer management has emerged as an important 
+ topic as part of overall cancer care. This inaugural program for oncologis
+ ts and other health care professionals managing cancer features expert spe
+ akers addressing cancer survivorship topics from screening through diagnos
+ is\, treatment\, and long-term follow-up. Key program features will includ
+ e expert presentations and holistic discussions on how to integrate surviv
+ orship into clinical decision-making from the time of diagnosis\, dose del
+ ivery\, and adherence optimization through lifestyle and supportive interv
+ entions. Management of chronic debilitating toxicities\, such as fatigue a
+ nd nausea\, and discussion of long-term efficacy and safety data for key t
+ herapies and extended treatment regimens will also be reviewed. Specific t
+ opics will include: Treatment selection\, balancing long-term efficacy wit
+ h long-term safety and patient-reported outcomes Supportive physical care 
+ during and after treatment Long-term adherence in the setting of extended 
+ medical therapies: behavioral strategies\, lifestyle advice\, technology-e
+ nabled tools\, and shared decision-making frameworks Target Audience This 
+ educational activity is directed toward academic and community-based oncol
+ ogists\, hematologists\, transplant physicians\, nurse practitioners (NPs)
+ \, physician assistants (PAs)\, nurses\, and other health care professiona
+ ls involved in the management of patients with cancer. Program Chair Neil 
+ M. Iyengar\, MD Register Today\n\nSource: https://apps.winshipcancer.emory
+ .edu/admin/Event/6760/cure-to-cancer-survivorship-a-new-era-of-biomarkers-
+ interventions-and-care-models/
 LOCATION:Loews Atlanta Hotel 1065 Peachtree Street NE Atlanta \, Georgia 3
  0309
 STATUS:CONFIRMED
@@ -1305,32 +1424,33 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6760/cure-to-cancer-s
  urvivorship-a-new-era-of-biomarkers-interventions-and-care-models/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:2027 Georgia Cancer Summit
-DTSTART:20270209T130000Z
-DTEND:20270209T200000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6758@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\n2027 Georgia Cancer Summi
- t Transforming Cancer Control: Rural Equity in Action The Georgia Cancer S
- ummit is co-hosted by Winship Cancer Institute of Emory University\, Georg
- ia CORE\, the Georgia Department of Public Health\, the American Cancer So
- ciety\, and the Georgia Cancer Control Consortium. Purpose The goal of the
-  2027 Georgia Cancer Summit is to catalyze efforts to reduce barriers to a
- ccess to prevention\, screening and quality cancer care for all Georgians.
-  Summit participants will: Learn best practices to advance cancer preventi
- on\, control\, and research throughout Georgia Enhance understanding of sp
- ecial challenges for cancer prevention & control among rural populations H
- ear about challenges in the current government funding environment and lea
- rn best practices to establish partnerships and take action at the local a
- nd state levels Be able to network with other organizations that may lead 
- to new partnerships Identify ways your organization can get more involved 
- in advancing Georgia’s comprehensive cancer control objectives Audience 
- The Georgia Cancer Summit is for public health professionals\, health care
-  providers\, health advocates\, researchers\, community-based organization
- s\, and others committed to improving cancer health equity in Georgia thro
- ugh cancer prevention and control and community-engaged research.\n\nWinsh
- ip event page: https://apps.winshipcancer.emory.edu/admin/Event/6758/2027-
- georgia-cancer-summit/
+SUMMARY:[Lectures and Training] 2027 Georgia Cancer Summit
+DTSTART;TZID=America/New_York:20270209T080000
+DTEND;TZID=America/New_York:20270209T150000
+DTSTAMP:20260731T205418Z
+UID:winship-4cfd6233b5e42a086407388c@emory-seminars
+DESCRIPTION:Program: Lectures and Training\n\nSpeaker: 2027 Georgia Cancer
+  Summit\n\nEvent type: Lectures and Training\n\n2027 Georgia Cancer Summit
+  Transforming Cancer Control: Rural Equity in Action The Georgia Cancer Su
+ mmit is co-hosted by Winship Cancer Institute of Emory University\, Georgi
+ a CORE\, the Georgia Department of Public Health\, the American Cancer Soc
+ iety\, and the Georgia Cancer Control Consortium. Purpose The goal of the 
+ 2027 Georgia Cancer Summit is to catalyze efforts to reduce barriers to ac
+ cess to prevention\, screening and quality cancer care for all Georgians. 
+ Summit participants will: Learn best practices to advance cancer preventio
+ n\, control\, and research throughout Georgia Enhance understanding of spe
+ cial challenges for cancer prevention & control among rural populations He
+ ar about challenges in the current government funding environment and lear
+ n best practices to establish partnerships and take action at the local an
+ d state levels Be able to network with other organizations that may lead t
+ o new partnerships Identify ways your organization can get more involved i
+ n advancing Georgia’s comprehensive cancer control objectives Audience T
+ he Georgia Cancer Summit is for public health professionals\, health care 
+ providers\, health advocates\, researchers\, community-based organizations
+ \, and others committed to improving cancer health equity in Georgia throu
+ gh cancer prevention and control and community-engaged research.\n\nSource
+ : https://apps.winshipcancer.emory.edu/admin/Event/6758/2027-georgia-cance
+ r-summit/
 LOCATION:University of Georgia Tifton Campus Conference Center 15 R D C Rd
   Tifton \, Georgia 31794
 STATUS:CONFIRMED
@@ -1339,16 +1459,18 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6758/2027-georgia-can
  cer-summit/
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Debates and Didactics in Hematology and Oncology
-DTSTART:20270722T113000Z
-DTEND:20270725T150000Z
-DTSTAMP:20260731T203835Z
-UID:winship-6730@seminar-calendar
-DESCRIPTION:Event type: Lectures and Training\n\nThe 2027 Debates and Dida
- ctics in Hematology and Oncology conference will be held July 22-July 25 a
- t Sea Island\, Georgia.\n\nWinship event page: https://apps.winshipcancer.
- emory.edu/admin/Event/6730/debates-and-didactics-in-hematology-and-oncolog
- y/
+SUMMARY:[Lectures and Training] Debates and Didactics in Hematology and On
+ cology
+DTSTART;TZID=America/New_York:20270722T073000
+DTEND;TZID=America/New_York:20270725T110000
+DTSTAMP:20260731T205418Z
+UID:winship-0199a3f4cda9bff1551109dc@emory-seminars
+DESCRIPTION:Program: Lectures and Training\n\nSpeaker: Debates and Didacti
+ cs in Hematology and Oncology\n\nEvent type: Lectures and Training\n\nThe 
+ 2027 Debates and Didactics in Hematology and Oncology conference will be h
+ eld July 22-July 25 at Sea Island\, Georgia.\n\nSource: https://apps.winsh
+ ipcancer.emory.edu/admin/Event/6730/debates-and-didactics-in-hematology-an
+ d-oncology/
 LOCATION:The Cloister at Sea Island 100 Cloister Drive Sea Island \, Georg
  ia 31561
 STATUS:CONFIRMED
