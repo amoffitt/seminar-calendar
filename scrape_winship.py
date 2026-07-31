@@ -544,8 +544,16 @@ def write_calendar(events: list[dict]) -> None:
 
         calendar_event.add("uid", uid)
         calendar_event.add("summary", item["title"])
-        calendar_event.add("dtstart", item["start"])
-        calendar_event.add("dtend", item["end"])
+
+        calendar_event.add(
+            "dtstart",
+            item["start"].astimezone(UTC),
+        )
+
+        calendar_event.add(
+            "dtend",
+            item["end"].astimezone(UTC),
+        )
         calendar_event.add("dtstamp", now)
         calendar_event.add("status", "CONFIRMED")
         calendar_event.add("transp", "OPAQUE")
@@ -591,13 +599,6 @@ def write_calendar(events: list[dict]) -> None:
                     f"Zoom links:\n{zoom_text}"
                 )
 
-            # CONFERENCE is part of newer iCalendar specifications.
-            # Outlook may or may not display it specially, but the link
-            # will also remain available in the description.
-            calendar_event.add(
-                "conference",
-                item["zoom_links"][0],
-            )
 
         details.append(
             f"Winship event page: {item['url']}"
