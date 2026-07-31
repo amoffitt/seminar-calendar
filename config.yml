@@ -1,0 +1,58 @@
+calendar:
+  name: Emory Seminars
+  output: docs/seminars.ics
+  timezone: America/New_York
+  # Compact Outlook title formats. Missing fields are removed cleanly.
+  title_format: "[{program}] {speaker} — {talk_title}"
+  default_duration_minutes: 60
+
+filters:
+  # Keep past events for this many days. Use 0 to exclude all past events.
+  include_past_days: 0
+
+  # Applied to all sources, case-insensitively.
+  global_exclude_title_patterns:
+    - "Summer Break"
+    - "Winter Break"
+
+sources:
+  winship:
+    enabled: true
+
+    # Empty include lists mean "include everything unless excluded."
+    include_program_patterns: []
+
+    # Suggested starting exclusions. Comment out anything you want to retain.
+    exclude_title_patterns:
+      - "Summer Break"
+      - "Winter Break"
+
+    exclude_event_type_patterns: []
+
+    # Optional examples:
+    # include_program_patterns:
+    #   - "Elkin Lecture"
+    #   - "Grand Rounds"
+    #   - "Cancer Immunology"
+    #   - "Cell and Molecular Biology"
+    #   - "Discovery and Developmental Therapeutics"
+
+  human_genetics:
+    enabled: true
+    include_sections:
+      - "Seminars"
+      - "Steven T. Warren Distinguished Lecture"
+      - "Grand Rounds"
+
+    exclude_sections:
+      - "Clinical Conference"
+      - "Faculty Career Path Talk"
+      - "Research in Progress"
+      - "Conversations with Emory Leaders"
+      - "Early Career Seminar"
+
+    exclude_tbd_speakers: true
+
+  bmi:
+    enabled: true
+    exclude_title_patterns: []

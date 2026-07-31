@@ -27,14 +27,14 @@ jobs:
           pip install -r requirements.txt
           playwright install --with-deps chromium
 
-      - name: Scrape events and build calendar
-        run: python scrape_winship.py
+      - name: Build combined calendar
+        run: python build_calendar.py
 
       - name: Upload debugging files
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: winship-scrape-debug
+          name: seminar-scrape-debug
           path: debug/
           if-no-files-found: ignore
           retention-days: 7
