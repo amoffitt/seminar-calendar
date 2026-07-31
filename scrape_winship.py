@@ -524,7 +524,6 @@ def write_calendar(events: list[dict]) -> None:
     )
     calendar.add("version", "2.0")
     calendar.add("calscale", "GREGORIAN")
-    calendar.add("method", "PUBLISH")
     calendar.add("x-wr-calname", "Winship Seminars")
     calendar.add("x-wr-timezone", TIMEZONE)
 
