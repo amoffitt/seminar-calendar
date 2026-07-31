@@ -12,7 +12,7 @@ from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
 from dateutil import parser as dateparser
 from icalendar import Calendar, Event
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import Locator, Page, sync_playwright
 
 
 INDEX_URL = "https://winshipcancer.emory.edu/about-us/events.php"
@@ -22,11 +22,18 @@ EVENT_URL_RE = re.compile(
     re.IGNORECASE,
 )
 
+ZOOM_URL_RE = re.compile(
+    r"https?://(?:[\w.-]+\.)?zoom\.us/[^\s\"'<>]+",
+    re.IGNORECASE,
+)
+
 OUTPUT_PATH = Path("docs/seminars.ics")
 DEBUG_DIR = Path("debug")
 
 TIMEZONE = "America/New_York"
 LOCAL_TZ = ZoneInfo(TIMEZONE)
+
+MAX_LISTING_PAGES = 50
 
 
 def clean(text: str | None) -> str:
@@ -37,7 +44,7 @@ def clean(text: str | None) -> str:
 def get_label_value(soup: BeautifulSoup, label: str) -> str:
     """
     Find text following a visible field label such as Date, Location,
-    Presenter, or Event Type.
+    Presenter, Event Type, or Description.
     """
     wanted = label.casefold()
 
@@ -76,7 +83,11 @@ def get_label_value(soup: BeautifulSoup, label: str) -> str:
 
 def extract_event_id(url: str) -> str | None:
     """Extract the numeric Winship event ID from an event URL."""
-    match = re.search(r"/admin/Event/(\d+)", url, re.IGNORECASE)
+    match = re.search(
+        r"/admin/Event/(\d+)",
+        url,
+        re.IGNORECASE,
+    )
 
     if not match:
         return None
@@ -93,7 +104,7 @@ def canonicalize_event_urls(urls: set[str]) -> list[str]:
       /admin/Event/6735
       /admin/Event/6735/descriptive-event-title/
 
-    Prefer the longer, descriptive URL.
+    Prefer the longer descriptive URL.
     """
     by_event_id: dict[str, str] = {}
 
@@ -140,7 +151,7 @@ def remove_redundant_long_date(raw: str) -> str:
 
 
 def ensure_local_timezone(value: datetime) -> datetime:
-    """Attach the configured local timezone when parsing returns a naive time."""
+    """Attach the configured local timezone to a naive datetime."""
     if value.tzinfo is None:
         return value.replace(tzinfo=LOCAL_TZ)
 
@@ -192,45 +203,62 @@ def parse_date_range(raw: str) -> tuple[datetime, datetime]:
 
         end = ensure_local_timezone(end)
 
-        # If the end field contains only a time, dateutil inherits the
-        # start date. If the resulting time is earlier than the start,
-        # treat it as an overnight event.
+        # If the end contains only a clock time, dateutil inherits the
+        # start date. If it is earlier than the start, treat it as overnight.
         if end < start:
             end += timedelta(days=1)
 
     else:
-        # Some events expose only a single timestamp.
-        # Give those events a default duration of one hour.
+        # Give events with only one timestamp a default duration of one hour.
         end = start + timedelta(hours=1)
 
     return start, end
 
 
-def discover_event_urls(page) -> list[str]:
-    """Load the Winship listing page and collect unique event-detail URLs."""
-    page.goto(
-        INDEX_URL,
-        wait_until="networkidle",
-        timeout=90_000,
-    )
+def normalize_zoom_url(url: str) -> str:
+    """
+    Remove punctuation that may have been captured after a Zoom URL.
+    """
+    return url.rstrip(".,;:)]}\"'")
 
-    page.wait_for_timeout(4_000)
 
-    DEBUG_DIR.mkdir(exist_ok=True)
+def extract_zoom_links(soup: BeautifulSoup) -> list[str]:
+    """
+    Return unique Zoom URLs found in links or rendered page text.
+    """
+    zoom_links: list[str] = []
 
+    def add_zoom_url(url: str) -> None:
+        normalized = normalize_zoom_url(url)
+
+        if normalized not in zoom_links:
+            zoom_links.append(normalized)
+
+    # Normal clickable links.
+    for anchor in soup.find_all("a", href=True):
+        href = clean(anchor.get("href"))
+
+        if not href:
+            continue
+
+        absolute_url = urljoin(INDEX_URL, href)
+
+        if ZOOM_URL_RE.match(absolute_url):
+            add_zoom_url(absolute_url)
+
+    # Also inspect raw page text/HTML in case the URL is not in an <a> tag.
+    for match in ZOOM_URL_RE.findall(str(soup)):
+        add_zoom_url(match)
+
+    return zoom_links
+
+
+def collect_urls_from_current_listing_page(
+    page: Page,
+    urls: set[str],
+) -> None:
+    """Collect event-detail URLs from the currently displayed listing page."""
     rendered_html = page.content()
-
-    (DEBUG_DIR / "index.html").write_text(
-        rendered_html,
-        encoding="utf-8",
-    )
-
-    page.screenshot(
-        path=str(DEBUG_DIR / "index.png"),
-        full_page=True,
-    )
-
-    urls: set[str] = set()
 
     hrefs = page.locator("a").evaluate_all(
         "(elements) => elements.map(a => a.href).filter(Boolean)"
@@ -242,15 +270,199 @@ def discover_event_urls(page) -> list[str]:
         if extract_event_id(absolute_url):
             urls.add(absolute_url)
 
-    # Also inspect raw rendered HTML in case URLs are embedded inside
-    # scripts, JSON, or data attributes rather than normal anchor tags.
+    # Also inspect raw HTML in case URLs are embedded in scripts,
+    # JSON objects, or data attributes.
     for match in EVENT_URL_RE.findall(rendered_html):
         urls.add(match)
+
+
+def save_listing_debug_files(
+    page: Page,
+    page_number: int,
+) -> None:
+    """Save the rendered HTML and screenshot for one listing page."""
+    DEBUG_DIR.mkdir(exist_ok=True)
+
+    rendered_html = page.content()
+
+    (DEBUG_DIR / f"index-page-{page_number}.html").write_text(
+        rendered_html,
+        encoding="utf-8",
+    )
+
+    page.screenshot(
+        path=str(DEBUG_DIR / f"index-page-{page_number}.png"),
+        full_page=True,
+    )
+
+
+def locator_is_disabled(locator: Locator) -> bool:
+    """Determine whether a pagination control is disabled."""
+    aria_disabled = locator.get_attribute("aria-disabled")
+    disabled_attr = locator.get_attribute("disabled")
+    class_name = clean(locator.get_attribute("class")).lower()
+
+    return (
+        aria_disabled == "true"
+        or disabled_attr is not None
+        or "disabled" in class_name
+    )
+
+
+def find_next_page_control(page: Page) -> Locator | None:
+    """
+    Find a likely next-page control.
+
+    The function tries several common accessibility labels, link texts,
+    button texts, CSS classes, and rel="next".
+    """
+    candidates: list[Locator] = [
+        page.locator('a[rel="next"]'),
+        page.locator('button[rel="next"]'),
+        page.get_by_role(
+            "link",
+            name=re.compile(
+                r"^\s*(next|next page|›|»)\s*$",
+                re.IGNORECASE,
+            ),
+        ),
+        page.get_by_role(
+            "button",
+            name=re.compile(
+                r"^\s*(next|next page|›|»)\s*$",
+                re.IGNORECASE,
+            ),
+        ),
+        page.locator(
+            "a.next, button.next, "
+            "a.pagination-next, button.pagination-next, "
+            ".pagination a[aria-label*='Next' i], "
+            ".pagination button[aria-label*='Next' i]"
+        ),
+    ]
+
+    for candidate in candidates:
+        if candidate.count() > 0:
+            return candidate.first
+
+    return None
+
+
+def listing_page_signature(page: Page) -> str:
+    """
+    Create a signature representing the currently displayed event links.
+
+    This is more reliable than comparing the full HTML because some pages
+    contain dynamic timestamps or rotating elements.
+    """
+    event_ids: list[str] = []
+
+    hrefs = page.locator("a").evaluate_all(
+        "(elements) => elements.map(a => a.href).filter(Boolean)"
+    )
+
+    for href in hrefs:
+        event_id = extract_event_id(href)
+
+        if event_id:
+            event_ids.append(event_id)
+
+    return "|".join(sorted(set(event_ids), key=int))
+
+
+def discover_event_urls(page: Page) -> list[str]:
+    """
+    Load every page of the Winship event listing and collect unique
+    event-detail URLs.
+    """
+    page.goto(
+        INDEX_URL,
+        wait_until="networkidle",
+        timeout=90_000,
+    )
+
+    page.wait_for_timeout(4_000)
+
+    urls: set[str] = set()
+    page_number = 1
+    seen_page_signatures: set[str] = set()
+
+    while True:
+        print(f"Reading listing page {page_number}")
+
+        save_listing_debug_files(
+            page,
+            page_number,
+        )
+
+        collect_urls_from_current_listing_page(
+            page,
+            urls,
+        )
+
+        current_signature = listing_page_signature(page)
+
+        if current_signature:
+            if current_signature in seen_page_signatures:
+                print(
+                    "Listing page contents repeated; stopping to avoid "
+                    "an infinite pagination loop"
+                )
+                break
+
+            seen_page_signatures.add(current_signature)
+
+        next_control = find_next_page_control(page)
+
+        if next_control is None:
+            print("No next-page control found")
+            break
+
+        if locator_is_disabled(next_control):
+            print("Reached final listing page")
+            break
+
+        previous_signature = current_signature
+
+        try:
+            next_control.scroll_into_view_if_needed()
+            next_control.click(timeout=30_000)
+        except Exception as exc:
+            print(f"Could not click next-page control: {exc}")
+            break
+
+        try:
+            page.wait_for_load_state(
+                "networkidle",
+                timeout=30_000,
+            )
+        except Exception:
+            # AJAX-heavy pages may never reach strict network idle.
+            pass
+
+        page.wait_for_timeout(2_000)
+
+        new_signature = listing_page_signature(page)
+
+        if new_signature == previous_signature:
+            print(
+                "Next-page control did not change the visible event links; "
+                "stopping to avoid an infinite loop"
+            )
+            break
+
+        page_number += 1
+
+        if page_number > MAX_LISTING_PAGES:
+            raise RuntimeError(
+                f"Pagination exceeded {MAX_LISTING_PAGES} pages; "
+                "stopping as a safety measure."
+            )
 
     return canonicalize_event_urls(urls)
 
 
-def parse_event(page, url: str) -> dict:
+def parse_event(page: Page, url: str) -> dict:
     """Load and parse one Winship event page."""
     page.goto(
         url,
@@ -278,6 +490,7 @@ def parse_event(page, url: str) -> dict:
     presenter = get_label_value(soup, "Presenter")
     event_type = get_label_value(soup, "Event Type")
     description = get_label_value(soup, "Description")
+    zoom_links = extract_zoom_links(soup)
 
     if not title:
         raise ValueError(f"Missing title on {url}")
@@ -296,6 +509,7 @@ def parse_event(page, url: str) -> dict:
         "presenter": presenter,
         "event_type": event_type,
         "description": description,
+        "zoom_links": zoom_links,
         "url": url,
     }
 
@@ -333,11 +547,18 @@ def write_calendar(events: list[dict]) -> None:
         calendar_event.add("dtstart", item["start"])
         calendar_event.add("dtend", item["end"])
         calendar_event.add("dtstamp", now)
+        calendar_event.add("status", "CONFIRMED")
+        calendar_event.add("transp", "OPAQUE")
 
         if item["location"]:
             calendar_event.add(
                 "location",
                 item["location"],
+            )
+        elif item["zoom_links"]:
+            calendar_event.add(
+                "location",
+                "Zoom",
             )
 
         details: list[str] = []
@@ -357,7 +578,30 @@ def write_calendar(events: list[dict]) -> None:
                 item["description"]
             )
 
-        details.append(item["url"])
+        if item["zoom_links"]:
+            if len(item["zoom_links"]) == 1:
+                details.append(
+                    f"Join via Zoom: {item['zoom_links'][0]}"
+                )
+            else:
+                zoom_text = "\n".join(
+                    item["zoom_links"]
+                )
+                details.append(
+                    f"Zoom links:\n{zoom_text}"
+                )
+
+            # CONFERENCE is part of newer iCalendar specifications.
+            # Outlook may or may not display it specially, but the link
+            # will also remain available in the description.
+            calendar_event.add(
+                "conference",
+                item["zoom_links"][0],
+            )
+
+        details.append(
+            f"Winship event page: {item['url']}"
+        )
 
         calendar_event.add(
             "description",
@@ -410,10 +654,17 @@ def main() -> None:
 
                 events.append(event)
 
+                zoom_status = (
+                    f" | {len(event['zoom_links'])} Zoom link(s)"
+                    if event["zoom_links"]
+                    else ""
+                )
+
                 print(
                     f"[{index}/{len(urls)}] "
                     f"{event['start']:%Y-%m-%d %H:%M} | "
                     f"{event['title']}"
+                    f"{zoom_status}"
                 )
 
             except Exception as exc:
@@ -430,9 +681,20 @@ def main() -> None:
 
     write_calendar(events)
 
+    total_zoom_events = sum(
+        1
+        for event in events
+        if event["zoom_links"]
+    )
+
     print(
         f"Wrote {len(events)} events to "
         f"{OUTPUT_PATH}"
+    )
+
+    print(
+        f"Found Zoom links for "
+        f"{total_zoom_events} of {len(events)} events"
     )
 
     if failures:
@@ -447,9 +709,8 @@ def main() -> None:
 
     if not urls:
         raise RuntimeError(
-            "No event links were found. Inspect "
-            "debug/index.html and debug/index.png "
-            "in the workflow artifacts."
+            "No event links were found. Inspect the listing-page "
+            "HTML and screenshots in the debug workflow artifact."
         )
 
 
