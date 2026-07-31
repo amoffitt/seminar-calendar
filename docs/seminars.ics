@@ -2,4 +2,258 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Winship Seminar Calendar//github.com//
 X-WR-CALNAME:Winship Seminars
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:Summer Break - Cell and Molecular Biology (CMB) Program Meeting
+DTSTART:20260702T160000
+DTEND:20260702T170000
+DTSTAMP:20260731T193745Z
+UID:94995d931260a035aca2b2278ff87f502a9b961ed92bcba4f0dad40033c3c776@winsh
+ ip-events
+DESCRIPTION:Event type: Program Meeting\n\nJoin by Zoom: https://zoom.us/j
+ /97017425710 Join by Phone: 470.250.9358 Meeting ID: 970 1742 5710\n\nhttp
+ s://apps.winshipcancer.emory.edu/admin/Event/6618
+LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
+URL:https://apps.winshipcancer.emory.edu/admin/Event/6618
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Summer Break - Cell and Molecular Biology (CMB) Program Meeting
+DTSTART:20260702T160000
+DTEND:20260702T170000
+DTSTAMP:20260731T193745Z
+UID:5ced3b59737726c62fd7adafb176cb8c6ca08499f12e1f6f1807d5f117c97cf0@winsh
+ ip-events
+DESCRIPTION:Event type: Program Meeting\n\nJoin by Zoom: https://zoom.us/j
+ /97017425710 Join by Phone: 470.250.9358 Meeting ID: 970 1742 5710\n\nhttp
+ s://apps.winshipcancer.emory.edu/admin/Event/6618/summer-break---cell-and-
+ molecular-biology-cmb-program-meeting/
+LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
+URL:https://apps.winshipcancer.emory.edu/admin/Event/6618/summer-break---c
+ ell-and-molecular-biology-cmb-program-meeting/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Breast Cancer Translational Research Seminar Series - Jacqueline V
+ o\, PhD\, RN\, MPH - "The role of cardiovascular disease and health dispar
+ ities in breast cancer survivorship"
+DTSTART:20260708T120000
+DTEND:20260708T130000
+DTSTAMP:20260731T193745Z
+UID:34b784262b6cf06c62c16a0595e1365627111f04904121021e0f8e180ed28f87@winsh
+ ip-events
+DESCRIPTION:Presenter: Jacqueline B. Vo\, PhD\, RN\, MPH Assistant Profess
+ or\, Academic Advancement School of Nursing\n\nEvent type: Lectures and Tr
+ aining\n\nThe Monthly Breast Cancer Translational Research Seminar Series 
+ features scientific updates on breast cancer research presented by leading
+  breast cancer experts. Join us in person in the Winship Kauffman Auditori
+ um (C5012) with lunch provided.\n\nhttps://apps.winshipcancer.emory.edu/ad
+ min/Event/6735
+LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
+ ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
+URL:https://apps.winshipcancer.emory.edu/admin/Event/6735
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Breast Cancer Translational Research Seminar Series - Jacqueline V
+ o\, PhD\, RN\, MPH - "The role of cardiovascular disease and health dispar
+ ities in breast cancer survivorship"
+DTSTART:20260708T120000
+DTEND:20260708T130000
+DTSTAMP:20260731T193745Z
+UID:d077d74baabbda9d78d267ddac6bc248b185621726636c86f631e9b7278b349e@winsh
+ ip-events
+DESCRIPTION:Presenter: Jacqueline B. Vo\, PhD\, RN\, MPH Assistant Profess
+ or\, Academic Advancement School of Nursing\n\nEvent type: Lectures and Tr
+ aining\n\nThe Monthly Breast Cancer Translational Research Seminar Series 
+ features scientific updates on breast cancer research presented by leading
+  breast cancer experts. Join us in person in the Winship Kauffman Auditori
+ um (C5012) with lunch provided.\n\nhttps://apps.winshipcancer.emory.edu/ad
+ min/Event/6735/breast-cancer-translational-research-seminar-series---jacqu
+ eline-vo-phd-rn-mph---the-role-of-cardiovascular-disease-and-health-dispar
+ ities-in-breast-cancer-survivorship/
+LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
+ ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
+URL:https://apps.winshipcancer.emory.edu/admin/Event/6735/breast-cancer-tr
+ anslational-research-seminar-series---jacqueline-vo-phd-rn-mph---the-role-
+ of-cardiovascular-disease-and-health-disparities-in-breast-cancer-survivor
+ ship/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Surgical Grand Rounds - Samantha Greenseid\, DO and Olivia DAngelo
+ \, MD - "Comprehensive Review of Young Women with Breast Cancer: Work-Up\,
+  Management and Unique Challenges"
+DTSTART:20260709T070000
+DTEND:20260709T080000
+DTSTAMP:20260731T193745Z
+UID:3bc830c47f82fe32f33628251cfe46fa40b3fce33cbed41c18747b79adbca3ee@winsh
+ ip-events
+DESCRIPTION:Event type: Lectures and Training\n\nhttps://apps.winshipcance
+ r.emory.edu/admin/Event/6706
+LOCATION:Emory University Hospital Auditorium 1364 Clifton Road NE Room E2
+ 05\, 2nd Floor\, E-Wing Atlanta \, Georgia 30322
+URL:https://apps.winshipcancer.emory.edu/admin/Event/6706
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Surgical Grand Rounds - Samantha Greenseid\, DO and Olivia DAngelo
+ \, MD - "Comprehensive Review of Young Women with Breast Cancer: Work-Up\,
+  Management and Unique Challenges"
+DTSTART:20260709T070000
+DTEND:20260709T080000
+DTSTAMP:20260731T193745Z
+UID:00fca8bfb0069f911b71940a62fa4850884d751639c1a8906f8d19c208dface2@winsh
+ ip-events
+DESCRIPTION:Event type: Lectures and Training\n\nhttps://apps.winshipcance
+ r.emory.edu/admin/Event/6706/surgical-grand-rounds---samantha-greenseid-do
+ -and-olivia-dangelo-md---comprehensive-review-of-young-women-with-breast-c
+ ancer-work-up-management-and-unique-challenges/
+LOCATION:Emory University Hospital Auditorium 1364 Clifton Road NE Room E2
+ 05\, 2nd Floor\, E-Wing Atlanta \, Georgia 30322
+URL:https://apps.winshipcancer.emory.edu/admin/Event/6706/surgical-grand-r
+ ounds---samantha-greenseid-do-and-olivia-dangelo-md---comprehensive-review
+ -of-young-women-with-breast-cancer-work-up-management-and-unique-challenge
+ s/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Virtual - Cancer Immunology (CI) Program Meeting - Edikan A. Ogunn
+ aike\, PhD - "Local Administration of Immunotherapeutic in Brain Tumor"
+DTSTART:20260709T120000
+DTEND:20260709T130000
+DTSTAMP:20260731T193745Z
+UID:1fbe492924b84c58cae7d1f91b4b79410067e03bfef83c6cd116f96246cc3bb9@winsh
+ ip-events
+DESCRIPTION:Presenter: Edikan Ogunnaike\, PhD Assistant Professor\, Biomed
+ ical Engineering School of Medicine\n\nEvent type: Program Meeting\n\nhttp
+ s://apps.winshipcancer.emory.edu/admin/Event/6640
+LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
+URL:https://apps.winshipcancer.emory.edu/admin/Event/6640
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Virtual - Cancer Immunology (CI) Program Meeting - Edikan A. Ogunn
+ aike\, PhD - "Local Administration of Immunotherapeutic in Brain Tumor"
+DTSTART:20260709T120000
+DTEND:20260709T130000
+DTSTAMP:20260731T193745Z
+UID:f4edfe18312b2e817f4f2f62f5ef97518cb4135f9db0786551c5df12963ef258@winsh
+ ip-events
+DESCRIPTION:Presenter: Edikan Ogunnaike\, PhD Assistant Professor\, Biomed
+ ical Engineering School of Medicine\n\nEvent type: Program Meeting\n\nhttp
+ s://apps.winshipcancer.emory.edu/admin/Event/6640/virtual---cancer-immunol
+ ogy-ci-program-meeting---edikan-a-ogunnaike-phd---local-administration-of-
+ immunotherapeutic-in-brain-tumor/
+LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
+URL:https://apps.winshipcancer.emory.edu/admin/Event/6640/virtual---cancer
+ -immunology-ci-program-meeting---edikan-a-ogunnaike-phd---local-administra
+ tion-of-immunotherapeutic-in-brain-tumor/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Summer Break - Cancer Prevention and Control (CPC) Program Meeting
+DTSTART:20260716T160000
+DTEND:20260716T170000
+DTSTAMP:20260731T193745Z
+UID:6b215a6b8cfcbdb7eb9edb17f736e94fd0783c7eb4543357229d9fbd147e93af@winsh
+ ip-events
+DESCRIPTION:Event type: Program Meeting\n\nhttps://apps.winshipcancer.emor
+ y.edu/admin/Event/6628
+LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
+URL:https://apps.winshipcancer.emory.edu/admin/Event/6628
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Summer Break - Cancer Prevention and Control (CPC) Program Meeting
+DTSTART:20260716T160000
+DTEND:20260716T170000
+DTSTAMP:20260731T193745Z
+UID:cf024d6961d836c9eb8b841f4dbc81b9259537db41e77cafc16a31bf627288cf@winsh
+ ip-events
+DESCRIPTION:Event type: Program Meeting\n\nhttps://apps.winshipcancer.emor
+ y.edu/admin/Event/6628/summer-break---cancer-prevention-and-control-cpc-pr
+ ogram-meeting/
+LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
+URL:https://apps.winshipcancer.emory.edu/admin/Event/6628/summer-break---c
+ ancer-prevention-and-control-cpc-program-meeting/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Summer Break - Discovery and Developmental Therapeutics (DDT) Prog
+ ram Meeting
+DTSTART:20260717T090000
+DTEND:20260717T100000
+DTSTAMP:20260731T193745Z
+UID:4189ce7e54f32440e0ea6b507385991cd70a1ffc5cb5c0896d62d1e4b61337ad@winsh
+ ip-events
+DESCRIPTION:Event type: Program Meeting\n\nhttps://apps.winshipcancer.emor
+ y.edu/admin/Event/6652
+LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
+URL:https://apps.winshipcancer.emory.edu/admin/Event/6652
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Summer Break - Discovery and Developmental Therapeutics (DDT) Prog
+ ram Meeting
+DTSTART:20260717T090000
+DTEND:20260717T100000
+DTSTAMP:20260731T193745Z
+UID:c114fe8ef411ace18625d324a08e0a1ad9e04c3137ac7dd046ef0efba212f1f5@winsh
+ ip-events
+DESCRIPTION:Event type: Program Meeting\n\nhttps://apps.winshipcancer.emor
+ y.edu/admin/Event/6652/summer-break---discovery-and-developmental-therapeu
+ tics-ddt-program-meeting/
+LOCATION:Zoom Webinar - Atlanta \, Georgia 30322
+URL:https://apps.winshipcancer.emory.edu/admin/Event/6652/summer-break---d
+ iscovery-and-developmental-therapeutics-ddt-program-meeting/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2026 Winship Summer Scholars Research Program Symposium
+DTSTART:20260717T200000
+DTEND:20260717T120000
+DTSTAMP:20260731T193745Z
+UID:138731ba626912494c6bb2000e9ef83d5643915426b5b4f65e83ad74141dc4d6@winsh
+ ip-events
+DESCRIPTION:Event type: Lectures and Training\n\nhttps://apps.winshipcance
+ r.emory.edu/admin/Event/6759
+LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
+ ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
+URL:https://apps.winshipcancer.emory.edu/admin/Event/6759
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2026 Winship Summer Scholars Research Program Symposium
+DTSTART:20260717T200000
+DTEND:20260717T120000
+DTSTAMP:20260731T193745Z
+UID:89aceca2c58c2716ad34d636e738f7c7e6cb0d8c8958c338e4a96a9617ac3307@winsh
+ ip-events
+DESCRIPTION:Event type: Lectures and Training\n\nhttps://apps.winshipcance
+ r.emory.edu/admin/Event/6759/2026-winship-summer-scholars-research-program
+ -symposium/
+LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
+ ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
+URL:https://apps.winshipcancer.emory.edu/admin/Event/6759/2026-winship-sum
+ mer-scholars-research-program-symposium/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Scarborough Grand Rounds - Simron Singh\, MD\, MPH - "Reframing th
+ e Therapeutic Landscape in Neuroendocrine Neoplasms"
+DTSTART:20260805T120000
+DTEND:20260805T130000
+DTSTAMP:20260731T193745Z
+UID:02957e1ce92101629350c2bd4bea7cfaa63af14edd33f59dbbc7ba2b52192f69@winsh
+ ip-events
+DESCRIPTION:Event type: Grand Rounds\n\nhttps://apps.winshipcancer.emory.e
+ du/admin/Event/6666
+LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
+ ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
+URL:https://apps.winshipcancer.emory.edu/admin/Event/6666
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Scarborough Grand Rounds - Simron Singh\, MD\, MPH - "Reframing th
+ e Therapeutic Landscape in Neuroendocrine Neoplasms"
+DTSTART:20260805T120000
+DTEND:20260805T130000
+DTSTAMP:20260731T193745Z
+UID:f6335eb7998b54a51a6b1f739061146287e354fdbf0fcec5953c383c5bc9d334@winsh
+ ip-events
+DESCRIPTION:Event type: Grand Rounds\n\nhttps://apps.winshipcancer.emory.e
+ du/admin/Event/6666/scarborough-grand-rounds---simron-singh-md-mph---refra
+ ming-the-therapeutic-landscape-in-neuroendocrine-neoplasms/
+LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
+ ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
+URL:https://apps.winshipcancer.emory.edu/admin/Event/6666/scarborough-gran
+ d-rounds---simron-singh-md-mph---reframing-the-therapeutic-landscape-in-ne
+ uroendocrine-neoplasms/
+END:VEVENT
 END:VCALENDAR
