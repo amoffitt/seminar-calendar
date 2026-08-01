@@ -20,6 +20,7 @@ from sources import (
     fetch_gmb_events,
     fetch_human_genetics_events,
     fetch_winship_events,
+    fetch_leukemia_research_events,
 )
 
 
@@ -49,6 +50,10 @@ def main() -> None:
         "gmb": lambda: fetch_gmb_events(
             timezone_name, sources_config["gmb"]["url"]
         ),
+        "leukemia_research": lambda: fetch_leukemia_research_events(
+            timezone_name,
+            sources_config["leukemia_research"]["url"],
+),
         "cancer_genomics": lambda: fetch_cancer_genomics_events(
             timezone_name, sources_config["cancer_genomics"]["url"]
         ),

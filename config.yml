@@ -74,7 +74,14 @@ sources:
   gmb:
     enabled: true
     url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQJD4NRDHNVA4WNm_h_srB-WSOMg5C3X3GnU9CqCcmm9aAqMKAe7yIO4Zt-V4g5FjNK1gdFuUf4VBb0/pub?gid=0&single=true&output=csv"
+    worksheet: "Sheet1"
 
   cancer_genomics:
     enabled: true
     url: "https://docs.google.com/document/d/e/2PACX-1vRTAlKP3nox8yRh3u-qzro4Qc0oEcjRrjnFR3oWTuHeFHaS4_TSbhmhoE5vSXWCghakPKr5Fl4XzgB7/pub"
+
+  leukemia_research:
+    enabled: true
+    url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1lRTfvCLYKtMjsT_omJR27myIyF5LIwu8j-fZoQobJT4yeusVLx9q6Z-0keLf2MJwlwNfIACMizN0/pub?gid=1212040244&single=true&output=csv"
+
+    
