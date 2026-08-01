@@ -628,24 +628,42 @@ def write_google_sheet(
         )
         changes_ws.freeze(rows=1)
 
+
     counts = Counter(
-        row[1]
-        for row in changes
+    row[1]
+    for row in changes
     )
 
+    events_by_id = {
+        event.uid: event
+        for event in events
+    }
+
+    added_events = [
+        events_by_id[row[2]]
+        for row in changes
+        if row[1] == "ADDED" and row[2] in events_by_id
+    ]
+
+    updated_events = [
+        events_by_id[row[2]]
+        for row in changes
+        if row[1] == "UPDATED" and row[2] in events_by_id
+    ]
+
+    removed_events = [
+        existing[row[2]]
+        for row in changes
+        if row[1] == "REMOVED" and row[2] in existing
+    ]
+
     result = {
-        "added": counts.get(
-            "ADDED",
-            0,
-        ),
-        "updated": counts.get(
-            "UPDATED",
-            0,
-        ),
-        "removed": counts.get(
-            "REMOVED",
-            0,
-        ),
+        "added": counts.get("ADDED", 0),
+        "updated": counts.get("UPDATED", 0),
+        "removed": counts.get("REMOVED", 0),
+        "added_events": added_events,
+        "updated_events": updated_events,
+        "removed_events": removed_events,
     }
 
     print(

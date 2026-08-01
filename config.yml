@@ -1,3 +1,7 @@
+slack:
+  enabled: true
+  sheet_url: "https://docs.google.com/spreadsheets/d/1oVmy1If0RCE6zs8YcTEzuTnr6-GXRv5jn2I0E5Ju7t4/edit?usp=sharing"
+
 google_output:
   enabled: true
   spreadsheet_id: "1oVmy1If0RCE6zs8YcTEzuTnr6-GXRv5jn2I0E5Ju7t4"
