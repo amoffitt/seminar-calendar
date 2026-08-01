@@ -32,17 +32,13 @@ sources:
     enabled: true
 
     # Empty include lists mean "include everything unless excluded."
-    include_program_patterns:
-      - "Elkin Lecture"
-      - "Grand Rounds"
-      - "Cancer Immunology"
-      - "Cell and Molecular Biology"
-      - "Discovery and Developmental Therapeutics"
+    include_program_patterns: []
 
     # Suggested starting exclusions. Comment out anything you want to retain.
     exclude_title_patterns:
       - "Summer Break"
       - "Winter Break"
+      - "Nursing"
 
     exclude_event_type_patterns: []
 
