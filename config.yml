@@ -9,6 +9,7 @@ google_output:
   manual_events_tab: "Manual Events"
   changes_tab: "Changes"
   programs_tab: "Programs"
+  past_events_tab: "Past Seminars"
 
 calendar:
   name: Emory Seminars
@@ -83,5 +84,3 @@ sources:
   leukemia_research:
     enabled: true
     url: "https://docs.google.com/spreadsheets/d/e/2PACX-1vS1lRTfvCLYKtMjsT_omJR27myIyF5LIwu8j-fZoQobJT4yeusVLx9q6Z-0keLf2MJwlwNfIACMizN0/pub?gid=1212040244&single=true&output=csv"
-
-    

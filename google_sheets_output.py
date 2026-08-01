@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 import os
 from collections import Counter
-from datetime import datetime, timedelta
+from datetime import datetime
 from typing import Any
 from zoneinfo import ZoneInfo
 
@@ -13,10 +13,13 @@ from google.oauth2.service_account import Credentials
 from seminar_event import SeminarEvent
 
 
-SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
+SCOPES = [
+    "https://www.googleapis.com/auth/spreadsheets",
+]
 
-CURRENT_HEADERS = [
+EVENT_HEADERS = [
     "Date",
+    "Day",
     "Start Time",
     "End Time",
     "Program",
@@ -52,27 +55,18 @@ CHANGE_HEADERS = [
     "Date",
 ]
 
-MANUAL_COLUMNS = {
-    "Priority",
-    "Notes",
-}
-
 
 def authorize_gspread() -> gspread.Client:
-    raw = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON")
+    raw = os.environ.get(
+        "GOOGLE_SERVICE_ACCOUNT_JSON"
+    )
 
     if not raw:
         raise RuntimeError(
             "GOOGLE_SERVICE_ACCOUNT_JSON is missing"
         )
 
-    try:
-        info = json.loads(raw)
-    except json.JSONDecodeError as exc:
-        raise RuntimeError(
-            "GOOGLE_SERVICE_ACCOUNT_JSON is not valid JSON"
-        ) from exc
-
+    info = json.loads(raw)
     credentials = Credentials.from_service_account_info(
         info,
         scopes=SCOPES,
@@ -97,7 +91,7 @@ def get_or_create_worksheet(
         )
 
 
-def normalize_existing_rows(
+def read_existing_rows(
     worksheet: gspread.Worksheet,
 ) -> dict[str, dict[str, str]]:
     values = worksheet.get_all_values()
@@ -109,14 +103,36 @@ def normalize_existing_rows(
     existing: dict[str, dict[str, str]] = {}
 
     for row in values[1:]:
-        padded = row + [""] * (len(headers) - len(row))
-        record = dict(zip(headers, padded))
-        event_id = record.get("Event ID", "").strip()
+        padded = row + [""] * (
+            len(headers) - len(row)
+        )
+        record = dict(
+            zip(
+                headers,
+                padded,
+            )
+        )
+
+        event_id = record.get(
+            "Event ID",
+            "",
+        ).strip()
 
         if event_id:
             existing[event_id] = record
 
     return existing
+
+
+def merge_existing_rows(
+    *collections: dict[str, dict[str, str]],
+) -> dict[str, dict[str, str]]:
+    merged: dict[str, dict[str, str]] = {}
+
+    for collection in collections:
+        merged.update(collection)
+
+    return merged
 
 
 def event_row(
@@ -128,6 +144,7 @@ def event_row(
 
     return [
         event.start.strftime("%Y-%m-%d"),
+        event.start.strftime("%a"),
         event.start.strftime("%-I:%M %p"),
         event.end.strftime("%-I:%M %p"),
         event.program,
@@ -135,7 +152,11 @@ def event_row(
         event.talk_title,
         event.source,
         event.location,
-        event.zoom_urls[0] if event.zoom_urls else "",
+        (
+            event.zoom_urls[0]
+            if event.zoom_urls
+            else ""
+        ),
         previous.get("Priority", ""),
         previous.get("Notes", ""),
         event.event_type,
@@ -152,6 +173,7 @@ def comparable_event_values(
 ) -> dict[str, str]:
     return {
         "Date": event.start.strftime("%Y-%m-%d"),
+        "Day": event.start.strftime("%a"),
         "Start Time": event.start.strftime("%-I:%M %p"),
         "End Time": event.end.strftime("%-I:%M %p"),
         "Program": event.program,
@@ -159,7 +181,11 @@ def comparable_event_values(
         "Talk Title": event.talk_title,
         "Source": event.source,
         "Location": event.location,
-        "Zoom URL": event.zoom_urls[0] if event.zoom_urls else "",
+        "Zoom URL": (
+            event.zoom_urls[0]
+            if event.zoom_urls
+            else ""
+        ),
         "Event Type": event.event_type,
         "Affiliation": event.affiliation,
         "Host": event.host,
@@ -167,341 +193,214 @@ def comparable_event_values(
     }
 
 
-def change_row(
-    event: SeminarEvent,
-    action: str,
-    detected_at: str,
-) -> list[str]:
-    return [
-        detected_at,
-        action,
-        event.uid,
-        event.source,
-        event.program,
-        event.speaker,
-        event.talk_title,
-        event.start.strftime("%Y-%m-%d"),
-    ]
-
-
 def detect_changes(
-    events: list[SeminarEvent],
-    existing: dict[str, dict[str, str]],
-    detected_at: str,
-) -> list[list[str]]:
-    current = {
+    current_events: list[SeminarEvent],
+    past_events: list[SeminarEvent],
+    previous_current: dict[str, dict[str, str]],
+    previous_past: dict[str, dict[str, str]],
+) -> dict[str, Any]:
+    all_events = current_events + past_events
+    current_by_id = {
         event.uid: event
-        for event in events
+        for event in current_events
     }
+    all_by_id = {
+        event.uid: event
+        for event in all_events
+    }
+    previous_all = merge_existing_rows(
+        previous_past,
+        previous_current,
+    )
 
-    changes: list[list[str]] = []
+    added_events: list[SeminarEvent] = []
+    updated_events: list[SeminarEvent] = []
+    removed_events: list[dict[str, str]] = []
+    archived_events: list[SeminarEvent] = []
 
-    for event_id, event in current.items():
-        previous = existing.get(event_id)
+    for event_id, event in all_by_id.items():
+        previous = previous_all.get(event_id)
 
         if previous is None:
-            changes.append(
-                change_row(
-                    event,
-                    "ADDED",
-                    detected_at,
-                )
-            )
+            added_events.append(event)
             continue
 
-        current_values = comparable_event_values(event)
+        current_values = comparable_event_values(
+            event
+        )
 
         if any(
             current_values[field]
             != previous.get(field, "")
             for field in current_values
         ):
-            changes.append(
-                change_row(
-                    event,
-                    "UPDATED",
+            updated_events.append(event)
+
+    for event_id, previous in previous_all.items():
+        if event_id not in all_by_id:
+            removed_events.append(previous)
+
+    previous_current_ids = set(
+        previous_current
+    )
+    current_ids = set(
+        current_by_id
+    )
+    past_by_id = {
+        event.uid: event
+        for event in past_events
+    }
+
+    newly_archived_ids = (
+        previous_current_ids
+        - current_ids
+    ) & set(past_by_id)
+
+    archived_events = [
+        past_by_id[event_id]
+        for event_id in newly_archived_ids
+    ]
+
+    return {
+        "added": len(added_events),
+        "updated": len(updated_events),
+        "removed": len(removed_events),
+        "archived": len(archived_events),
+        "added_events": added_events,
+        "updated_events": updated_events,
+        "removed_events": removed_events,
+        "archived_events": archived_events,
+    }
+
+
+def write_event_sheet(
+    worksheet: gspread.Worksheet,
+    events: list[SeminarEvent],
+    existing_all: dict[str, dict[str, str]],
+    updated_at: str,
+    *,
+    newest_first: bool,
+) -> None:
+    sorted_events = sorted(
+        events,
+        key=lambda event: (
+            event.start,
+            event.source,
+            event.program,
+            event.speaker,
+        ),
+        reverse=newest_first,
+    )
+
+    rows = [
+        event_row(
+            event,
+            existing_all.get(event.uid),
+            updated_at,
+        )
+        for event in sorted_events
+    ]
+
+    worksheet.clear()
+    worksheet.update(
+        [EVENT_HEADERS] + rows,
+        value_input_option="USER_ENTERED",
+    )
+    worksheet.freeze(rows=1)
+
+    if rows:
+        worksheet.set_basic_filter(
+            f"A1:R{len(rows) + 1}"
+        )
+
+
+def append_change_history(
+    worksheet: gspread.Worksheet,
+    changes: dict[str, Any],
+    detected_at: str,
+) -> None:
+    rows: list[list[str]] = []
+
+    for action, key in [
+        ("ADDED", "added_events"),
+        ("UPDATED", "updated_events"),
+        ("ARCHIVED", "archived_events"),
+    ]:
+        for event in changes[key]:
+            rows.append(
+                [
                     detected_at,
-                )
+                    action,
+                    event.uid,
+                    event.source,
+                    event.program,
+                    event.speaker,
+                    event.talk_title,
+                    event.start.strftime(
+                        "%Y-%m-%d"
+                    ),
+                ]
             )
 
-    for event_id, previous in existing.items():
-        if event_id in current:
-            continue
-
-        changes.append(
+    for record in changes["removed_events"]:
+        rows.append(
             [
                 detected_at,
                 "REMOVED",
-                event_id,
-                previous.get("Source", ""),
-                previous.get("Program", ""),
-                previous.get("Speaker", ""),
-                previous.get("Talk Title", ""),
-                previous.get("Date", ""),
+                record.get("Event ID", ""),
+                record.get("Source", ""),
+                record.get("Program", ""),
+                record.get("Speaker", ""),
+                record.get("Talk Title", ""),
+                record.get("Date", ""),
             ]
         )
 
-    return changes
+    if not rows:
+        return
 
-
-def rgb(
-    red: int,
-    green: int,
-    blue: int,
-) -> dict[str, float]:
-    return {
-        "red": red / 255,
-        "green": green / 255,
-        "blue": blue / 255,
-    }
-
-
-def format_current_events_sheet(
-    spreadsheet: gspread.Spreadsheet,
-    worksheet: gspread.Worksheet,
-    row_count: int,
-    timezone_name: str,
-) -> None:
-    sheet_id = worksheet.id
-    today = datetime.now(
-        ZoneInfo(timezone_name)
-    ).date()
-
-    upcoming_end = today + timedelta(days=7)
-
-    header_format = {
-        "backgroundColor": rgb(44, 95, 45),
-        "textFormat": {
-            "foregroundColor": rgb(255, 255, 255),
-            "bold": True,
-        },
-        "horizontalAlignment": "CENTER",
-        "verticalAlignment": "MIDDLE",
-    }
-
-    requests: list[dict[str, Any]] = [
-        {
-            "updateSheetProperties": {
-                "properties": {
-                    "sheetId": sheet_id,
-                    "gridProperties": {
-                        "frozenRowCount": 1,
-                    },
-                },
-                "fields": "gridProperties.frozenRowCount",
-            }
-        },
-        {
-            "repeatCell": {
-                "range": {
-                    "sheetId": sheet_id,
-                    "startRowIndex": 0,
-                    "endRowIndex": 1,
-                    "startColumnIndex": 0,
-                    "endColumnIndex": len(CURRENT_HEADERS),
-                },
-                "cell": {
-                    "userEnteredFormat": header_format,
-                },
-                "fields": "userEnteredFormat",
-            }
-        },
-        {
-            "setBasicFilter": {
-                "filter": {
-                    "range": {
-                        "sheetId": sheet_id,
-                        "startRowIndex": 0,
-                        "endRowIndex": max(row_count, 1),
-                        "startColumnIndex": 0,
-                        "endColumnIndex": len(CURRENT_HEADERS),
-                    }
-                }
-            }
-        },
-        {
-            "repeatCell": {
-                "range": {
-                    "sheetId": sheet_id,
-                    "startRowIndex": 1,
-                    "endRowIndex": max(row_count, 2),
-                    "startColumnIndex": 3,
-                    "endColumnIndex": 8,
-                },
-                "cell": {
-                    "userEnteredFormat": {
-                        "wrapStrategy": "WRAP",
-                        "verticalAlignment": "MIDDLE",
-                    }
-                },
-                "fields": (
-                    "userEnteredFormat.wrapStrategy,"
-                    "userEnteredFormat.verticalAlignment"
-                ),
-            }
-        },
-        {
-            "repeatCell": {
-                "range": {
-                    "sheetId": sheet_id,
-                    "startRowIndex": 1,
-                    "endRowIndex": max(row_count, 2),
-                    "startColumnIndex": 9,
-                    "endColumnIndex": 11,
-                },
-                "cell": {
-                    "userEnteredFormat": {
-                        "backgroundColor": rgb(255, 249, 196),
-                        "wrapStrategy": "WRAP",
-                    }
-                },
-                "fields": (
-                    "userEnteredFormat.backgroundColor,"
-                    "userEnteredFormat.wrapStrategy"
-                ),
-            }
-        },
-        {
-            "setDataValidation": {
-                "range": {
-                    "sheetId": sheet_id,
-                    "startRowIndex": 1,
-                    "endRowIndex": max(row_count + 500, 1000),
-                    "startColumnIndex": 9,
-                    "endColumnIndex": 10,
-                },
-                "rule": {
-                    "condition": {
-                        "type": "ONE_OF_LIST",
-                        "values": [
-                            {"userEnteredValue": "High"},
-                            {"userEnteredValue": "Medium"},
-                            {"userEnteredValue": "Low"},
-                        ],
-                    },
-                    "strict": True,
-                    "showCustomUi": True,
-                },
-            }
-        },
-        {
-            "autoResizeDimensions": {
-                "dimensions": {
-                    "sheetId": sheet_id,
-                    "dimension": "COLUMNS",
-                    "startIndex": 0,
-                    "endIndex": len(CURRENT_HEADERS),
-                }
-            }
-        },
-        {
-            "addConditionalFormatRule": {
-                "rule": {
-                    "ranges": [
-                        {
-                            "sheetId": sheet_id,
-                            "startRowIndex": 1,
-                            "endRowIndex": max(row_count, 2),
-                            "startColumnIndex": 0,
-                            "endColumnIndex": len(CURRENT_HEADERS),
-                        }
-                    ],
-                    "booleanRule": {
-                        "condition": {
-                            "type": "CUSTOM_FORMULA",
-                            "values": [
-                                {
-                                    "userEnteredValue": (
-                                        '=AND($A2>=TODAY(),$A2<=TODAY()+7)'
-                                    )
-                                }
-                            ],
-                        },
-                        "format": {
-                            "backgroundColor": rgb(226, 239, 218),
-                        },
-                    },
-                },
-                "index": 0,
-            }
-        },
-    ]
-
-    spreadsheet.batch_update(
-        {
-            "requests": requests,
-        }
-    )
-
-    # Apply practical fixed widths after auto-resize.
-    width_requests = []
-
-    widths = {
-        0: 95,    # Date
-        1: 85,    # Start
-        2: 85,    # End
-        3: 220,   # Program
-        4: 190,   # Speaker
-        5: 320,   # Talk title
-        6: 110,   # Source
-        7: 220,   # Location
-        8: 180,   # Zoom URL
-        9: 90,    # Priority
-        10: 240,  # Notes
-        11: 120,  # Event type
-        12: 220,  # Affiliation
-        13: 160,  # Host
-        14: 220,  # Source URL
-        15: 190,  # Event ID
-        16: 160,  # Last updated
-    }
-
-    for column_index, width in widths.items():
-        width_requests.append(
-            {
-                "updateDimensionProperties": {
-                    "range": {
-                        "sheetId": sheet_id,
-                        "dimension": "COLUMNS",
-                        "startIndex": column_index,
-                        "endIndex": column_index + 1,
-                    },
-                    "properties": {
-                        "pixelSize": width,
-                    },
-                    "fields": "pixelSize",
-                }
-            }
+    if not worksheet.get_all_values():
+        worksheet.update(
+            [CHANGE_HEADERS],
+            value_input_option="USER_ENTERED",
         )
 
-    spreadsheet.batch_update(
-        {
-            "requests": width_requests,
-        }
+    worksheet.append_rows(
+        rows,
+        value_input_option="USER_ENTERED",
     )
+    worksheet.freeze(rows=1)
 
 
 def write_google_sheet(
-    events: list[SeminarEvent],
+    current_events: list[SeminarEvent],
+    past_events: list[SeminarEvent],
     config: dict[str, Any],
-) -> dict[str, int]:
-    output_config = config.get(
+) -> dict[str, Any]:
+    output = config.get(
         "google_output",
         {},
     )
 
-    if not output_config.get("enabled", False):
+    empty_result = {
+        "added": 0,
+        "updated": 0,
+        "removed": 0,
+        "archived": 0,
+        "added_events": [],
+        "updated_events": [],
+        "removed_events": [],
+        "archived_events": [],
+    }
+
+    if not output.get("enabled", False):
         print("Google Sheets output: disabled")
-        return {
-            "added": 0,
-            "updated": 0,
-            "removed": 0,
-        }
+        return empty_result
 
     timezone_name = config["calendar"]["timezone"]
-    local_tz = ZoneInfo(timezone_name)
-
-    now = datetime.now(local_tz)
+    now = datetime.now(
+        ZoneInfo(timezone_name)
+    )
     updated_at = now.strftime(
         "%Y-%m-%d %I:%M %p %Z"
     )
@@ -511,87 +410,95 @@ def write_google_sheet(
 
     client = authorize_gspread()
     spreadsheet = client.open_by_key(
-        output_config["spreadsheet_id"]
+        output["spreadsheet_id"]
     )
 
     current_ws = get_or_create_worksheet(
         spreadsheet,
-        output_config.get(
+        output.get(
             "current_events_tab",
             "Current Events",
         ),
-        rows=max(
-            len(events) + 500,
+        max(
+            len(current_events) + 500,
             1000,
         ),
-        cols=len(CURRENT_HEADERS),
+        len(EVENT_HEADERS),
+    )
+
+    past_ws = get_or_create_worksheet(
+        spreadsheet,
+        output.get(
+            "past_events_tab",
+            "Past Seminars",
+        ),
+        max(
+            len(past_events) + 500,
+            1000,
+        ),
+        len(EVENT_HEADERS),
     )
 
     programs_ws = get_or_create_worksheet(
         spreadsheet,
-        output_config.get(
+        output.get(
             "programs_tab",
             "Programs",
         ),
-        rows=500,
-        cols=len(PROGRAM_HEADERS),
+        500,
+        len(PROGRAM_HEADERS),
     )
 
     changes_ws = get_or_create_worksheet(
         spreadsheet,
-        output_config.get(
+        output.get(
             "changes_tab",
             "Changes",
         ),
-        rows=5000,
-        cols=len(CHANGE_HEADERS),
+        5000,
+        len(CHANGE_HEADERS),
     )
 
-    existing = normalize_existing_rows(
+    previous_current = read_existing_rows(
         current_ws
+    )
+    previous_past = read_existing_rows(
+        past_ws
+    )
+    previous_all = merge_existing_rows(
+        previous_past,
+        previous_current,
     )
 
     changes = detect_changes(
-        events,
-        existing,
-        detected_at,
+        current_events,
+        past_events,
+        previous_current,
+        previous_past,
     )
 
-    sorted_events = sorted(
-        events,
-        key=lambda event: (
-            event.start,
-            event.source,
-            event.program,
-            event.speaker,
-        ),
-    )
-
-    current_rows = [
-        event_row(
-            event,
-            existing.get(event.uid),
-            updated_at,
-        )
-        for event in sorted_events
-    ]
-
-    current_ws.clear()
-    current_ws.update(
-        [CURRENT_HEADERS] + current_rows,
-        value_input_option="USER_ENTERED",
-    )
-
-    format_current_events_sheet(
-        spreadsheet,
+    write_event_sheet(
         current_ws,
-        len(current_rows) + 1,
-        timezone_name,
+        current_events,
+        previous_all,
+        updated_at,
+        newest_first=False,
+    )
+
+    write_event_sheet(
+        past_ws,
+        past_events,
+        previous_all,
+        updated_at,
+        newest_first=True,
     )
 
     program_counts = Counter(
-        (event.source, event.program)
-        for event in events
+        (
+            event.source,
+            event.program,
+        )
+        for event in current_events
     )
 
     program_rows = [
@@ -615,63 +522,20 @@ def write_google_sheet(
     )
     programs_ws.freeze(rows=1)
 
-    if changes:
-        if not changes_ws.get_all_values():
-            changes_ws.update(
-                [CHANGE_HEADERS],
-                value_input_option="USER_ENTERED",
-            )
-
-        changes_ws.append_rows(
-            changes,
-            value_input_option="USER_ENTERED",
-        )
-        changes_ws.freeze(rows=1)
-
-
-    counts = Counter(
-    row[1]
-    for row in changes
+    append_change_history(
+        changes_ws,
+        changes,
+        detected_at,
     )
-
-    events_by_id = {
-        event.uid: event
-        for event in events
-    }
-
-    added_events = [
-        events_by_id[row[2]]
-        for row in changes
-        if row[1] == "ADDED" and row[2] in events_by_id
-    ]
-
-    updated_events = [
-        events_by_id[row[2]]
-        for row in changes
-        if row[1] == "UPDATED" and row[2] in events_by_id
-    ]
-
-    removed_events = [
-        existing[row[2]]
-        for row in changes
-        if row[1] == "REMOVED" and row[2] in existing
-    ]
-
-    result = {
-        "added": counts.get("ADDED", 0),
-        "updated": counts.get("UPDATED", 0),
-        "removed": counts.get("REMOVED", 0),
-        "added_events": added_events,
-        "updated_events": updated_events,
-        "removed_events": removed_events,
-    }
 
     print(
         "Google Sheets output: "
-        f"{len(events)} current events; "
-        f"{result['added']} added, "
-        f"{result['updated']} updated, "
-        f"{result['removed']} removed"
+        f"{len(current_events)} current events; "
+        f"{len(past_events)} past events; "
+        f"{changes['added']} added, "
+        f"{changes['updated']} updated, "
+        f"{changes['removed']} removed, "
+        f"{changes['archived']} newly archived"
     )
 
-    return result
+    return changes
