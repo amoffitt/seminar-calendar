@@ -34,15 +34,20 @@ def value_at(row: list[str], index: int) -> str:
 
 
 def is_excluded_label(value: str) -> bool:
+    value = clean_text(value)
+
     return bool(
         re.search(
-            r"\b(fall break|summer break|winter break|thanksgiving break|"
-            r"make-up|tba|cancelled|canceled)\b",
+            r"\b("
+            r"fall break|summer break|winter break|thanksgiving break|"
+            r"make-up|tba|cancelled|canceled|"
+            r"whitehead auditorium|location|date|speaker|student speaker|"
+            r"talk title|advisor|confirmed"
+            r")\b",
             value,
             re.IGNORECASE,
         )
     )
-
 
 def make_event(
     *,
@@ -61,6 +66,9 @@ def make_event(
     confirmed = clean_text(confirmed)
 
     if not speaker or is_excluded_label(speaker):
+        return None
+
+    if speaker.casefold() == LOCATION.casefold():
         return None
 
     tz = ZoneInfo(timezone_name)
