@@ -119,11 +119,23 @@ def send_weekly_digest(
         key=lambda event: event.start,
     )
 
+
     sunday = next_monday - timedelta(days=1)
+
+    if monday.month == sunday.month:
+        week_label = (
+            f"Week of {monday:%B %-d}–{sunday:%-d, %Y}"
+        )
+    else:
+        week_label = (
+            f"Week of {monday:%B %-d}–{sunday:%B %-d, %Y}"
+        )
+
     lines = [
-        "*📅 Emory Seminars This Week*",
-        f"{monday:%B %-d}–{sunday:%-d, %Y}",
+        "*📅 Emory Seminar Digest*",
+        week_label,
     ]
+
 
     if not week_events:
         lines += ["", "No included seminars are currently scheduled for this week."]
