@@ -3,7 +3,8 @@ name: Weekly seminar Slack digest
 on:
   workflow_dispatch:
   schedule:
-    - cron: "15 12 * * 1"
+    - cron: "15 6 * * 1"
+      timezone: "America/New_York"
 
 permissions:
   contents: read
