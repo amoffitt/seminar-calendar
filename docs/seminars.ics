@@ -4,45 +4,11 @@ PRODID:-//Emory Seminar Aggregator//github.com/amoffitt//
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Emory Seminars
 BEGIN:VEVENT
-SUMMARY:[Retreat] 2026 Cancer Biology T32 Training Program
-DTSTART;TZID=America/New_York:20260827T093000
-DTEND;TZID=America/New_York:20260827T143000
-DTSTAMP:20260826T105535Z
-UID:winship-2a0e433b04ca433eb77ff735@emory-seminars
-DESCRIPTION:Program: Retreat\n\nSpeaker: 2026 Cancer Biology T32 Training 
- Program\n\nEvent type: Retreat\n\nPlease join us for the 3rd annual Cancer
-  Biology T32 Training Program Retreat! The NIH T32 training grant supports
-  both pre-doctoral and post-doctoral trainees within Winship\, promoting i
- nnovative and exciting research within multiple laboratories. This event w
- ill feature keynote speaker Melinda Bachini\, chief patient officer of the
-  Cholangiocarcinoma Foundation\, in addition to talks from trainees suppor
- ted by this grant. We are excited to showcase all our trainees' exciting w
- ork and hope to see you there! RSVP HERE by August 24 Schedule 9:30 a.m. C
- heck-in\, coffee and refreshments 9:45 a.m. Welcome Message and Introducti
- on of Keynote Speaker David Yu\, MD\, PhD\, director\, Post-doctoral Train
- ing Program Sumin Kang\, PhD\, and Gregory Lesinski\, PhD\, MPH\, director
- s\, Pre-doctoral Training Program 10:00 a.m. Keynote Address – "Outlier:
-  The Patient Behind the Data" Melinda Bachini\, chief patient officer\, Ch
- olangiocarcinoma Foundation 11:00 a.m. Break 11:15 a.m. Post-doctoral Trai
- nee Talks Adedeji Adebayo\, DVM\, PhD\, MS\, Christina Ramelow\, PhD\, MS\
- , Nolan Tucker\, PhD\, and Luiza Doro Pereira\, MD 12:15 p.m. Lunch (provi
- ded) 1:30 p.m. Pre-doctoral Trainee Talks Anna Baj\, Alexis Dixon\, Ruby F
- reeman and Chloe Hope 2:30 p.m. Closing Remarks Alexis Dixon\n\nSource: ht
- tps://apps.winshipcancer.emory.edu/admin/Event/6752/2026-cancer-biology-t3
- 2-training-program-retreat/
-LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
- ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-URL:https://apps.winshipcancer.emory.edu/admin/Event/6752/2026-cancer-biol
- ogy-t32-training-program-retreat/
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[Cancer Genetics Club] Chromatin adaptations drive chemotherapy pe
  rsistence in Myeloid Leukemia
 DTSTART;TZID=America/New_York:20260827T160000
 DTEND;TZID=America/New_York:20260827T170000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:cancer_genomics-f3d8b7d5daa34448c17f03cd@emory-seminars
 DESCRIPTION:Program: Cancer Genetics Club\n\nSpeaker: Chromatin adaptation
  s drive chemotherapy persistence in Myeloid Leukemia\n\nAffiliation: S Bha
@@ -61,7 +27,7 @@ SUMMARY:[GMB Seminar] Monica Reeves — Mom Genes: Inherited histone methy
  lation contributes to phenotypes associated with chromatinopathies
 DTSTART;TZID=America/New_York:20260901T120000
 DTEND;TZID=America/New_York:20260901T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:gmb-6ed09d09d41ca571446b64c8@emory-seminars
 DESCRIPTION:Program: GMB Seminar\n\nSpeaker: Monica Reeves\n\nAffiliation:
   Advisor: David Katz\n\nTalk title: Mom Genes: Inherited histone methylati
@@ -81,7 +47,7 @@ SUMMARY:[Cell and Molecular Biology (CMB) Program Meeting] Haider Mejbel\,
   MD Assistant Professor\, Pathology School of Medicine
 DTSTART;TZID=America/New_York:20260903T160000
 DTEND;TZID=America/New_York:20260903T170000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-78a04016251fc5c1403d1e24@emory-seminars
 DESCRIPTION:Program: Cell and Molecular Biology (CMB) Program Meeting\n\nS
  peaker: Haider Mejbel\, MD Assistant Professor\, Pathology School of Medic
@@ -101,7 +67,7 @@ SUMMARY:[GMB Seminar] Roy Mulpur — All gas no brakes: What happens when
  epigenetic checkpoints are not enforced in B cells
 DTSTART;TZID=America/New_York:20260908T120000
 DTEND;TZID=America/New_York:20260908T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:gmb-0e91fd5d4f87b4dc922fa2c4@emory-seminars
 DESCRIPTION:Program: GMB Seminar\n\nSpeaker: Roy Mulpur\n\nAffiliation: Ad
  visor: Jeremy Boss and Chris Scharer\n\nTalk title: All gas no brakes: Wha
@@ -121,7 +87,7 @@ BEGIN:VEVENT
 SUMMARY:[GMB Seminar] Tori Placentra
 DTSTART;TZID=America/New_York:20260908T120000
 DTEND;TZID=America/New_York:20260908T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:gmb-4f6cda45b2137803dddfd123@emory-seminars
 DESCRIPTION:Program: GMB Seminar\n\nSpeaker: Tori Placentra\n\nAffiliation
  : Advisor: Ken Moberg\n\nPresentation slot: Slot 1\nConfirmation status: c
@@ -140,7 +106,7 @@ SUMMARY:[Elkin Lecture] Gurken Mollaoglu\, PhD — Spatial Heterogeneity D
  rives Immunotherapy Resistance
 DTSTART;TZID=America/New_York:20260911T121500
 DTEND;TZID=America/New_York:20260911T131500
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-48b06669c4d35e8ea9164411@emory-seminars
 DESCRIPTION:Program: Elkin Lecture\n\nSpeaker: Gurken Mollaoglu\, PhD\n\nE
  vent type: Lectures and Training\n\nTalk title: Spatial Heterogeneity Driv
@@ -162,7 +128,7 @@ BEGIN:VEVENT
 SUMMARY:[Grand Rounds] Katrin Henke\, PhD
 DTSTART;TZID=America/New_York:20260914T080000
 DTEND;TZID=America/New_York:20260914T090000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:human_genetics-05c113c7986406593477ed89@emory-seminars
 DESCRIPTION:Program: Grand Rounds\n\nSpeaker: Katrin Henke\, PhD\n\nAffili
  ation: Emory University\n\nHost: Hong Li\, MD\, PhD\n\nJoin via Zoom:\nhtt
@@ -178,7 +144,7 @@ BEGIN:VEVENT
 SUMMARY:[GMB Faculty Seminar] Michael Piacentino (Johns Hopkins)
 DTSTART;TZID=America/New_York:20260915T120000
 DTEND;TZID=America/New_York:20260915T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:gmb-d84acb0e1d41775da2bdb606@emory-seminars
 DESCRIPTION:Program: GMB Faculty Seminar\n\nSpeaker: Michael Piacentino (J
  ohns Hopkins)\n\nSource: https://docs.google.com/spreadsheets/d/e/2PACX-1v
@@ -197,7 +163,7 @@ SUMMARY:[Scarborough Grand Rounds] Anant Mandawat\, MD\, FACC — Hearts &
  r\, and Androgen Deprivation Therapy
 DTSTART;TZID=America/New_York:20260916T120000
 DTEND;TZID=America/New_York:20260916T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-070940e2380ccab3a09dc1ca@emory-seminars
 DESCRIPTION:Program: Scarborough Grand Rounds\n\nSpeaker: Anant Mandawat\,
   MD\, FACC\n\nEvent type: Grand Rounds\n\nTalk title: Hearts & Hormones: U
@@ -223,7 +189,7 @@ SUMMARY:[Lectures and Training] Nadya Dimitrova\, PhD Associate Professor\
   Potential In Cancer
 DTSTART;TZID=America/New_York:20260916T160000
 DTEND;TZID=America/New_York:20260916T170000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-6ec174196b5bcf621f4202ea@emory-seminars
 DESCRIPTION:Program: Lectures and Training\n\nSpeaker: Nadya Dimitrova\, P
  hD Associate Professor\, Dept. of Molecular\, Cellular and Developmental B
@@ -241,10 +207,34 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6769/cell-biology-sem
  anisms-and-therapeutic-potential-in-cancer/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Surgical Grand Rounds] J.C. Thoroughman Visting Professorship - J
+ ohn T. Mullen\, MD — Retroperitoneal Sarcoma: An Example of Progress Thr
+ ough Collaboration for a Rare Disease
+DTSTART;TZID=America/New_York:20260917T070000
+DTEND;TZID=America/New_York:20260917T080000
+DTSTAMP:20260827T203629Z
+UID:winship-106ca75c5d95d0e6c7c120fd@emory-seminars
+DESCRIPTION:Program: Surgical Grand Rounds\n\nSpeaker: J.C. Thoroughman Vi
+ sting Professorship - John T. Mullen\, MD\n\nEvent type: Lectures and Trai
+ ning\n\nTalk title: Retroperitoneal Sarcoma: An Example of Progress Throug
+ h Collaboration for a Rare Disease\n\nSource: https://apps.winshipcancer.e
+ mory.edu/admin/Event/6775/surgical-grand-rounds---jc-thoroughman-visting-p
+ rofessorship---john-t-mullen-md---retroperitoneal-sarcoma-an-example-of-pr
+ ogress-through-collaboration-for-a-rare-disease/
+LOCATION:EUH Auditorium Room E205\, 2nd Floor\, E Wing Emory University Ho
+ spital Atlanta \, Georgia 30322
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://apps.winshipcancer.emory.edu/admin/Event/6775/surgical-grand-r
+ ounds---jc-thoroughman-visting-professorship---john-t-mullen-md---retroper
+ itoneal-sarcoma-an-example-of-progress-through-collaboration-for-a-rare-di
+ sease/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Leukemia Research Meeting] Jacqueline Garcia
 DTSTART;TZID=America/New_York:20260917T110000
 DTEND;TZID=America/New_York:20260917T120000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:leukemia_research-480a6129366d4f7c7d4a995e@emory-seminars
 DESCRIPTION:Program: Leukemia Research Meeting\n\nSpeaker: Jacqueline Garc
  ia\n\nAffiliation: Dana-Farber\n\nJoin via Zoom:\nhttps://zoom.us/j/956942
@@ -264,7 +254,7 @@ SUMMARY:[Cancer Prevention and Control (CPC) Program Meeting] Danielle Wal
  ic Health
 DTSTART;TZID=America/New_York:20260917T160000
 DTEND;TZID=America/New_York:20260917T170000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-6ab3fe828e6e7f829ba4a676@emory-seminars
 DESCRIPTION:Program: Cancer Prevention and Control (CPC) Program Meeting\n
  \nSpeaker: Danielle Wallace\, MPH\, PhD Assistant Professor\, Environmenta
@@ -282,7 +272,7 @@ BEGIN:VEVENT
 SUMMARY:[Special Event] Winship Town Hall
 DTSTART;TZID=America/New_York:20260917T170000
 DTEND;TZID=America/New_York:20260917T180000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-9648c8f0b49378a096472a36@emory-seminars
 DESCRIPTION:Program: Special Event\n\nSpeaker: Winship Town Hall\n\nEvent 
  type: Special Event\n\nJoin the Winship leadership team for a Town Hall on
@@ -306,7 +296,7 @@ SUMMARY:[Lectures and Training] 5th Annual Hematology and Oncology Updates
   for the Advanced Practice Provider
 DTSTART;TZID=America/New_York:20260918T080000
 DTEND;TZID=America/New_York:20260919T120000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-b0d9dfaa3b2aa944832fb4c2@emory-seminars
 DESCRIPTION:Program: Lectures and Training\n\nSpeaker: 5th Annual Hematolo
  gy and Oncology Updates for the Advanced Practice Provider\n\nEvent type: 
@@ -344,7 +334,7 @@ SUMMARY:[Discovery and Developmental Therapeutics (DDT) Program Meeting] M
  ijin Kim\, PhD Assistant Professor Georgia Institute of Technology
 DTSTART;TZID=America/New_York:20260918T090000
 DTEND;TZID=America/New_York:20260918T100000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-dcc208f53d6e9ab72b00c032@emory-seminars
 DESCRIPTION:Program: Discovery and Developmental Therapeutics (DDT) Progra
  m Meeting\n\nSpeaker: Mijin Kim\, PhD Assistant Professor Georgia Institut
@@ -364,7 +354,7 @@ SUMMARY:[Elkin Lecture] Arun Wiita\, MD\, PhD — Not just scratching the
  logic Cancers
 DTSTART;TZID=America/New_York:20260918T121500
 DTEND;TZID=America/New_York:20260918T131500
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-eb15cf474baec4f5a552817f@emory-seminars
 DESCRIPTION:Program: Elkin Lecture\n\nSpeaker: Arun Wiita\, MD\, PhD\n\nEv
  ent type: Lectures and Training\n\nTalk title: Not just scratching the sur
@@ -388,7 +378,7 @@ BEGIN:VEVENT
 SUMMARY:[Lectures and Training] Atlanta Breast Cancer Conference
 DTSTART;TZID=America/New_York:20260919T080000
 DTEND;TZID=America/New_York:20260919T140000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-a71c449831915b882fedc9f0@emory-seminars
 DESCRIPTION:Program: Lectures and Training\n\nSpeaker: Atlanta Breast Canc
  er Conference\n\nEvent type: Lectures and Training\n\nThe Atlanta Breast C
@@ -407,7 +397,7 @@ BEGIN:VEVENT
 SUMMARY:[Seminars] Philip Lupo\, PhD
 DTSTART;TZID=America/New_York:20260921T120000
 DTEND;TZID=America/New_York:20260921T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:human_genetics-bbf437e485efd4ebaab1dcdd@emory-seminars
 DESCRIPTION:Program: Seminars\n\nSpeaker: Philip Lupo\, PhD\n\nAffiliation
  : Emory University\n\nHost: Peng Jin\, PhD\n\nJoin via Zoom:\nhttps://zoom
@@ -424,7 +414,7 @@ SUMMARY:[GMB Seminar] Nicole Roos — Initiation and Maintenance of the D.
   melanogaster Histone Locus Body
 DTSTART;TZID=America/New_York:20260922T120000
 DTEND;TZID=America/New_York:20260922T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:gmb-abcc5f11d9faf564f31e685f@emory-seminars
 DESCRIPTION:Program: GMB Seminar\n\nSpeaker: Nicole Roos\n\nAffiliation: A
  dvisor: Dr. Leila Rieder\n\nTalk title: Initiation and Maintenance of the 
@@ -444,7 +434,7 @@ SUMMARY:[GMB Seminar] Cem Ozdemir — CRISPR-Cas targeting stably activate
  s transcriptionally silent loci
 DTSTART;TZID=America/New_York:20260922T120000
 DTEND;TZID=America/New_York:20260922T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:gmb-bd505e6dc3b8cd27b4942d3d@emory-seminars
 DESCRIPTION:Program: GMB Seminar\n\nSpeaker: Cem Ozdemir\n\nAffiliation: A
  dvisor: Kyle M. Miller\n\nTalk title: CRISPR-Cas targeting stably activate
@@ -467,7 +457,7 @@ SUMMARY:[Lectures and Training] Nirosha Perera King\, MD Hematology/Medica
  ated with immunotherapy
 DTSTART;TZID=America/New_York:20260924T120000
 DTEND;TZID=America/New_York:20260924T124500
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-133c4bada4cece37b8b2e382@emory-seminars
 DESCRIPTION:Program: Lectures and Training\n\nSpeaker: Nirosha Perera King
  \, MD Hematology/Medical Oncology Fellow\, Harris Health System Qualified 
@@ -492,7 +482,7 @@ BEGIN:VEVENT
 SUMMARY:[Cancer Genetics Club] Alissa Oakes\, PhD
 DTSTART;TZID=America/New_York:20260924T160000
 DTEND;TZID=America/New_York:20260924T170000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:cancer_genomics-51e0c2584ad4b52d122da378@emory-seminars
 DESCRIPTION:Program: Cancer Genetics Club\n\nSpeaker: Alissa Oakes\, PhD\n
  \nAffiliation: A Moffitt Lab\n\nThe source document uses one shared column
@@ -510,7 +500,7 @@ SUMMARY:[Elkin Lecture] Mrinal S. Patnaik\, MBBS — Context Relevant Clon
  al Hematopoiesis Clinics in Academic Medical Centers
 DTSTART;TZID=America/New_York:20260925T121500
 DTEND;TZID=America/New_York:20260925T131500
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-6160a79135439999a9eaf8c9@emory-seminars
 DESCRIPTION:Program: Elkin Lecture\n\nSpeaker: Mrinal S. Patnaik\, MBBS\n\
  nEvent type: Lectures and Training\n\nTalk title: Context Relevant Clonal 
@@ -533,7 +523,7 @@ BEGIN:VEVENT
 SUMMARY:[Grand Rounds] David Ledbetter\, PhD\, FACMG
 DTSTART;TZID=America/New_York:20260928T080000
 DTEND;TZID=America/New_York:20260928T090000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:human_genetics-d61fa495c1142d0a74e0e4da@emory-seminars
 DESCRIPTION:Program: Grand Rounds\n\nSpeaker: David Ledbetter\, PhD\, FACM
  G\n\nAffiliation: Florida State University\n\nHost: William Wilcox\, MD\, 
@@ -549,7 +539,7 @@ BEGIN:VEVENT
 SUMMARY:[GMB Faculty Seminar] Marija Zanic (Vanderbilt)
 DTSTART;TZID=America/New_York:20260929T120000
 DTEND;TZID=America/New_York:20260929T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:gmb-712cd5451612ee693409c43e@emory-seminars
 DESCRIPTION:Program: GMB Faculty Seminar\n\nSpeaker: Marija Zanic (Vanderb
  ilt)\n\nSource: https://docs.google.com/spreadsheets/d/e/2PACX-1vQJD4NRDHN
@@ -566,7 +556,7 @@ BEGIN:VEVENT
 SUMMARY:[Lectures and Training] Critical Updates for Clinical Research
 DTSTART;TZID=America/New_York:20260930T120000
 DTEND;TZID=America/New_York:20260930T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-e3a811f4b2097c8875e45930@emory-seminars
 DESCRIPTION:Program: Lectures and Training\n\nSpeaker: Critical Updates fo
  r Clinical Research\n\nEvent type: Lectures and Training\n\nJoin via Zoom:
@@ -583,7 +573,7 @@ SUMMARY:[Cell and Molecular Biology (CMB) Program Meeting] Zhen Chen\, PhD
   Assistant Professor\, Hematology & Medical Oncology School of Medicine
 DTSTART;TZID=America/New_York:20261001T160000
 DTEND;TZID=America/New_York:20261001T170000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-35a257cdbdc62f84721bf3d4@emory-seminars
 DESCRIPTION:Program: Cell and Molecular Biology (CMB) Program Meeting\n\nS
  peaker: Zhen Chen\, PhD Assistant Professor\, Hematology & Medical Oncolog
@@ -603,7 +593,7 @@ SUMMARY:[Elkin Lecture] Ying Lu\, PhD — Targeting Complement Signaling i
  n Leukemia
 DTSTART;TZID=America/New_York:20261002T121500
 DTEND;TZID=America/New_York:20261002T131500
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-61eb4464d94d83f097395a9e@emory-seminars
 DESCRIPTION:Program: Elkin Lecture\n\nSpeaker: Ying Lu\, PhD\n\nEvent type
  : Lectures and Training\n\nTalk title: Targeting Complement Signaling in L
@@ -624,7 +614,7 @@ BEGIN:VEVENT
 SUMMARY:[Elkin Lecture] Peter Wang\, PhD — TBD
 DTSTART;TZID=America/New_York:20261002T121500
 DTEND;TZID=America/New_York:20261002T131500
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-8f62f12dd40fd13e5b824979@emory-seminars
 DESCRIPTION:Program: Elkin Lecture\n\nSpeaker: Peter Wang\, PhD\n\nEvent t
  ype: Lectures and Training\n\nTalk title: TBD\n\nElkin Lectures are open t
@@ -641,10 +631,53 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6740/elkin-lecture---
  peter-wang-phd---tbd/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Lectures and Training] Cancer Prevention and Control (CPC) & Disc
+ overy and Developmental Therapeutics (DDT) Research Programs Joint Gyn/Onc
+  Symposium — Bridging Discovery and Prevention: A Collaborative Approach
+  to Gynecologic Cancer Research at Winship
+DTSTART;TZID=America/New_York:20261005T080000
+DTEND;TZID=America/New_York:20261005T140000
+DTSTAMP:20260827T203629Z
+UID:winship-331fa87598c5816bef5918a0@emory-seminars
+DESCRIPTION:Program: Lectures and Training\n\nSpeaker: Cancer Prevention a
+ nd Control (CPC) & Discovery and Developmental Therapeutics (DDT) Research
+  Programs Joint Gyn/Onc Symposium\n\nEvent type: Lectures and Training\n\n
+ Talk title: Bridging Discovery and Prevention: A Collaborative Approach to
+  Gynecologic Cancer Research at Winship\n\nJoin us for "Bridging Discovery
+  and Prevention: A Collaborative Approach to Gynecologic Cancer Research a
+ t Winship." We invite you to take part in a day of collaboration\, insight
+ \, and forward-thinking discussion as we bring together researchers and cl
+ inicians from across disciplines to explore innovative approaches to gynec
+ ologic cancer research and identify opportunities to advance prevention\, 
+ discovery\, treatment\, and survivorship through meaningful partnerships. 
+ Program Highlights Research updates in ovarian\, uterine\, and cervical/HP
+ V cancers Prevention\, survivorship\, and population health perspectives C
+ ross-disciplinary presentations from basic\, translational\, and clinical 
+ researchers Interactive discussions and collaborative brainstorming sessio
+ ns Networking with colleagues across Winship and partner institutions Sche
+ dule Date: Monday\, October 5\, 2026 8:00 a.m. | Check-In\, Breakfast & Ne
+ tworking 8:15 a.m. | Welcome and Opening Remarks 8:30 a.m. – 11:40 a.m. 
+ | Scientific Talks and Interactive Discussions 11:40 a.m. – 12:20 p.m. |
+  Collaboration and Brainstorming Session 12:20 p.m. | Closing Remarks 12:2
+ 5 p.m. – 1:30 p.m. | Lunch and Networking\n\nSource: https://apps.winshi
+ pcancer.emory.edu/admin/Event/6774/cancer-prevention-and-control-cpc--disc
+ overy-and-developmental-therapeutics-ddt-research-programs-joint-gynonc-sy
+ mposium---bridging-discovery-and-prevention-a-collaborative-approach-to-gy
+ necologic-cancer-research-at-winship/
+LOCATION:John H. Kauffman Auditorium (C5012\, 5th Floor Winship) Winship C
+ ancer Institute 1365 Clifton Road NE\, Building C Atlanta \, Georgia 30322
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://apps.winshipcancer.emory.edu/admin/Event/6774/cancer-preventio
+ n-and-control-cpc--discovery-and-developmental-therapeutics-ddt-research-p
+ rograms-joint-gynonc-symposium---bridging-discovery-and-prevention-a-colla
+ borative-approach-to-gynecologic-cancer-research-at-winship/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Seminars] Deborah J. Luessen\, PhD
 DTSTART;TZID=America/New_York:20261005T120000
 DTEND;TZID=America/New_York:20261005T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:human_genetics-af3f8d0c9a5921a114cecb19@emory-seminars
 DESCRIPTION:Program: Seminars\n\nSpeaker: Deborah J. Luessen\, PhD\n\nAffi
  liation: Emory University\n\nHost: Fikri Birey\, PhD\n\nJoin via Zoom:\nht
@@ -660,7 +693,7 @@ BEGIN:VEVENT
 SUMMARY:[GMB Seminar] Alexander Gulka
 DTSTART;TZID=America/New_York:20261006T120000
 DTEND;TZID=America/New_York:20261006T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:gmb-4ae4eb5e2358ffff548a51b2@emory-seminars
 DESCRIPTION:Program: GMB Seminar\n\nSpeaker: Alexander Gulka\n\nAffiliatio
  n: Advisor: Dave Gorkin\n\nPresentation slot: Slot 1\nConfirmation status:
@@ -678,7 +711,7 @@ BEGIN:VEVENT
 SUMMARY:[GMB Seminar] Sydney Nelson
 DTSTART;TZID=America/New_York:20261006T120000
 DTEND;TZID=America/New_York:20261006T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:gmb-f2ac8157e27ceb2323a252f2@emory-seminars
 DESCRIPTION:Program: GMB Seminar\n\nSpeaker: Sydney Nelson\n\nAffiliation:
   Advisor: Steve Bosinger\n\nPresentation slot: Slot 2\nConfirmation status
@@ -696,7 +729,7 @@ BEGIN:VEVENT
 SUMMARY:[Grand Rounds] — TBD
 DTSTART;TZID=America/New_York:20261007T120000
 DTEND;TZID=America/New_York:20261007T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-92e0c2983b8e6d09d35672dc@emory-seminars
 DESCRIPTION:Program: Grand Rounds\n\nEvent type: Grand Rounds\n\nTalk titl
  e: TBD\n\nJoin via Zoom:\nhttps://zoom.us/s/98869772644\n\nSource: https:/
@@ -712,7 +745,7 @@ BEGIN:VEVENT
 SUMMARY:[Cancer Immunology (CI) Program Meeting]
 DTSTART;TZID=America/New_York:20261008T120000
 DTEND;TZID=America/New_York:20261008T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-257d8a1871ad13fb0879058c@emory-seminars
 DESCRIPTION:Program: Cancer Immunology (CI) Program Meeting\n\nEvent type:
   Program Meeting\n\nJoin via Zoom:\nhttps://zoom.us/j/98990759560\n\nSourc
@@ -726,10 +759,55 @@ URL:https://apps.winshipcancer.emory.edu/admin/Event/6643/in-person---canc
  er-immunology-ci-program-meeting/
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Community Event] 2026 BRIDGE Cancer Equity Community Forum- – 
+ “Healing Where We Are: Black Women\, Our Environments\, and the Power to
+  Restore.” — Healing Where We Are: Black Women\, Our Environments\, an
+ d the Power to Restore.
+DTSTART;TZID=America/New_York:20261010T100000
+DTEND;TZID=America/New_York:20261010T140000
+DTSTAMP:20260827T203629Z
+UID:winship-47efb3fd607b06f41851afa2@emory-seminars
+DESCRIPTION:Program: Community Event\n\nSpeaker: 2026 BRIDGE Cancer Equity
+  Community Forum- – “Healing Where We Are: Black Women\, Our Environme
+ nts\, and the Power to Restore.”\n\nEvent type: Community Event\n\nTalk 
+ title: Healing Where We Are: Black Women\, Our Environments\, and the Powe
+ r to Restore.\n\nJoin us for the 2026 BRIDGE Cancer Equity Community Forum
+ ! “Healing Where We Are: Black Women\, Our Environments\, and the Power 
+ to Restore” Health is shaped by more than individual choices. It is infl
+ uenced by the environments where we live\, work\, rest\, heal\, and connec
+ t with one another. This year\, the BRIDGE Community Forum invites breast 
+ cancer survivors\, patients\, caregivers\, researchers\, healthcare profes
+ sionals\, advocates\, and community members to explore how the environment
+ s where we live\, work\, rest\, and connect can shape our health and cance
+ r outcomes. The forum will bring this community together for meaningful co
+ nversations\, education\, and practical strategies focused on healing\, pr
+ evention\, and restoration. Attendees will have the opportunity to learn\,
+  connect\, share experiences\, and leave with information and resources th
+ ey can use in their everyday lives. The 2026 BRIDGE Community Annual Forum
+  will be held on Saturday\, October 10\, from 10:00 AM–2:00 PM at Emory.
+  This year’s forum is designed to help community members better understa
+ nd how the environments around us\, from air quality and neighborhoods to 
+ stress\, sleep\, relationships\, and everyday products\, can influence hea
+ lth and cancer outcomes. Participants will also learn practical\, evidence
+ -based strategies they can take home and incorporate into their everyday l
+ ives. You won’t want to miss this important and engaging event! See the 
+ attached flyer for registration information.\n\nSource: https://apps.winsh
+ ipcancer.emory.edu/admin/Event/6773/2026-bridge-cancer-equity-community-fo
+ rum---healing-where-we-are-black-women-our-environments-and-the-power-to-r
+ estore/
+LOCATION:Claudia Nance Rollins Building Emory University 1518 Clifton Road
+  NE Atlanta \, Georgia 30322
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://apps.winshipcancer.emory.edu/admin/Event/6773/2026-bridge-canc
+ er-equity-community-forum---healing-where-we-are-black-women-our-environme
+ nts-and-the-power-to-restore/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Grand Rounds] Leo Anthony Celi\, MD
 DTSTART;TZID=America/New_York:20261012T080000
 DTEND;TZID=America/New_York:20261012T090000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:human_genetics-ca305c31ee766ff3597d6dfe@emory-seminars
 DESCRIPTION:Program: Grand Rounds\n\nSpeaker: Leo Anthony Celi\, MD\n\nAff
  iliation: MIT\n\nHost: William Wilcox\, MD\, PhD\n\nJoin via Zoom:\nhttps:
@@ -745,7 +823,7 @@ BEGIN:VEVENT
 SUMMARY:[Leukemia Research Meeting] Janghee Woo / CTP
 DTSTART;TZID=America/New_York:20261015T110000
 DTEND;TZID=America/New_York:20261015T120000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:leukemia_research-c9a46fb09121dac99551abda@emory-seminars
 DESCRIPTION:Program: Leukemia Research Meeting\n\nSpeaker: Janghee Woo / C
  TP\n\nAffiliation: Emory\n\nJoin via Zoom:\nhttps://zoom.us/j/95694211560\
@@ -765,7 +843,7 @@ SUMMARY:[Cancer Prevention and Control (CPC) Program Meeting] Jose Augusto
   Oncology School of Medicine
 DTSTART;TZID=America/New_York:20261015T160000
 DTEND;TZID=America/New_York:20261015T170000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-e985b72464f970470a12fa8a@emory-seminars
 DESCRIPTION:Program: Cancer Prevention and Control (CPC) Program Meeting\n
  \nSpeaker: Jose Augusto Monteiro de Oliveira Nova\, MD Assistant Professor
@@ -784,7 +862,7 @@ SUMMARY:[Discovery and Developmental Therapeutics (DDT) Program Meeting] B
  yram Ozer\, MD\, PhD Associate Professor\, Neurology School of Medicine
 DTSTART;TZID=America/New_York:20261016T090000
 DTEND;TZID=America/New_York:20261016T100000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-f0cf04cc47c9cd75f577d1c4@emory-seminars
 DESCRIPTION:Program: Discovery and Developmental Therapeutics (DDT) Progra
  m Meeting\n\nSpeaker: Byram Ozer\, MD\, PhD Associate Professor\, Neurolog
@@ -803,7 +881,7 @@ BEGIN:VEVENT
 SUMMARY:[Elkin Lecture] Timothy Bullock\, PhD — TBD
 DTSTART;TZID=America/New_York:20261016T121500
 DTEND;TZID=America/New_York:20261016T131500
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-471abb1d5a8c635cfe9f3800@emory-seminars
 DESCRIPTION:Program: Elkin Lecture\n\nSpeaker: Timothy Bullock\, PhD\n\nEv
  ent type: Lectures and Training\n\nTalk title: TBD\n\nElkin Lectures are o
@@ -823,7 +901,7 @@ BEGIN:VEVENT
 SUMMARY:[Seminars] Qiang Chang\, PhD
 DTSTART;TZID=America/New_York:20261019T120000
 DTEND;TZID=America/New_York:20261019T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:human_genetics-db36a09c6164f4e7a96ecdc4@emory-seminars
 DESCRIPTION:Program: Seminars\n\nSpeaker: Qiang Chang\, PhD\n\nAffiliation
  : University of Wisconsin-Madison\n\nHost: Jian Zhou\, PhD\n\nJoin via Zoo
@@ -839,7 +917,7 @@ BEGIN:VEVENT
 SUMMARY:[GMB Faculty Seminar] Pantelis Rompolas (UPenn)
 DTSTART;TZID=America/New_York:20261020T120000
 DTEND;TZID=America/New_York:20261020T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:gmb-4fcae0b3ebd68e45a17db1d7@emory-seminars
 DESCRIPTION:Program: GMB Faculty Seminar\n\nSpeaker: Pantelis Rompolas (UP
  enn)\n\nSource: https://docs.google.com/spreadsheets/d/e/2PACX-1vQJD4NRDHN
@@ -856,7 +934,7 @@ BEGIN:VEVENT
 SUMMARY:[Grand Rounds] Akanksha Mehta\, MD and Jacqueline Lee\, MD — TBD
 DTSTART;TZID=America/New_York:20261021T120000
 DTEND;TZID=America/New_York:20261021T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-8512cf370d6f18b2b3584657@emory-seminars
 DESCRIPTION:Program: Grand Rounds\n\nSpeaker: Akanksha Mehta\, MD and Jacq
  ueline Lee\, MD\n\nEvent type: Grand Rounds\n\nTalk title: TBD\n\nJoin via
@@ -874,7 +952,7 @@ BEGIN:VEVENT
 SUMMARY:[Elkin Lecture] — TBD
 DTSTART;TZID=America/New_York:20261023T121500
 DTEND;TZID=America/New_York:20261023T131500
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-36fcd1c499ee96b43aae32c6@emory-seminars
 DESCRIPTION:Program: Elkin Lecture\n\nEvent type: Lectures and Training\n\
  nTalk title: TBD\n\nElkin Lectures are open to all and held on Friday afte
@@ -893,7 +971,7 @@ BEGIN:VEVENT
 SUMMARY:[Grand Rounds] Stanley Crooke\, MD\, PhD
 DTSTART;TZID=America/New_York:20261026T080000
 DTEND;TZID=America/New_York:20261026T090000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:human_genetics-c2c8fe1a7fcccbe804e527db@emory-seminars
 DESCRIPTION:Program: Grand Rounds\n\nSpeaker: Stanley Crooke\, MD\, PhD\n\
  nAffiliation: n-Lorem\n\nHost: Mari Mori\, MD\n\nJoin via Zoom:\nhttps://z
@@ -909,7 +987,7 @@ BEGIN:VEVENT
 SUMMARY:[GMB Seminar] Robert Chavez
 DTSTART;TZID=America/New_York:20261027T120000
 DTEND;TZID=America/New_York:20261027T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:gmb-1ec46c6e6325704d5764cb40@emory-seminars
 DESCRIPTION:Program: GMB Seminar\n\nSpeaker: Robert Chavez\n\nAffiliation:
   Advisor: Benjamin Barwick / Karen Conneely\n\nPresentation slot: Slot 2\n
@@ -928,7 +1006,7 @@ SUMMARY:[GMB Seminar] Jullian Perren — DNMT1 acts as an Intrinsic Mutage
  n Via Replication Stress
 DTSTART;TZID=America/New_York:20261027T120000
 DTEND;TZID=America/New_York:20261027T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:gmb-58db7b8ed03a5ca3a5f0c3c4@emory-seminars
 DESCRIPTION:Program: GMB Seminar\n\nSpeaker: Jullian Perren\n\nAffiliation
  : Advisor: Kyle Miller\n\nTalk title: DNMT1 acts as an Intrinsic Mutagen V
@@ -947,7 +1025,7 @@ BEGIN:VEVENT
 SUMMARY:[Cancer Genetics Club] Blerta Xhemalçe\, PhD
 DTSTART;TZID=America/New_York:20261029T160000
 DTEND;TZID=America/New_York:20261029T170000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:cancer_genomics-194fde2aaf6a6613e8fa50ba@emory-seminars
 DESCRIPTION:Program: Cancer Genetics Club\n\nSpeaker: Blerta Xhemalçe\, P
  hD\n\nAffiliation: B Xhemalçe lab\n\nThe source document uses one shared 
@@ -966,7 +1044,7 @@ SUMMARY:[Elkin Lecture] Joon Seok Park\, PhD "Gut Microbial Modulation of
  itumor Immunity and Cancer Therapy
 DTSTART;TZID=America/New_York:20261030T121500
 DTEND;TZID=America/New_York:20261030T131500
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-a73406f9fb09d34a96a0c0f8@emory-seminars
 DESCRIPTION:Program: Elkin Lecture\n\nSpeaker: Joon Seok Park\, PhD "Gut M
  icrobial Modulation of Antitumor Immunity and Cancer Therapy"\n\nEvent typ
@@ -989,7 +1067,7 @@ BEGIN:VEVENT
 SUMMARY:[Lectures and Training] Winship Scientific Symposium 2026
 DTSTART;TZID=America/New_York:20261102T083000
 DTEND;TZID=America/New_York:20261102T171500
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-ae8b730ee84ecaa5396feef9@emory-seminars
 DESCRIPTION:Program: Lectures and Training\n\nSpeaker: Winship Scientific 
  Symposium 2026\n\nEvent type: Lectures and Training\n\nSource: https://app
@@ -1006,7 +1084,7 @@ BEGIN:VEVENT
 SUMMARY:[Seminars] Elizabeth M Kennedy\, PhD
 DTSTART;TZID=America/New_York:20261102T120000
 DTEND;TZID=America/New_York:20261102T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:human_genetics-473859399830d877a638f82b@emory-seminars
 DESCRIPTION:Program: Seminars\n\nSpeaker: Elizabeth M Kennedy\, PhD\n\nAff
  iliation: Emory University\n\nHost: Karen Conneely\, PhD\n\nJoin via Zoom:
@@ -1022,7 +1100,7 @@ BEGIN:VEVENT
 SUMMARY:[GMB Seminar] Betty Duan
 DTSTART;TZID=America/New_York:20261103T120000
 DTEND;TZID=America/New_York:20261103T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:gmb-161ce9bf78ee0a0a95dbc900@emory-seminars
 DESCRIPTION:Program: GMB Seminar\n\nSpeaker: Betty Duan\n\nPresentation sl
  ot: Slot 1\nConfirmation status: confirmed\n\nSource: https://docs.google.
@@ -1039,7 +1117,7 @@ BEGIN:VEVENT
 SUMMARY:[GMB Seminar] Sierra Falcone
 DTSTART;TZID=America/New_York:20261103T120000
 DTEND;TZID=America/New_York:20261103T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:gmb-2fe2176c6e12f552878b7197@emory-seminars
 DESCRIPTION:Program: GMB Seminar\n\nSpeaker: Sierra Falcone\n\nAffiliation
  : Advisor: Leila Rieder\n\nPresentation slot: Slot 2\nConfirmation status:
@@ -1058,7 +1136,7 @@ SUMMARY:[Grand Rounds] Elizabeth Berry\, MD — Beyond Early Detection: Th
  e Dermatologist's Role in Metastatic Melanoma Management
 DTSTART;TZID=America/New_York:20261104T120000
 DTEND;TZID=America/New_York:20261104T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-962a7526f8a404da4dd07eec@emory-seminars
 DESCRIPTION:Program: Grand Rounds\n\nSpeaker: Elizabeth Berry\, MD\n\nEven
  t type: Grand Rounds\n\nTalk title: Beyond Early Detection: The Dermatolog
@@ -1079,7 +1157,7 @@ SUMMARY:[Lectures and Training] Kevin Kalinsky\, MD\, MS Professor\, Hemat
  ology & Medical Oncology School of Medicine
 DTSTART;TZID=America/New_York:20261105T080000
 DTEND;TZID=America/New_York:20261107T170000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-43ab927db4065744a4e92909@emory-seminars
 DESCRIPTION:Program: Lectures and Training\n\nSpeaker: Kevin Kalinsky\, MD
  \, MS Professor\, Hematology & Medical Oncology School of Medicine\n\nEven
@@ -1098,7 +1176,7 @@ BEGIN:VEVENT
 SUMMARY:[Cell and Molecular Biology (CMB) Program Meeting] Meng Zhang\, MD
 DTSTART;TZID=America/New_York:20261105T160000
 DTEND;TZID=America/New_York:20261105T170000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-41d9dfb12734affb5d50a996@emory-seminars
 DESCRIPTION:Program: Cell and Molecular Biology (CMB) Program Meeting\n\nS
  peaker: Meng Zhang\, MD\n\nEvent type: Program Meeting\n\nJoin by Zoom: ht
@@ -1116,7 +1194,7 @@ BEGIN:VEVENT
 SUMMARY:[Elkin Lecture] — TBD
 DTSTART;TZID=America/New_York:20261106T121500
 DTEND;TZID=America/New_York:20261106T131500
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-887fed986c8c93b3a054f0eb@emory-seminars
 DESCRIPTION:Program: Elkin Lecture\n\nEvent type: Lectures and Training\n\
  nTalk title: TBD\n\nElkin Lectures are open to all and held on Friday afte
@@ -1135,7 +1213,7 @@ BEGIN:VEVENT
 SUMMARY:[Lectures and Training] Atlanta Lung Cancer Symposium
 DTSTART;TZID=America/New_York:20261107T080000
 DTEND;TZID=America/New_York:20261107T090000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-0a954e75115ac35059eda132@emory-seminars
 DESCRIPTION:Program: Lectures and Training\n\nSpeaker: Atlanta Lung Cancer
   Symposium\n\nEvent type: Lectures and Training\n\nThe Atlanta Lung Cancer
@@ -1154,7 +1232,7 @@ BEGIN:VEVENT
 SUMMARY:[Grand Rounds] Francios Rollin\, MD
 DTSTART;TZID=America/New_York:20261109T080000
 DTEND;TZID=America/New_York:20261109T090000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:human_genetics-78c0d1cc63cbc692477d2b6e@emory-seminars
 DESCRIPTION:Program: Grand Rounds\n\nSpeaker: Francios Rollin\, MD\n\nAffi
  liation: Emory University/Grady\n\nHost: Mari Mori\, MD\n\nJoin via Zoom:\
@@ -1170,7 +1248,7 @@ BEGIN:VEVENT
 SUMMARY:[GMB Faculty Seminar] Carole Parent (UMichigan)
 DTSTART;TZID=America/New_York:20261110T120000
 DTEND;TZID=America/New_York:20261110T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:gmb-0e35a595d104d742329a724c@emory-seminars
 DESCRIPTION:Program: GMB Faculty Seminar\n\nSpeaker: Carole Parent (UMichi
  gan)\n\nSource: https://docs.google.com/spreadsheets/d/e/2PACX-1vQJD4NRDHN
@@ -1187,7 +1265,7 @@ BEGIN:VEVENT
 SUMMARY:[Cancer Immunology (CI) Program Meeting]
 DTSTART;TZID=America/New_York:20261112T120000
 DTEND;TZID=America/New_York:20261112T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-d144a2ff3c81536053063e71@emory-seminars
 DESCRIPTION:Program: Cancer Immunology (CI) Program Meeting\n\nEvent type:
   Program Meeting\n\nJoin via Zoom:\nhttps://zoom.us/j/98990759560\n\nSourc
@@ -1204,7 +1282,7 @@ BEGIN:VEVENT
 SUMMARY:[Elkin Lecture] — TBD
 DTSTART;TZID=America/New_York:20261113T121500
 DTEND;TZID=America/New_York:20261113T131500
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-976bb70ffb2019016479555e@emory-seminars
 DESCRIPTION:Program: Elkin Lecture\n\nEvent type: Lectures and Training\n\
  nTalk title: TBD\n\nElkin Lectures are open to all and held on Friday afte
@@ -1223,7 +1301,7 @@ BEGIN:VEVENT
 SUMMARY:[Seminars] Yinsheng Wang\, PhD
 DTSTART;TZID=America/New_York:20261116T120000
 DTEND;TZID=America/New_York:20261116T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:human_genetics-119aca66965bfed87f6f2dd9@emory-seminars
 DESCRIPTION:Program: Seminars\n\nSpeaker: Yinsheng Wang\, PhD\n\nAffiliati
  on: University of California Riverside\n\nHost: Hailing Shi\, PhD\n\nJoin 
@@ -1240,7 +1318,7 @@ SUMMARY:[GMB Seminar] Nuri Smith — Uncovering Cell-Type Specific Mechani
  sms in Spinal Cord Organoid Models of ALS
 DTSTART;TZID=America/New_York:20261117T120000
 DTEND;TZID=America/New_York:20261117T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:gmb-6c7283ce5589a5765f95d522@emory-seminars
 DESCRIPTION:Program: GMB Seminar\n\nSpeaker: Nuri Smith\n\nTalk title: Unc
  overing Cell-Type Specific Mechanisms in Spinal Cord Organoid Models of AL
@@ -1259,7 +1337,7 @@ BEGIN:VEVENT
 SUMMARY:[GMB Seminar] Ysabella Alcaraz
 DTSTART;TZID=America/New_York:20261117T120000
 DTEND;TZID=America/New_York:20261117T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:gmb-94153bbaf081e423352ed66c@emory-seminars
 DESCRIPTION:Program: GMB Seminar\n\nSpeaker: Ysabella Alcaraz\n\nAffiliati
  on: Advisor: Shonna McBride\n\nPresentation slot: Slot 2\nConfirmation sta
@@ -1277,7 +1355,7 @@ BEGIN:VEVENT
 SUMMARY:[Grand Rounds] David Prologo\, MD — TBD
 DTSTART;TZID=America/New_York:20261118T120000
 DTEND;TZID=America/New_York:20261118T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-4214dfbc5fa4555c18287df0@emory-seminars
 DESCRIPTION:Program: Grand Rounds\n\nSpeaker: David Prologo\, MD\n\nEvent 
  type: Grand Rounds\n\nTalk title: TBD\n\nJoin via Zoom:\nhttps://zoom.us/s
@@ -1294,7 +1372,7 @@ BEGIN:VEVENT
 SUMMARY:[Leukemia Research Meeting] Wilbur Lam
 DTSTART;TZID=America/New_York:20261119T110000
 DTEND;TZID=America/New_York:20261119T120000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:leukemia_research-b4bf32318428f68f296aba65@emory-seminars
 DESCRIPTION:Program: Leukemia Research Meeting\n\nSpeaker: Wilbur Lam\n\nA
  ffiliation: Emory\n\nJoin via Zoom:\nhttps://zoom.us/j/95694211560\n\nSour
@@ -1312,7 +1390,7 @@ BEGIN:VEVENT
 SUMMARY:[Cancer Genetics Club] LaShanale Wallace\, PhD
 DTSTART;TZID=America/New_York:20261119T160000
 DTEND;TZID=America/New_York:20261119T170000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:cancer_genomics-80b85c7a227578ebcd69447b@emory-seminars
 DESCRIPTION:Program: Cancer Genetics Club\n\nSpeaker: LaShanale Wallace\, 
  PhD\n\nAffiliation: E Obeng lab\n\nThe source document uses one shared col
@@ -1331,7 +1409,7 @@ SUMMARY:[Cancer Prevention and Control (CPC) Program Meeting] Nadi Kaonga\
  dicine
 DTSTART;TZID=America/New_York:20261119T160000
 DTEND;TZID=America/New_York:20261119T170000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-c499d7089a174cdee8a5ba1c@emory-seminars
 DESCRIPTION:Program: Cancer Prevention and Control (CPC) Program Meeting\n
  \nSpeaker: Nadi Kaonga\, MD\, MHS\, MS Assistant Professor\, Gynecology & 
@@ -1351,7 +1429,7 @@ SUMMARY:[Discovery and Developmental Therapeutics (DDT) Program Meeting] W
  ntra- and Extracellular Proteins
 DTSTART;TZID=America/New_York:20261120T090000
 DTEND;TZID=America/New_York:20261120T100000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-a681eb8b1dd531755538a24d@emory-seminars
 DESCRIPTION:Program: Discovery and Developmental Therapeutics (DDT) Progra
  m Meeting\n\nSpeaker: Weiping Tang\, PhD\n\nEvent type: Program Meeting\n\
@@ -1373,7 +1451,7 @@ BEGIN:VEVENT
 SUMMARY:[Elkin Lecture] Weiping Tang\, PhD — TBD
 DTSTART;TZID=America/New_York:20261120T121500
 DTEND;TZID=America/New_York:20261120T131500
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-eeec0b950ca83038f682e4be@emory-seminars
 DESCRIPTION:Program: Elkin Lecture\n\nSpeaker: Weiping Tang\, PhD\n\nEvent
   type: Lectures and Training\n\nTalk title: TBD\n\nElkin Lectures are open
@@ -1393,7 +1471,7 @@ BEGIN:VEVENT
 SUMMARY:[Grand Rounds] Jessica Gold\, MD
 DTSTART;TZID=America/New_York:20261123T080000
 DTEND;TZID=America/New_York:20261123T090000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:human_genetics-d3dcc9bc7d10c5e5846670ef@emory-seminars
 DESCRIPTION:Program: Grand Rounds\n\nSpeaker: Jessica Gold\, MD\n\nAffilia
  tion: University of Tennessee\n\nHost: TBD\n\nJoin via Zoom:\nhttps://zoom
@@ -1409,7 +1487,7 @@ BEGIN:VEVENT
 SUMMARY:[GMB Faculty Seminar] Shaohe Wang (Janelia)
 DTSTART;TZID=America/New_York:20261201T120000
 DTEND;TZID=America/New_York:20261201T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:gmb-4f85ac2bbb6f6edd2621dd5c@emory-seminars
 DESCRIPTION:Program: GMB Faculty Seminar\n\nSpeaker: Shaohe Wang (Janelia)
  \n\nSource: https://docs.google.com/spreadsheets/d/e/2PACX-1vQJD4NRDHNVA4W
@@ -1426,7 +1504,7 @@ BEGIN:VEVENT
 SUMMARY:[Steven T. Warren Distinguished Lecture] Harr Orr\, PhD
 DTSTART;TZID=America/New_York:20261203T120000
 DTEND;TZID=America/New_York:20261203T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:human_genetics-f20fa8fe25ff1ec4e1f8bee0@emory-seminars
 DESCRIPTION:Program: Steven T. Warren Distinguished Lecture\n\nSpeaker: Ha
  rr Orr\, PhD\n\nAffiliation: University of Minnesota\n\nHost: Peng Jin\, P
@@ -1442,7 +1520,7 @@ BEGIN:VEVENT
 SUMMARY:[Elkin Lecture] Billy Marsiglia\, PhD — TBD
 DTSTART;TZID=America/New_York:20261204T121500
 DTEND;TZID=America/New_York:20261204T131500
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-18565168c6d61f53bd82e023@emory-seminars
 DESCRIPTION:Program: Elkin Lecture\n\nSpeaker: Billy Marsiglia\, PhD\n\nEv
  ent type: Lectures and Training\n\nTalk title: TBD\n\nElkin Lectures are o
@@ -1462,7 +1540,7 @@ BEGIN:VEVENT
 SUMMARY:[Grand Rounds] Alexandra "Sasha" Key\, PhD
 DTSTART;TZID=America/New_York:20261207T080000
 DTEND;TZID=America/New_York:20261207T090000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:human_genetics-c72add664896763b9cd42c0b@emory-seminars
 DESCRIPTION:Program: Grand Rounds\n\nSpeaker: Alexandra "Sasha" Key\, PhD\
  n\nAffiliation: Emory University\n\nHost: Mari Mori\, MD\n\nJoin via Zoom:
@@ -1478,7 +1556,7 @@ BEGIN:VEVENT
 SUMMARY:[GMB Faculty Seminar] Katie Kindt (NIH)
 DTSTART;TZID=America/New_York:20261208T120000
 DTEND;TZID=America/New_York:20261208T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:gmb-51ec179aaaeb2195a715324c@emory-seminars
 DESCRIPTION:Program: GMB Faculty Seminar\n\nSpeaker: Katie Kindt (NIH)\n\n
  Source: https://docs.google.com/spreadsheets/d/e/2PACX-1vQJD4NRDHNVA4WNm_h
@@ -1495,7 +1573,7 @@ BEGIN:VEVENT
 SUMMARY:[Grand Rounds] Xin Hu\, PhD\, MSPH — TBD
 DTSTART;TZID=America/New_York:20261209T120000
 DTEND;TZID=America/New_York:20261209T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-db683290aad1a5bbba825630@emory-seminars
 DESCRIPTION:Program: Grand Rounds\n\nSpeaker: Xin Hu\, PhD\, MSPH\n\nEvent
   type: Grand Rounds\n\nTalk title: TBD\n\nJoin via Zoom:\nhttps://zoom.us/
@@ -1513,7 +1591,7 @@ SUMMARY:[Cancer Immunology (CI) Program Meeting] Edjah Nduom\, MD\, FAANS
  Professor\, Neurosurgery School of Medicine
 DTSTART;TZID=America/New_York:20261210T120000
 DTEND;TZID=America/New_York:20261210T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-6d3e258962eefcd5e4c5ce5d@emory-seminars
 DESCRIPTION:Program: Cancer Immunology (CI) Program Meeting\n\nSpeaker: Ed
  jah Nduom\, MD\, FAANS Professor\, Neurosurgery School of Medicine\n\nEven
@@ -1531,7 +1609,7 @@ SUMMARY:[Elkin Lecture] Thomas Mace\, PhD — The CD200-CD200R Axis: Myelo
  id & Stromal Immunosuppression in Pancreatic Cancer
 DTSTART;TZID=America/New_York:20261211T121500
 DTEND;TZID=America/New_York:20261211T131500
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-78cdad9bfa88ec9ef7c8619f@emory-seminars
 DESCRIPTION:Program: Elkin Lecture\n\nSpeaker: Thomas Mace\, PhD\n\nEvent 
  type: Lectures and Training\n\nTalk title: The CD200-CD200R Axis: Myeloid 
@@ -1555,7 +1633,7 @@ SUMMARY:[Lectures and Training] 15th Annual BMT & Cell Therapy Winter Work
  shop
 DTSTART;TZID=America/New_York:20261211T133000
 DTEND;TZID=America/New_York:20261211T143000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-ba287b14fe2c04bd6e6e97dd@emory-seminars
 DESCRIPTION:Program: Lectures and Training\n\nSpeaker: 15th Annual BMT & C
  ell Therapy Winter Workshop\n\nEvent type: Lectures and Training\n\nSave t
@@ -1574,7 +1652,7 @@ BEGIN:VEVENT
 SUMMARY:[Seminars] Jenny Hsieh\, PhD
 DTSTART;TZID=America/New_York:20261214T120000
 DTEND;TZID=America/New_York:20261214T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:human_genetics-4a29e8bd0a0b8eb6b764854b@emory-seminars
 DESCRIPTION:Program: Seminars\n\nSpeaker: Jenny Hsieh\, PhD\n\nAffiliation
  : UT San Antonio\n\nHost: Jennifer Wong\, PhD\n\nJoin via Zoom:\nhttps://z
@@ -1592,7 +1670,7 @@ SUMMARY:[Grand Rounds] Seth Concors\, MD\, FACS\, FSSO — Building a Neur
  unities
 DTSTART;TZID=America/New_York:20261216T120000
 DTEND;TZID=America/New_York:20261216T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-a09ff4f33f145ae733356e91@emory-seminars
 DESCRIPTION:Program: Grand Rounds\n\nSpeaker: Seth Concors\, MD\, FACS\, F
  SSO\n\nEvent type: Grand Rounds\n\nTalk title: Building a Neuroendocrine M
@@ -1613,7 +1691,7 @@ BEGIN:VEVENT
 SUMMARY:[Leukemia Research Meeting] David Frank
 DTSTART;TZID=America/New_York:20261217T110000
 DTEND;TZID=America/New_York:20261217T120000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:leukemia_research-3d8ad1bbdce2256fd53f23ff@emory-seminars
 DESCRIPTION:Program: Leukemia Research Meeting\n\nSpeaker: David Frank\n\n
  Affiliation: Emory\n\nJoin via Zoom:\nhttps://zoom.us/j/95694211560\n\nSou
@@ -1631,7 +1709,7 @@ BEGIN:VEVENT
 SUMMARY:[Cancer Genetics Club] TBD
 DTSTART;TZID=America/New_York:20261217T160000
 DTEND;TZID=America/New_York:20261217T170000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:cancer_genomics-2ff9f7087eeb383e601546f7@emory-seminars
 DESCRIPTION:Program: Cancer Genetics Club\n\nSpeaker: TBD\n\nAffiliation: 
  TBD\n\nThe source document uses one shared column for the talk title or pr
@@ -1648,7 +1726,7 @@ BEGIN:VEVENT
 SUMMARY:[Elkin Lecture] Joshua Weinstock\, PhD "TBD" — TBD
 DTSTART;TZID=America/New_York:20261218T121500
 DTEND;TZID=America/New_York:20261218T131500
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-652c0cbafdb74c638923f571@emory-seminars
 DESCRIPTION:Program: Elkin Lecture\n\nSpeaker: Joshua Weinstock\, PhD "TBD
  "\n\nEvent type: Lectures and Training\n\nTalk title: TBD\n\nElkin Lecture
@@ -1668,7 +1746,7 @@ BEGIN:VEVENT
 SUMMARY:[Grand Rounds] Rebecca Ganetszky\, MD
 DTSTART;TZID=America/New_York:20261221T080000
 DTEND;TZID=America/New_York:20261221T090000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:human_genetics-76173cf65842f8aa94433e37@emory-seminars
 DESCRIPTION:Program: Grand Rounds\n\nSpeaker: Rebecca Ganetszky\, MD\n\nAf
  filiation: UPenn/CHOP\n\nHost: Rana Al-Jaberi\, MD\n\nJoin via Zoom:\nhttp
@@ -1685,7 +1763,7 @@ SUMMARY:[Lectures and Training] From Evidence to Action: Engaging Policyma
  kers to Inform Legislation - Ellie Dehoney
 DTSTART;TZID=America/New_York:20270111T120000
 DTEND;TZID=America/New_York:20270111T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-4e46c6fecd88c77354b43f2e@emory-seminars
 DESCRIPTION:Program: Lectures and Training\n\nSpeaker: From Evidence to Ac
  tion: Engaging Policymakers to Inform Legislation - Ellie Dehoney\n\nEvent
@@ -1701,7 +1779,7 @@ BEGIN:VEVENT
 SUMMARY:[Leukemia Research Meeting] Sarwish Rafiq / Best of ASH
 DTSTART;TZID=America/New_York:20270121T110000
 DTEND;TZID=America/New_York:20270121T120000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:leukemia_research-f6d340443dd45ab1b8ca0a1e@emory-seminars
 DESCRIPTION:Program: Leukemia Research Meeting\n\nSpeaker: Sarwish Rafiq /
   Best of ASH\n\nAffiliation: Emory\n\nJoin via Zoom:\nhttps://zoom.us/j/95
@@ -1716,10 +1794,28 @@ URL:https://docs.google.com/spreadsheets/d/e/2PACX-1vS1lRTfvCLYKtMjsT_omJR
  44&single=true&output=csv
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Special Event] Winship Town Hall
+DTSTART;TZID=America/New_York:20270127T170000
+DTEND;TZID=America/New_York:20270127T180000
+DTSTAMP:20260827T203629Z
+UID:winship-050390477aef6193db349a0d@emory-seminars
+DESCRIPTION:Program: Special Event\n\nSpeaker: Winship Town Hall\n\nEvent 
+ type: Special Event\n\nJoin the Winship leadership team for a Town Hall on
+  Wednesday\, January 27\, 2027\, from 5-6 p.m. Location TBD. Refreshments 
+ will be provided. The in-person event will be live-streamed and recorded. 
+ Please join us in person or via Zoom.\n\nSource: https://apps.winshipcance
+ r.emory.edu/admin/Event/6770/winship-town-hall/
+LOCATION:TBD - Atlanta \, Georgia 30322
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://apps.winshipcancer.emory.edu/admin/Event/6770/winship-town-hal
+ l/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Cancer Genetics Club] Jay Sarthy\, MD\, PhD (Seattle)
 DTSTART;TZID=America/New_York:20270128T160000
 DTEND;TZID=America/New_York:20270128T170000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:cancer_genomics-2b79a6c2e09c6a58cb7ed13e@emory-seminars
 DESCRIPTION:Program: Cancer Genetics Club\n\nSpeaker: Jay Sarthy\, MD\, Ph
  D (Seattle)\n\nAffiliation: J Sarthy lab\n\nThe source document uses one s
@@ -1737,7 +1833,7 @@ SUMMARY:[Lectures and Training] Cure to Cancer Survivorship: A New Era of
  Biomarkers\, Interventions\, and Care Models
 DTSTART;TZID=America/New_York:20270206T120000
 DTEND;TZID=America/New_York:20270206T130000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-e1b7a0bd26d889e8a34c0713@emory-seminars
 DESCRIPTION:Program: Lectures and Training\n\nSpeaker: Cure to Cancer Surv
  ivorship: A New Era of Biomarkers\, Interventions\, and Care Models\n\nEve
@@ -1781,7 +1877,7 @@ BEGIN:VEVENT
 SUMMARY:[Lectures and Training] 2027 Georgia Cancer Summit
 DTSTART;TZID=America/New_York:20270209T080000
 DTEND;TZID=America/New_York:20270209T150000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-4cfd6233b5e42a086407388c@emory-seminars
 DESCRIPTION:Program: Lectures and Training\n\nSpeaker: 2027 Georgia Cancer
   Summit\n\nEvent type: Lectures and Training\n\n2027 Georgia Cancer Summit
@@ -1816,7 +1912,7 @@ BEGIN:VEVENT
 SUMMARY:[Leukemia Research Meeting] Olisaemeka Ogbue
 DTSTART;TZID=America/New_York:20270218T110000
 DTEND;TZID=America/New_York:20270218T120000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:leukemia_research-86b1d737db27d101937756b4@emory-seminars
 DESCRIPTION:Program: Leukemia Research Meeting\n\nSpeaker: Olisaemeka Ogbu
  e\n\nAffiliation: Mayo Clinic Rochester\n\nJoin via Zoom:\nhttps://zoom.us
@@ -1834,7 +1930,7 @@ BEGIN:VEVENT
 SUMMARY:[Cancer Genetics Club] TBD
 DTSTART;TZID=America/New_York:20270225T160000
 DTEND;TZID=America/New_York:20270225T170000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:cancer_genomics-56f4211bc39ef3092c6627cd@emory-seminars
 DESCRIPTION:Program: Cancer Genetics Club\n\nSpeaker: TBD\n\nAffiliation: 
  TBD\n\nThe source document uses one shared column for the talk title or pr
@@ -1851,7 +1947,7 @@ BEGIN:VEVENT
 SUMMARY:[Cancer Genetics Club] TBD
 DTSTART;TZID=America/New_York:20270325T160000
 DTEND;TZID=America/New_York:20270325T170000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:cancer_genomics-8851d697e9dbfd510ff36a7d@emory-seminars
 DESCRIPTION:Program: Cancer Genetics Club\n\nSpeaker: TBD\n\nAffiliation: 
  TBD\n\nThe source document uses one shared column for the talk title or pr
@@ -1865,10 +1961,28 @@ URL:https://docs.google.com/document/d/e/2PACX-1vRTAlKP3nox8yRh3u-qzro4Qc0
  oEcjRrjnFR3oWTuHeFHaS4_TSbhmhoE5vSXWCghakPKr5Fl4XzgB7/pub
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Special Event] Winship Town Hall
+DTSTART;TZID=America/New_York:20270415T170000
+DTEND;TZID=America/New_York:20270415T180000
+DTSTAMP:20260827T203629Z
+UID:winship-f7152dd83de7138fa5d50900@emory-seminars
+DESCRIPTION:Program: Special Event\n\nSpeaker: Winship Town Hall\n\nEvent 
+ type: Special Event\n\nJoin the Winship leadership team for a Town Hall on
+  Thursday\, April 15\, 2027\, from 5-6 p.m. Location TBD. Refreshments wil
+ l be provided. The in-person event will be live-streamed and recorded. Ple
+ ase join us in person or via Zoom.\n\nSource: https://apps.winshipcancer.e
+ mory.edu/admin/Event/6771/winship-town-hall/
+LOCATION:TBD - Atlanta \, Georgia 30322
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://apps.winshipcancer.emory.edu/admin/Event/6771/winship-town-hal
+ l/
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Cancer Genetics Club] TBD
 DTSTART;TZID=America/New_York:20270422T160000
 DTEND;TZID=America/New_York:20270422T170000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:cancer_genomics-e3ae9b75fc8a5d1f73bbf813@emory-seminars
 DESCRIPTION:Program: Cancer Genetics Club\n\nSpeaker: TBD\n\nAffiliation: 
  TBD\n\nThe source document uses one shared column for the talk title or pr
@@ -1885,7 +1999,7 @@ BEGIN:VEVENT
 SUMMARY:[Cancer Genetics Club] TBD
 DTSTART;TZID=America/New_York:20270527T160000
 DTEND;TZID=America/New_York:20270527T170000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:cancer_genomics-c100f0275a9e6cad4a0cb0d3@emory-seminars
 DESCRIPTION:Program: Cancer Genetics Club\n\nSpeaker: TBD\n\nAffiliation: 
  TBD\n\nThe source document uses one shared column for the talk title or pr
@@ -1902,7 +2016,7 @@ BEGIN:VEVENT
 SUMMARY:[Cancer Genetics Club] TBD
 DTSTART;TZID=America/New_York:20270624T160000
 DTEND;TZID=America/New_York:20270624T170000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:cancer_genomics-46e9888869a434293b60ce15@emory-seminars
 DESCRIPTION:Program: Cancer Genetics Club\n\nSpeaker: TBD\n\nAffiliation: 
  TBD\n\nThe source document uses one shared column for the talk title or pr
@@ -1920,7 +2034,7 @@ SUMMARY:[Lectures and Training] Debates and Didactics in Hematology and On
  cology
 DTSTART;TZID=America/New_York:20270722T073000
 DTEND;TZID=America/New_York:20270725T110000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:winship-0199a3f4cda9bff1551109dc@emory-seminars
 DESCRIPTION:Program: Lectures and Training\n\nSpeaker: Debates and Didacti
  cs in Hematology and Oncology\n\nEvent type: Lectures and Training\n\nThe 
@@ -1939,7 +2053,7 @@ BEGIN:VEVENT
 SUMMARY:[Cancer Genetics Club] TBD
 DTSTART;TZID=America/New_York:20270722T160000
 DTEND;TZID=America/New_York:20270722T170000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:cancer_genomics-13182b0048b81465808f67b1@emory-seminars
 DESCRIPTION:Program: Cancer Genetics Club\n\nSpeaker: TBD\n\nAffiliation: 
  TBD\n\nThe source document uses one shared column for the talk title or pr
@@ -1956,7 +2070,7 @@ BEGIN:VEVENT
 SUMMARY:[Cancer Genetics Club] TBD
 DTSTART;TZID=America/New_York:20270826T160000
 DTEND;TZID=America/New_York:20270826T170000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:cancer_genomics-2e4e38061924ce812688db53@emory-seminars
 DESCRIPTION:Program: Cancer Genetics Club\n\nSpeaker: TBD\n\nAffiliation: 
  TBD\n\nThe source document uses one shared column for the talk title or pr
@@ -1973,7 +2087,7 @@ BEGIN:VEVENT
 SUMMARY:[Cancer Genetics Club] TBD
 DTSTART;TZID=America/New_York:20270923T160000
 DTEND;TZID=America/New_York:20270923T170000
-DTSTAMP:20260826T105535Z
+DTSTAMP:20260827T203629Z
 UID:cancer_genomics-d69d79b41d3bf4df7fd83964@emory-seminars
 DESCRIPTION:Program: Cancer Genetics Club\n\nSpeaker: TBD\n\nAffiliation: 
  TBD\n\nThe source document uses one shared column for the talk title or pr
@@ -1985,5 +2099,23 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 URL:https://docs.google.com/document/d/e/2PACX-1vRTAlKP3nox8yRh3u-qzro4Qc0
  oEcjRrjnFR3oWTuHeFHaS4_TSbhmhoE5vSXWCghakPKr5Fl4XzgB7/pub
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Special Event] Winship Town Hall
+DTSTART;TZID=America/New_York:20270929T170000
+DTEND;TZID=America/New_York:20270929T180000
+DTSTAMP:20260827T203629Z
+UID:winship-de0ca33e5fa9f73787ae8b09@emory-seminars
+DESCRIPTION:Program: Special Event\n\nSpeaker: Winship Town Hall\n\nEvent 
+ type: Special Event\n\nJoin the Winship leadership team for a Town Hall on
+  Wednesday\, September 29\, 2027\, from 5-6 p.m. Location TBD. Refreshment
+ s will be provided. The in-person event will be live-streamed and recorded
+ . Please join us in person or via Zoom.\n\nSource: https://apps.winshipcan
+ cer.emory.edu/admin/Event/6772/winship-town-hall/
+LOCATION:TBD - Atlanta \, Georgia 30322
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+URL:https://apps.winshipcancer.emory.edu/admin/Event/6772/winship-town-hal
+ l/
 END:VEVENT
 END:VCALENDAR
